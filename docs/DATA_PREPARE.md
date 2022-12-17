@@ -1,4 +1,4 @@
-<img src="../figs/logo2.png" align="right" width="34%">
+<img src="../docs/figs/logo2.png" align="right" width="34%">
 
 # Data Preparation
 
@@ -27,7 +27,7 @@ cd kitti_data/
 unzip "*.zip"
 cd ..
 ```
-**Warning:** This dataset weighs about **175GB**, so make sure you have enough space to unzip too!
+**Warning:** This dataset weighs about **175GB**, so make sure you have enough space to `unzip` too!
 
 The `train/test/validation` splits are defined in the `splits/` folder.
 By default, the code will train a depth model using [Zhou's subset](https://github.com/tinghuiz/SfMLearner) of the standard Eigen split of KITTI, which is designed for monocular training.
@@ -46,7 +46,7 @@ Then unzip with:
 ```shell
 unzip kitti_c.zip
 ```
-This dataset weighs about **12GB**, make sure you have enough space to unzip too!
+This dataset weighs about **12GB**, make sure you have enough space to `unzip` too!
 
 
 ### Cityscapes
