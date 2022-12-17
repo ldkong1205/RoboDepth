@@ -1,4 +1,4 @@
-<img src="../figs/logo2.png" align="right" width="34%">
+<img src="../docs/figs/logo2.png" align="right" width="34%">
 
 # Getting Started
 
@@ -8,7 +8,7 @@ To begin with, clone the RoboDepth repository to the desired location:
 cd models/  # desired location
 ```
 ```shell
-git clone https://github.com/ldkong1205/RoboDepth-Beta.git
+git clone https://github.com/ldkong1205/RoboDepth.git
 ```
 
 ### Robustness Probing
