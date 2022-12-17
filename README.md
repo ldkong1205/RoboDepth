@@ -41,7 +41,7 @@
 
 
 ## About
-**RoboDepth** is a comprehensive **evaluation benchmark** designed for probing the **robustness** of **monocular** and **stereo** depth estimation algorithms. It includes **18 common corruption types**, ranging from weather and lighting conditions, sensor failure and movement, and noises during data processing.
+**RoboDepth** is a comprehensive evaluation benchmark designed for probing the **robustness** of monocular and stereo depth estimation algorithms. It includes **18** common corruption types, ranging from weather and lighting conditions, sensor failure and movement, and noises during data processing.
 
 <p align="center">
   <img src="docs/figs/taxonomy.png" align="center" width="95%">
@@ -50,6 +50,7 @@
 
 ## Updates
 - [2022.11] - We are organizing the [1st RoboDepth Competition](https://robodepth.github.io/) at [ICRA 2023](https://www.icra2023.org/). Join the challenge today! :raising_hand:
+- [2022.11] - KITTI-C is ready to be downloaded! See [here](docs/DATA_PREPARE.md) for more details.
 
 ## Outline
 - [Installation](#installation)
@@ -139,7 +140,12 @@ Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 </details>
 
 ### :robot: - RoboDepth Benchmark
-Please refer to [MODEL_ZOO.md](docs/MODEL_ZOO.md) for the benchmarking results and to access the pretrained weights.
+
+<p align="center">
+  <img src="docs/figs/benchmark.png" align="center" width="100%">
+</p>
+
+Please refer to [MODEL_ZOO.md](docs/MODEL_ZOO.md) for the detailed benchmarking results and to access the pretrained weights.
 
 
 ## Create Corruption Sets
