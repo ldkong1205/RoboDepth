@@ -5,9 +5,15 @@ __pycache__
 
 *_disp.jpg
 *_disp.npy
+*.log
+*.logs
 *.npz
 *.pth
 *.pyc
+*.sh
 
 kitti_data
+log
+logs
+model
 models
