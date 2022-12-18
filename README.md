@@ -50,7 +50,7 @@
 
 ## Updates
 - [2022.11] - We are organizing the [1st RoboDepth Competition](https://robodepth.github.io/) at [ICRA 2023](https://www.icra2023.org/). Join the challenge today! :raising_hand:
-- [2022.11] - KITTI-C is ready to be downloaded! See [here](docs/DATA_PREPARE.md) for more details.
+- [2022.11] - `KITTI-C` is ready to be downloaded! See [here](docs/DATA_PREPARE.md) for more details.
 
 ## Outline
 - [Installation](#installation)
