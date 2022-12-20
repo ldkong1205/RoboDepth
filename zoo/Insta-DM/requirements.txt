@@ -1,0 +1,13 @@
+opencv-python
+imageio
+matplotlib
+scipy==1.1.0
+scikit-image
+argparse
+tensorboardX
+blessings
+progressbar2
+path
+tqdm
+pypng
+open3d==0.8.0.0
