@@ -1,4 +1,7 @@
 import numpy as np
+import warnings
+warnings.filterwarnings("ignore")
+
 from PIL import Image
 from torch.utils.data import Dataset
 
@@ -17,8 +20,8 @@ class RoboDepthDataset(Dataset):
 
     def __getitem__(self, idx):
         image_loc = self.total_images[idx]
-        image = Image.open(image_loc).convert("RGB")  # [1242, 375]
-        image = image.resize((self.W, self.H), Image.ANTIALIAS)  # [640, 192]
+        image = Image.open(image_loc).convert("RGB")  # [1242, 375], original size
+        image = image.resize((self.W, self.H), Image.ANTIALIAS)  # [640, 192], resized
         image = np.asarray(image)
         return (image, self.total_images[idx])
 

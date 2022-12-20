@@ -30,7 +30,7 @@ def get_args():
     parser.add_argument('--W', type=int, 
                         help='width for the image.', default=640)          
     parser.add_argument('--save_path', type=str,
-                        help="the file path for saving corrputed images.", default="kitti_data/kitti_c_test")
+                        help="the file path for saving corrputed images.", default="data_test/data")
     parser.add_argument('--seed', type=int, 
                         help='random seed.', default=42)
     parser.add_argument('--deterministic', action='store_true',
@@ -74,6 +74,8 @@ def get_args():
                         help="whether to crate 'jpeg_compression' corruptions.")
     parser.add_argument('--if_copy_clean', action='store_true',
                         help="whether to copy 'clean' images.")
+    parser.add_argument('--severity_levels', type=list,
+                        help="severity levels to be applied.", default=[])
     return parser.parse_args()
 
 
@@ -90,10 +92,6 @@ def set_random_seed(seed, deterministic=False):
 def main():
     args = get_args()
 
-    args.if_brightness = True
-
-
-
     # set random seeds
     if args.seed is not None:
         print(f'Set random seed to {args.seed}, deterministic: '
@@ -104,133 +102,208 @@ def main():
         print("Creating 'brightness' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_brightness(dataloader, save_path=args.save_path)
+        create_brightness(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'brightness')))
 
     if args.if_dark:
         print("Creating 'dark' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_dark(dataloader, save_path=args.save_path)
+        create_dark(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'dark')))
 
     if args.if_fog:
         print("Creating 'fog' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_fog(dataloader, save_path=args.save_path)
+        create_fog(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'fog')))
 
     if args.if_frost:
         print("Creating 'frost' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_frost(dataloader, save_path=args.save_path)
+        create_frost(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'frost')))
 
     if args.if_snow:
         print("Creating 'snow' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_snow(dataloader, save_path=args.save_path)
+        create_snow(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'snow')))
 
     if args.if_contrast:
         print("Creating 'contrast' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_contrast(dataloader, save_path=args.save_path)
+        create_contrast(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'contrast')))
 
     if args.if_defocus_blur:
         print("Creating 'defocus_blur' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_defocus_blur(dataloader, save_path=args.save_path)
+        create_defocus_blur(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'defocus_blur')))
 
     if args.if_glass_blur:
         print("Creating 'glass_blur' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_glass_blur(dataloader, save_path=args.save_path)
+        create_glass_blur(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'glass_blur')))
 
     if args.if_motion_blur:
         print("Creating 'motion_blur' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_motion_blur(dataloader, save_path=args.save_path)
+        create_motion_blur(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'motion_blur')))
 
     if args.if_zoom_blur:
         print("Creating 'zoom_blur' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_zoom_blur(dataloader, save_path=args.save_path)
+        create_zoom_blur(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'zoom_blur')))
 
     if args.if_elastic:
         print("Creating 'elastic' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_elastic(dataloader, save_path=args.save_path)
+        create_elastic(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'elastic')))
 
     if args.if_color_quant:
         print("Creating 'color_quant' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_color_quant(dataloader, save_path=args.save_path)
+        create_color_quant(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'color_quant')))
 
     if args.if_gaussian_noise:
         print("Creating 'gaussian_noise' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_gaussian_noise(dataloader, save_path=args.save_path)
+        create_gaussian_noise(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'gaussian_noise')))
 
     if args.if_impulse_noise:
         print("Creating 'impulse_noise' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_impulse_noise(dataloader, save_path=args.save_path)
+        create_impulse_noise(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'impulse_noise')))
 
     if args.if_shot_noise:
         print("Creating 'shot_noise' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_shot_noise(dataloader, save_path=args.save_path)
+        create_shot_noise(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'shot_noise')))
 
     if args.if_iso_noise:
         print("Creating 'iso_noise' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_iso_noise(dataloader, save_path=args.save_path)
+        create_iso_noise(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'iso_noise')))
 
     if args.if_pixelate:
         print("Creating 'pixelate' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_pixelate(dataloader, save_path=args.save_path)
+        create_pixelate(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'pixelate')))
 
     if args.if_jpeg:
         print("Creating 'jpeg_compression' corruptions ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        create_jpeg(dataloader, save_path=args.save_path)
+        create_jpeg(
+            dataloader,
+            save_path=args.save_path,
+            severity_levels=args.severity_levels,
+        )
         print("Successful! The corrupted images are save to: '{}'.\n".format(os.path.join(args.save_path, 'jpeg_compression')))
 
     if args.if_copy_clean:
         print("Copying clean set ...")
         dataset = RoboDepthDataset(image_list=args.image_list, H=args.H, W=args.W)
         dataloader = data.DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0, drop_last=False)
-        copy_clean(dataloader, save_path=args.save_path)
+        copy_clean(
+            dataloader,
+            save_path=args.save_path,
+        )
         print("Successful! The clean images are save to: '{}'.\n".format(os.path.join(args.save_path, 'clean')))
 
 
