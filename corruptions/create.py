@@ -74,6 +74,7 @@ def get_args():
                         help="whether to crate 'jpeg_compression' corruptions.")
     parser.add_argument('--if_copy_clean', action='store_true',
                         help="whether to copy 'clean' images.")
+    # corruption severity levels
     parser.add_argument('--severity_levels', type=list,
                         help="severity levels to be applied.", default=[])
     return parser.parse_args()
