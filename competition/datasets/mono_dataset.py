@@ -6,9 +6,6 @@
 
 from __future__ import absolute_import, division, print_function
 
-import warnings
-warnings.filterwarnings("ignore")
-
 import os
 import random
 import numpy as np
@@ -18,9 +15,6 @@ from PIL import Image  # using pillow-simd for increased speed
 import torch
 import torch.utils.data as data
 from torchvision import transforms
-
-# corruptions: weather & lighting
-from utils_kittic import create_corruptions, create_corruption_dark, create_corruption_color_quant, create_corruption_iso_noise
 
 
 def pil_loader(path):
@@ -46,8 +40,7 @@ class MonoDataset(data.Dataset):
         eval_corr_type
     """
     def __init__(self, data_path, filenames, height, width, frame_idxs, num_scales,
-                 is_train=False, img_ext='.png', 
-                 eval_corr_type=None, on_the_fly=False,
+                 is_train=False, img_ext='.png', eval_corr_type=None
         ):
         super(MonoDataset, self).__init__()
 
@@ -66,20 +59,9 @@ class MonoDataset(data.Dataset):
         self.loader = pil_loader
         self.to_tensor = transforms.ToTensor()
 
-        self.on_the_fly = on_the_fly
-
-        if self.width == 640 and self.height == 192:
-            self.dataset = "kitti_c"
-        elif self.width == 1024 and self.height == 320:
-            self.dataset = "kitti_c_1024x320"
-
-        print("Loading data from '{}' ...".format(self.dataset))
-
-        if eval_corr_type:
+        if eval_corr_type[0]:
             self.corruption, self.severity = eval_corr_type
             print("Evaluating KITTI-C with corruption type '{}' with severity level '{}' ...".format(self.corruption, self.severity))
-            if self.on_the_fly:
-                print("Evaluation mode: on-the-fly.")
         else:
             self.corruption, self.severity = None, None
             print("Evaluating clean ...")
@@ -160,29 +142,17 @@ class MonoDataset(data.Dataset):
         """
         inputs = {}
 
-        # do_color_aug = self.is_train and random.random() > 0.5
+        do_color_aug = self.is_train and random.random() > 0.5
         do_flip = self.is_train and random.random() > 0.5
 
         line = self.filenames[index].split()
         folder = line[0]
 
         # kiiti-c
-        if self.corruption and not self.on_the_fly:
-            folder_ = os.path.join(self.dataset, self.corruption, str(self.severity), "kitti_data", folder)
-
+        if self.corruption:
+            folder_ = os.path.join("kitti_c_seed69", self.corruption, str(self.severity), "kitti_data", folder)
         else:
-            if self.corruption == 'glass_blur':
-                if self.width == 640 and self.height == 192:
-                    folder_ = os.path.join("kitti_c", self.corruption, str(self.severity), "kitti_data", folder)
-                elif self.width == 1024 and self.height == 320:
-                    folder_ = os.path.join("kitti_c", 'glass_blur_1024x320', str(self.severity), "kitti_data", folder)
-            elif self.corruption == 'zoom_blur':
-                if self.width == 640 and self.height == 192:
-                    folder_ = os.path.join("kitti_c", self.corruption, str(self.severity), "kitti_data", folder)
-                elif self.width == 1024 and self.height == 320:
-                    folder_ = os.path.join("kitti_c", 'zoom_blur_1024x320', str(self.severity), "kitti_data", folder)
-            else:
-                folder_ = os.path.join(self.dataset, "clean", "kitti_data", folder)
+            folder_ = os.path.join("kitti_c_seed69", "clean", "kitti_data", folder)
 
         if len(line) == 3:
             frame_index = int(line[1])
@@ -219,53 +189,30 @@ class MonoDataset(data.Dataset):
             inputs[("K", scale)] = torch.from_numpy(K)
             inputs[("inv_K", scale)] = torch.from_numpy(inv_K)
 
-        # if do_color_aug:
-        #     color_aug = transforms.ColorJitter.get_params(
-        #         self.brightness, self.contrast, self.saturation, self.hue)
-        # else:
-        #     color_aug = (lambda x: x)
-
-        # self.preprocess(inputs, color_aug)
-
-        # for i in self.frame_idxs:
-        #     del inputs[("color", i, -1)]
-        #     del inputs[("color_aug", i, -1)]
-
-
-        input_color = inputs[("color", 0, -1)]
-        # input_color = input_color.resize((self.width, self.height), Image.ANTIALIAS)  # [640, 192]
-        input_color = np.asarray(input_color)
-
-
-        # if self.load_depth:
-        #     depth_gt = self.get_depth(folder, frame_index, side, do_flip)  # [375, 1242]
-        #     inputs["depth_gt"] = np.expand_dims(depth_gt, 0)
-        #     inputs["depth_gt"] = torch.from_numpy(inputs["depth_gt"].astype(np.float32))
-
-        # if "s" in self.frame_idxs:
-        #     stereo_T = np.eye(4, dtype=np.float32)
-        #     baseline_sign = -1 if do_flip else 1
-        #     side_sign = -1 if side == "l" else 1
-        #     stereo_T[0, 3] = side_sign * baseline_sign * 0.1
-
-        #     inputs["stereo_T"] = torch.from_numpy(stereo_T)
-
-        if self.corruption and self.on_the_fly:
-            if self.corruption == 'dark':
-                input_color_corrupted = create_corruption_dark(image=input_color, corruption=self.corruption, severity=self.severity)
-            elif self.corruption == 'color_quant':
-                input_color_corrupted = create_corruption_color_quant(image=input_color, corruption=self.corruption, severity=self.severity)
-            elif self.corruption == 'iso_noise':
-                input_color_corrupted = create_corruption_iso_noise(image=input_color, corruption=self.corruption, severity=self.severity)
-            elif self.corruption == 'glass_blur':
-                input_color_corrupted = input_color  # 'glass blur' is slow to generate and needed to store offline
-            elif self.corruption == 'zoom_blur':
-                input_color_corrupted = input_color  # 'zoom blur' is slow to generate and needed to store offline
-            else:
-                input_color_corrupted = create_corruptions(image=input_color, corruption=self.corruption, severity=self.severity)
-            inputs[("color", 0, -1)] = self.to_tensor(input_color_corrupted)
+        if do_color_aug:
+            color_aug = transforms.ColorJitter.get_params(
+                self.brightness, self.contrast, self.saturation, self.hue)
         else:
-            inputs[("color", 0, -1)] = self.to_tensor(input_color)
+            color_aug = (lambda x: x)
+
+        self.preprocess(inputs, color_aug)
+
+        for i in self.frame_idxs:
+            del inputs[("color", i, -1)]
+            del inputs[("color_aug", i, -1)]
+
+        if self.load_depth:
+            depth_gt = self.get_depth(folder, frame_index, side, do_flip)  # [375, 1242]
+            inputs["depth_gt"] = np.expand_dims(depth_gt, 0)
+            inputs["depth_gt"] = torch.from_numpy(inputs["depth_gt"].astype(np.float32))
+
+        if "s" in self.frame_idxs:
+            stereo_T = np.eye(4, dtype=np.float32)
+            baseline_sign = -1 if do_flip else 1
+            side_sign = -1 if side == "l" else 1
+            stereo_T[0, 3] = side_sign * baseline_sign * 0.1
+
+            inputs["stereo_T"] = torch.from_numpy(stereo_T)
 
         return inputs
 
