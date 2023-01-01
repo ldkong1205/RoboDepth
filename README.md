@@ -49,6 +49,7 @@
 
 
 ## Updates
+- [2023.01] - The evaluation server for Track 1 (self-supervised depth estimation) is available on [this](https://codalab.lisn.upsaclay.fr/competitions/9418) CodaLab page.
 - [2022.11] - We are organizing the [1st RoboDepth Competition](https://robodepth.github.io/) at [ICRA 2023](https://www.icra2023.org/). Join the challenge today! :raising_hand:
 - [2022.11] - `KITTI-C` is ready to be downloaded! See [here](docs/DATA_PREPARE.md) for more details.
 
