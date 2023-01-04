@@ -75,7 +75,7 @@ Please refer to [INSTALL.md](docs/INSTALL.md) for the installation details.
 Please refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the [KITTI](http://www.cvlibs.net/datasets/kitti/raw_data.php), [KITTI-C](), [Cityscapes](), and [NYUDepth2]() datasets.
 
 ### RoboDepth Competition @ ICRA 2023
-Please refer to [COMPETITION.md](competition/COMPETITION.md) for the details to prepare the training and evaluation data associated with the [1st RoboDepth Competition](https://robodepth.github.io/) at [ICRA 2023](https://www.icra2023.org/).
+Please refer to [this](https://github.com/ldkong1205/RoboDepth/blob/main/competition/README.md) page for the details to prepare the training and evaluation data associated with the [1st RoboDepth Competition](https://robodepth.github.io/).
 
 
 ## Getting Started
