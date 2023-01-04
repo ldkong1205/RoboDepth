@@ -30,7 +30,7 @@ cd ..
 **Warning:** This dataset weighs about **175GB**, so make sure you have enough space to `unzip` too!
 
 The `train/test/validation` splits are defined in the `splits/` folder.
-By default, the code will train a depth model using [Zhou's subset](https://github.com/tinghuiz/SfMLearner) of the standard Eigen split of KITTI, which is designed for monocular training.
+By default, the code will train a depth estimation model using [Zhou's subset](https://github.com/tinghuiz/SfMLearner) of the standard Eigen split of KITTI, which is designed for monocular training.
 You can also train a model using the new [benchmark split](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction) or the [odometry split](http://www.cvlibs.net/datasets/kitti/eval_odometry.php) by setting the `--split` flag.
 
 
