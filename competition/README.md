@@ -18,7 +18,7 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 - [Timeline](#clock1-timeline)
 - [Data Preparation](#floppy_disk-data-preparation)
 - [Submission](#arrow_double_up-submission)
-- [Terms & Conditions](#terms--conditions)
+- [Terms & Conditions](#balance_scale-terms--conditions)
 
 
 ## :gem: Useful Info
@@ -111,8 +111,10 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 >   ```
 > - Step 4: Download `disp.zip` from your computing machine.
 
-> **\[Submission & Evaluation\]**<br> You will need to submit your `disp.zip` file manually to the evaluation server. To achieve this, go to the server page of this track and press `Participate`; you will see a `Submit / View Results` button. Click it for submission. You are encouraged to fill in the submission info with your *team name*, *method name*, and *method description*. Then, click the `Submit` button and select your `disp.zip` file. After successfully uploading the file, the server will automatically evaluates the performance of your submission and put the results to the leaderboard. You can view your scores by pressing `Results`.<br>
+> **\[Submission & Evaluation\]**<br> You will need to submit your `disp.zip` file manually to the evaluation server. To achieve this, go to the server page of this track and press `Participate`; you will see a `Submit / View Results` button. Click it for submission. You are encouraged to fill in the submission info with your *team name*, *method name*, and *method description*. Then, click the `Submit` button and select your `disp.zip` file. After successfully uploading the file, the server will automatically evaluates the performance of your submission and put the results to the leaderboard.<br>
 > :warning: Do not close the page when you are uploading the prediction file.
+
+> **\[View Result\]**<br> You can view your scores by pressing the `Results` button. Following the same configuration with [MonoDepth2](https://arxiv.org/abs/1806.01260), we evaluate the model performance with 7 metrics: `abs_rel`, `sq_rel`, `rmse`, `rmse_log`, `a1`, `a2`, and `a3`.
 
 <hr>
 
@@ -121,6 +123,15 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 
 
 
-## Terms & Conditions
+## :balance_scale: Terms & Conditions
+This competition is made freely available to academic and non-academic entities for non-commercial purposes such as academic research, teaching, scientific publications, or personal experimentation. Permission is granted to use the data given that you agree:
+1. That the data in this competition comes “AS IS”, without express or implied warranty. Although every effort has been made to ensure accuracy, we do not accept any responsibility for errors or omissions.
+2. That you may not use the data in this competition or any derivative work for commercial purposes as, for example, licensing or selling the data, or using the data with a purpose to procure a commercial gain.
+3. That you include a reference to RoboDepth (including the benchmark data and the specially generated data for academic challenges) in any work that makes use of the benchmark. For research papers, please cite our preferred publications as listed on our webpage.
 
+To ensure a **fair comparison** among all participants, we require:
+1. All participants must follow the **exact same data configuration** when training and evaluating their algorithms. Please do not use any public or private datasets other than those specified for model training.
+2. The theme of this competition is to probe the out-of-distribution robustness of depth estimation models. Theorefore, any use of the 18 corruption types designed in this benchmark is **strictly prohibited**, including any atomic operation that is comprising any one of the mentioned corruptions.
+3. To ensure the above two rules are followed, each participant is requested to **submit the code** with reproducible results before the final result is announced; the code is for examination purpose only and we will manually verify the training and evaluation of each participant's model.
 
+If you have any question or concern, please contact us at robodepth@outlook.com.
