@@ -111,7 +111,7 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 >   ```
 > - Step 4: Download `disp.zip` from your computing machine.
 
-> **\[Submission & Evaluation\]**<br> You will need to submit your `disp.zip` file manually to the evaluation server. To achieve this, go to the server page of this track and press `Participate`; you will see a `Submit / View Results` button. Click it for submission. You are encouraged to fill in the submission info with your *team name*, *method name*, and *method description*. Then, click the `Submit` button and select your `disp.zip` file. After successfully uploading the file, the server will automatically evaluates the performance of your submission and put the results to the leaderboard.<br>
+> **\[Submission & Evaluation\]**<br> You will need to submit your `disp.zip` file manually to the evaluation server. To achieve this, go to the server page of this track and press `Participate`; you will see a `Submit / View Results` button. Click it for submission. You are encouraged to fill in the submission info with your *team name*, *method name*, and *method description*. Then, click the `Submit` button and select your `disp.zip` file. After successfully uploading the file, the server will automatically evaluate the performance of your submission and put the results on the leaderboard.<br>
 > :warning: Do not close the page when you are uploading the prediction file.
 
 > **\[View Result\]**<br> You can view your scores by pressing the `Results` button. Following the same configuration with [MonoDepth2](https://arxiv.org/abs/1806.01260), we evaluate the model performance with 7 metrics: `abs_rel`, `sq_rel`, `rmse`, `rmse_log`, `a1`, `a2`, and `a3`.
