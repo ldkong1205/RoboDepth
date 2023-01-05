@@ -44,7 +44,7 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 ### \[Track 1\]: Self-Supervised Depth Estimation
 
 ### :hamster: Training Set
-> In this track, the participants are expected to adopt the data from the [raw KITTI dataset](http://www.cvlibs.net/datasets/kitti/raw_data.php) for model > training. You can download this dataset by running:
+> In this track, the participants are expected to adopt the data from the [raw KITTI dataset](http://www.cvlibs.net/datasets/kitti/raw_data.php) for model training. You can download this dataset by running:
 > ```shell
 > wget -i splits/kitti_archives_to_download.txt -P kitti_data/
 > ```
@@ -58,10 +58,10 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 
 > The **training split** of this dataset is defined in the `splits/` folder of this codebase. By default, we **require** all participants to train their depth estimation models using Zhou's subset of the standard **Eigen split** of KITTI, which is designed for self-supervised monocular training.
 
-> :warning: Regarding the **data augmentation** to be adopted during the training phase, please refer to the [Terms & Conditions](#terms--conditions) section.
+> :warning: Regarding the **data augmentation** to be adopted during the training phase, please refer to the [Terms & Conditions](#balance_scale-terms--conditions) section.
 
 ### :robot: Evaluation Set
-> In this track, the participants are expected to adopt our generated data model evaluation. There are multiple ways of accessing the evaluation set. In particular, you can download the data from Google Drive via the following link:<br>
+> In this track, the participants are expected to adopt our generated data for model evaluation. There are multiple ways of accessing this evaluation set. In particular, you can download the data from Google Drive via the following link:<br>
 > :link: https://drive.google.com/file/d/14Z0k2lhpk0D0pkyzIcHyk4Ce0wS3IcfF/view?usp=sharing.
 
 > Alternatively, you can download the data from [this](https://codalab.lisn.upsaclay.fr/competitions/9418#participate-get_starting_kit) CodaLab page. Please note that you need to **register** for this track first before entering the downloading page.
