@@ -24,7 +24,10 @@ conda install pytorch==1.11.0 torchvision==0.12.0 cpuonly -c pytorch
 
 Please install the following packages into the environment:
 ```shell
-pip3 install opencv-python==4.6.0.66 timm==0.6.7 tensorboardX scikit-image==0.19.2 matplotlib yacs dotmap wandb einops tqdm
+pip3 install opencv-python==4.6.0.66 timm==0.6.7 tensorboardX scikit-image==0.19.2 matplotlib yacs
+```
+```shell
+pip install dotmap wandb einops tqdm
 ```
 
 To create common corruptions, install the following packages into the environment:
