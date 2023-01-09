@@ -76,7 +76,7 @@ wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download
 ```
 Then unzip with:
 ```shell
-unzip kitti_c.zip
+unzip nyu.zip
 ```
 :dart: This dataset weighs about **6.2GB**, which includes 24231 image-depth pairs as the training set and the standard 652 images as the validation set.
 
