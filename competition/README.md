@@ -73,7 +73,20 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 ### \[Track 2\]: Fully-Supervised Depth Estimation
 
 ### :hamster: Training Set
-> Coming soon!
+> In this track, the participants are expected to adopt the data from the [NYU Depth Dataset V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) for model training. You can download this dataset from Google Drive with the following link:<br>
+> :link: https://drive.google.com/file/d/1wC-io-14RCIL4XTUrQLk6lBqU2AexLVp/view?usp=sharing.
+
+> Alternatively, you can download the data to the server by running:
+> ```shell
+> wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1wC-io-14RCIL4XTUrQLk6lBqU2AexLVp' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1wC-io-14RCIL4XTUrQLk6lBqU2AexLVp" -O nyu.zip && rm -rf /tmp/cookies.txt
+> ```
+> Then unzip with:
+> ```shell
+> unzip nyu.zip
+> ```
+
+> :warning: Regarding the **data augmentation** to be adopted during the training phase, please refer to the [Terms & Conditions](#balance_scale-terms--conditions) section.
+
 
 ### :robot: Evaluation Set
 > Coming soon!
