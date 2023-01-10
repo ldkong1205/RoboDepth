@@ -72,7 +72,7 @@ Please refer to [INSTALL.md](docs/INSTALL.md) for the installation details.
 ## Data Preparation
 
 ### RoboDepth Benchmark
-Please refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the [KITTI](http://www.cvlibs.net/datasets/kitti/raw_data.php), [KITTI-C](), [Cityscapes](), and [NYUDepth2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) datasets.
+Please refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the [KITTI](http://www.cvlibs.net/datasets/kitti/raw_data.php), [KITTI-C](), [Cityscapes](), [NYUDepth2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html), and [NYUDepth2-C]() datasets.
 
 ### RoboDepth Competition @ ICRA 2023
 Please refer to [this](https://github.com/ldkong1205/RoboDepth/blob/main/competition/README.md) page for the details to prepare the training and evaluation data associated with the [1st RoboDepth Competition](https://robodepth.github.io/).
@@ -120,6 +120,14 @@ Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 
 </details>
 
+<details open>
+<summary>&nbsp<b>Semi-Supervised Depth Estimation</b></summary>
+
+> - [ ] **[MaskingDepth](https://arxiv.org/abs/2212.10806), arXiv 2022.** <sup>[**`[Code]`**](https://github.com/KU-CVLAB/MaskingDepth)</sup>
+
+</details>
+
+
 ### :house: - Indoor Depth Estimation
 
 <details open>
@@ -139,6 +147,14 @@ Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 > - [ ] **[GLPDepth](https://arxiv.org/abs/2201.07436), arXiv 2022.** <sup>[**`[Code]`**](https://github.com/vinvino02/GLPDepth)</sup>
 
 </details>
+
+<details open>
+<summary>&nbsp<b>Semi-Supervised Depth Estimation</b></summary>
+
+> - [ ] **[MaskingDepth](https://arxiv.org/abs/2212.10806), arXiv 2022.** <sup>[**`[Code]`**](https://github.com/KU-CVLAB/MaskingDepth)</sup>
+
+</details>
+
 
 ### :robot: - RoboDepth Benchmark
 
