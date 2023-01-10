@@ -32,7 +32,7 @@ pip install dotmap wandb einops tqdm
 
 To create common corruptions, install the following packages into the environment:
 ```shell
-pip3 install imagecorruptions
+pip install imagecorruptions
 ```
 
 For the [Monocular Depth Estimation Toolbox](https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox), install the following into the environment:
