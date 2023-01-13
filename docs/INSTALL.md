@@ -37,7 +37,7 @@ pip install imagecorruptions
 
 For the [Monocular Depth Estimation Toolbox](https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox), install the following into the environment:
 ```shell
-pip3 install mmcv-full==1.3.13
+pip install mmcv-full==1.7.0 -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11/index.html
 cd zoo/Monocular-Depth-Estimation-Toolbox/
 pip3 install -e .
 ```
