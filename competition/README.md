@@ -105,13 +105,15 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 > **\[File Preparation\]**<br> You will need to prepare the **model prediction file** for submission. Specifically, the evaluation server of this track accepts the `.zip` file of your model predictions in `numpy array` format. You can follow the example below, which is modified based on the evaluation code from [MonoDepth2](https://arxiv.org/abs/1806.01260):<br>
 > - Step 1: Generate your model predictions with: 
 >   ```shell
+>   pred_disps = []
+>   
 >   with torch.no_grad():
->     for data in dataloader:
->       input_color = data[("color", 0, -1)].to(device)
->       output = depth_decoder(encoder(input_color))
->       pred_disp, _ = disp_to_depth(output[("disp", 0)], opt.min_depth, opt.max_depth)
->       pred_disp = pred_disp.cpu()[:, 0].numpy()
->       pred_disps.append(pred_disp)
+>       for data in dataloader:
+>           input_color = data[("color", 0, -1)].to(device)
+>           output = depth_decoder(encoder(input_color))
+>           pred_disp, _ = disp_to_depth(output[("disp", 0)], opt.min_depth, opt.max_depth)
+>           pred_disp = pred_disp.cpu()[:, 0].numpy()
+>           pred_disps.append(pred_disp)
 >   ```   
 > - Step 2: After evaluating every samples in the evaluation set, save the prediction file with:
 >   ```shell
