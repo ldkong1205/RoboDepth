@@ -41,7 +41,7 @@
 
 
 ## About
-**RoboDepth** is a comprehensive evaluation benchmark designed for probing the **robustness** of monocular and stereo depth estimation algorithms. It includes **18 common corruption** types, ranging from weather and lighting conditions, sensor failure and movement, and noises during data processing.
+**RoboDepth** is a comprehensive evaluation benchmark designed for probing the **robustness** of monocular depth estimation algorithms. It includes **18 common corruption** types, ranging from weather and lighting conditions, sensor failure and movement, and noises during data processing.
 
 <p align="center">
   <img src="docs/figs/taxonomy.png" align="center" width="95%">
