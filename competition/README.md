@@ -19,7 +19,7 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 - [Data Preparation](#floppy_disk-data-preparation)
 - [Submission](#arrow_double_up-submission)
 - [Terms & Conditions](#balance_scale-terms--conditions)
-
+- [Organizer](#organizer)
 
 ## :gem: Useful Info
 - :globe_with_meridians: - Competition page: https://robodepth.github.io.
@@ -150,3 +150,9 @@ To ensure a **fair comparison** among all participants, we require:
 3. To ensure the above two rules are followed, each participant is requested to **submit the code** with reproducible results before the final result is announced; the code is for examination purposes only and we will manually verify the training and evaluation of each participant's model.
 
 :blush: If you have any questions or concerns, please get in touch with us at robodepth@outlook.com.
+
+
+## Organizer
+<p align="center">
+  <img src="../docs/figs/icra2023_organizer.png" align="center" width="100%">
+</p>
