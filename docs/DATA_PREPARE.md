@@ -2,7 +2,7 @@
 
 # Data Preparation
 
-### Overall Structure
+## Overall Structure
 ```shell
 └── RoboDepth 
       │── kitti_data
@@ -23,9 +23,20 @@
       │    │── basement_0001a
       │    │── basement_0001b
       │    │── ...
+      │    │── nyu_c
       │    └── split_file.txt
       └── ...
 ```
+
+
+## Outline
+- [KITTI](#kitti)
+- [KITTI-C](#kitti-c)
+- [Cityscapes](#cityscapes)
+- [Cityscapes-C](#cityscapes-c)
+- [NYUDepth2](#nyudepth2)
+- [NYUDepth2-C](#nyudepth2-c)
+
 
 
 ## KITTI
@@ -67,6 +78,10 @@ unzip kitti_c.zip
 Coming soon.
 
 
+## Cityscapes-C
+Coming soon.
+
+
 ## NYUDepth2
 You can download the [NYU Depth Dataset V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) from Google Drive with [this](https://drive.google.com/file/d/1wC-io-14RCIL4XTUrQLk6lBqU2AexLVp/view?usp=share_link) link. 
 
@@ -81,5 +96,7 @@ unzip nyu.zip
 :dart: This dataset weighs about **6.2GB**, which includes 24231 image-depth pairs as the training set and the standard 654 images as the validation set.
 
 
+## NYUDepth2-C
+Coming soon.
 
 
