@@ -25,7 +25,7 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 - :globe_with_meridians: - Competition page: https://robodepth.github.io.
 - :wrench: - Competition toolkit: https://github.com/ldkong1205/RoboDepth.
 - :oncoming_automobile: - Evaluation server (track 1): https://codalab.lisn.upsaclay.fr/competitions/9418.
-- :oncoming_taxi: - Evaluation server (track 2): Coming soon.
+- :oncoming_taxi: - Evaluation server (track 2): https://codalab.lisn.upsaclay.fr/competitions/9821.
 - :octocat: - Official GitHub account: https://github.com/RoboDepth.
 - :mailbox: - Contact: robodepth@outlook.com.
 
