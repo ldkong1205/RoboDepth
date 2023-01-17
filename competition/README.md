@@ -89,7 +89,12 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 
 
 ### :robot: Evaluation Set
-> Coming soon!
+> In this track, the participants are expected to adopt our generated data for model evaluation. There are multiple ways of accessing this evaluation set. In particular, you can download the data from Google Drive via the following link:<br>
+> :link: https://drive.google.com/file/d/1HIJxmNBFaHwSUABnkEgnFm9EdBBgvozP/view?usp=sharing.
+
+> Alternatively, you can download the data from [this](https://codalab.lisn.upsaclay.fr/competitions/9821#participate-get_starting_kit) CodaLab page. Please note that you need to **register** for this track first before entering the downloading page.
+
+> This evaluation set weighs about `12MB`. It includes **200 corrupted images**, generated under the mentioned 15 corruption types (excluded: `fog`, `frost`, and `snow`). In this competition, we will evaluate the model performance using the ground-truth depth of these images. The participants are required to submit the prediction file to [this](https://codalab.lisn.upsaclay.fr/competitions/9821) evaluation server. For more details on the submission, please refer to the [Submission](#arrow_double_up-submission) section.
 
 
 ## :arrow_double_up: Submission
@@ -134,7 +139,39 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 <hr>
 
 ### \[Track 2\]: Fully-Supervised Depth Estimation
-> Coming soon!
+> In this track, the participants are expected to submit their predictions to the CodaLab server for model evaluation. Specifically, you can access the server of this track via the following link:<br>
+> :link: https://codalab.lisn.upsaclay.fr/competitions/9821.
+
+> In order to make a successful submission and evaluation, you need to follow these instructions:
+
+> **\[Registration\]**<br> You will need to **register for this track** on CodaLab before you can make a submission. To achieve this, apply for a CodaLab account if you do not have one, with your email. Then, go to the server page of this track and press `Participate`; you will see a `Sign In` button. Click it for registration.
+
+> **\[File Preparation\]**<br> You will need to prepare the **model prediction file** for submission. Specifically, the evaluation server of this track accepts the `.zip` file of your model predictions in `numpy array` format. You can follow the example below, which is modified based on the evaluation code from the [Monocular-Depth-Estimation-Toolbox](https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox):<br>
+> - Step 1: Generate your model predictions with: 
+>   ```shell
+>   pred_disps = []
+>
+>   for batch_indices, data in zip(loader_indices, data_loader):
+>
+>       with torch.no_grad():
+>           result = model(return_loss=False, rescale=True, **data)
+>           pred_disps.append(result)
+>   ```   
+> - Step 2: After evaluating every samples in the evaluation set, save the prediction file with:
+>   ```shell
+>   output_path = os.path.join(opt.save_pred_path, "disp.npz")
+>   np.savez_compressed(output_path, data=pred_disps)
+>   ```
+> - Step 3: Compress the saved `.npz` file with:
+>   ```shell
+>   zip disp.zip disp.npz
+>   ```
+> - Step 4: Download `disp.zip` from your computing machine.
+
+> **\[Submission & Evaluation\]**<br> You will need to submit your `disp.zip` file manually to the evaluation server. To achieve this, go to the server page of this track and press `Participate`; you will see a `Submit / View Results` button. Click it for submission. You are encouraged to fill in the submission info with your *team name*, *method name*, and *method description*. Then, click the `Submit` button and select your `disp.zip` file. After successfully uploading the file, the server will automatically evaluate the performance of your submission and put the results on the leaderboard.<br>
+> :warning: Do not close the page when you are uploading the prediction file.
+
+> **\[View Result\]**<br> You can view your scores by pressing the `Results` button. Following the same configuration in the [Monocular-Depth-Estimation-Toolbox](https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox), we evaluate the model performance with 9 metrics: `a1`, `a2`, `a3`, `abs_rel`, `sq_rel`, `rmse`, `rmse_log`, `log10`, and `silog`.
 
 
 
