@@ -152,7 +152,6 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 >   pred_disps = []
 >
 >   for batch_indices, data in zip(loader_indices, data_loader):
->
 >       with torch.no_grad():
 >           result = model(return_loss=False, rescale=True, **data)
 >           pred_disps.append(result)
