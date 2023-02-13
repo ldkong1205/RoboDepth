@@ -58,14 +58,14 @@ You can also train a model using the new [benchmark split](http://www.cvlibs.net
 
 
 ## KITTI-C
-The corrupted KITTI test sets under Eigen split can be downloaded from Google Drive with [this](https://drive.google.com/file/d/1NJN28mApjIa0EuRiVDyZm9VMFYp7Eqjk/view?usp=sharing) link.
+The corrupted KITTI test sets under Eigen split can be downloaded from Google Drive with [this](https://drive.google.com/file/d/1bqd2fpVE0Ac-58H6zxk07rM_H3Lzbyf_/view?usp=sharing) link.
 
 Alternatively, you can directly download them to the server by running:
 ```shell
 cd kitti_data/
 ```
 ```shell
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1NJN28mApjIa0EuRiVDyZm9VMFYp7Eqjk' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1NJN28mApjIa0EuRiVDyZm9VMFYp7Eqjk" -O kitti_c.zip && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1bqd2fpVE0Ac-58H6zxk07rM_H3Lzbyf_' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1bqd2fpVE0Ac-58H6zxk07rM_H3Lzbyf_" -O kitti_c.zip && rm -rf /tmp/cookies.txt
 ```
 Then unzip with:
 ```shell
