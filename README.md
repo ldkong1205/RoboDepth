@@ -2,7 +2,7 @@
 <p align="center">
   <img src="docs/figs/logo.png" align="center" width="32%">
   
-  <h3 align="center"><strong>RoboDepth: Robust Out-of-Distribution Depth Estimation under Common Corruptions</strong></h3>
+  <h3 align="center"><strong>RoboDepth: Robust Out-of-Distribution Depth Estimation under Corruptions</strong></h3>
 
   <p align="center">
     <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ">Lingdong Kong</a><sup>1</sup>&nbsp;
@@ -187,11 +187,11 @@ You can manage to create your own "RoboDepth" corrpution sets! Follow the instru
 If you find this work helpful, please kindly consider citing our paper:
 
 ```bibtex
-@ARTICLE{kong2022robodepth,
-  title={RoboDepth: Robust Out-of-Distribution Depth Estimation under Common Corruptions},
+@ARTICLE{kong2023robodepth,
+  title={RoboDepth: Robust Out-of-Distribution Depth Estimation under Corruptions},
   author={Kong, Lingdong and Xie, Shaoyuan and Hu, Hanjiang and Cottereau, Benoit and Ng, Lai Xing and Ooi, Wei Tsang},
-  journal={arXiv preprint arXiv:2212.xxxxx}, 
-  year={2022},
+  journal={arXiv preprint arXiv:23xx.xxxxx}, 
+  year={2023},
 }
 ```
 
