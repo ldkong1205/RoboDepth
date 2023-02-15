@@ -75,10 +75,10 @@ Kindly refer to [INSTALL.md](docs/INSTALL.md) for the installation details.
 ## Data Preparation
 
 ### RoboDepth Benchmark
-Kindly refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the [KITTI](http://www.cvlibs.net/datasets/kitti/raw_data.php), [KITTI-C](), [Cityscapes](), [NYUDepth2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html), and [NYUDepth2-C]() datasets.
+Kindly refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the <sup>1</sup>[KITTI](http://www.cvlibs.net/datasets/kitti/raw_data.php), <sup>2</sup>[KITTI-C](), <sup>3</sup>[Cityscapes](), <sup>4</sup>[NYUDepth2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html), and <sup>5</sup>[NYUDepth2-C]() datasets.
 
-### RoboDepth Competition @ ICRA 2023
-Kindly refer to [this](https://github.com/ldkong1205/RoboDepth/blob/main/competition/README.md) page for the details to prepare the training and evaluation data associated with the [1st RoboDepth Competition](https://robodepth.github.io/).
+### Competition @ ICRA 2023
+Kindly refer to [this](https://github.com/ldkong1205/RoboDepth/blob/main/competition/README.md) page for the details to prepare the training and evaluation data associated with the [1st RoboDepth Competition](https://robodepth.github.io/) at the 40th IEEE Conference on Robotics and Automation ([ICRA 2023](https://www.icra2023.org/)).
 
 
 ## Getting Started
