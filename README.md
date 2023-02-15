@@ -55,6 +55,7 @@
 - [2022.11] - We are organizing the [1st RoboDepth Competition](https://robodepth.github.io/) at [ICRA 2023](https://www.icra2023.org/). Join the challenge today! :raising_hand:
 - [2022.11] - The `KITTI-C` dataset is ready to be downloaded! See [here](docs/DATA_PREPARE.md) for more details.
 
+
 ## Outline
 - [Installation](#installation)
 - [Data Preparation](#data-preparation)
@@ -68,20 +69,20 @@
 
 
 ## Installation
-Please refer to [INSTALL.md](docs/INSTALL.md) for the installation details.
+Kindly refer to [INSTALL.md](docs/INSTALL.md) for the installation details.
 
 
 ## Data Preparation
 
 ### RoboDepth Benchmark
-Please refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the [KITTI](http://www.cvlibs.net/datasets/kitti/raw_data.php), [KITTI-C](), [Cityscapes](), [NYUDepth2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html), and [NYUDepth2-C]() datasets.
+Kindly refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the [KITTI](http://www.cvlibs.net/datasets/kitti/raw_data.php), [KITTI-C](), [Cityscapes](), [NYUDepth2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html), and [NYUDepth2-C]() datasets.
 
 ### RoboDepth Competition @ ICRA 2023
-Please refer to [this](https://github.com/ldkong1205/RoboDepth/blob/main/competition/README.md) page for the details to prepare the training and evaluation data associated with the [1st RoboDepth Competition](https://robodepth.github.io/).
+Kindly refer to [this](https://github.com/ldkong1205/RoboDepth/blob/main/competition/README.md) page for the details to prepare the training and evaluation data associated with the [1st RoboDepth Competition](https://robodepth.github.io/).
 
 
 ## Getting Started
-Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about this codebase.
+Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about this codebase.
 
 
 ## Model Zoo
@@ -133,13 +134,6 @@ Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 ### :house: - Indoor Depth Estimation
 
 <details open>
-<summary>&nbsp<b>Self-Supervised Depth Estimation</b></summary>
-
-> - [ ] Coming soon.
-
-</details>
-
-<details open>
 <summary>&nbsp<b>Fully-Supervised Depth Estimation</b></summary>
 
 > - [x] **[BTS](https://arxiv.org/abs/1907.10326), arXiv 2019.** <sup>[**`[Code]`**](https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox/tree/main/configs/bts)</sup>
@@ -168,7 +162,7 @@ Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
   <img src="docs/figs/benchmark.png" align="center" width="100%">
 </p>
 
-Please refer to [MODEL_ZOO.md](docs/MODEL_ZOO.md) for the detailed benchmarking results and to access the pretrained weights.
+Kindly refer to [MODEL_ZOO.md](docs/MODEL_ZOO.md) for the detailed benchmarking results and to access the pretrained weights.
 
 
 ## Create Corruption Sets
