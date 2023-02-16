@@ -1,4 +1,4 @@
-<img src="../../figs/logo2.png" align="right" width="34%">
+<img src="../../docs/figs/logo2.png" align="right" width="34%">
 
 # RoboDepth Benchmark
 The following metrics are consistently used in our benchmark:
