@@ -62,6 +62,7 @@
 - [Data Preparation](#data-preparation)
 - [Getting Started](#getting-started)
 - [Model Zoo](#model-zoo)
+- [Benchmark](#benchmark)
 - [Create Corruption Sets](#create-corruption-sets)
 - [TODO List](#todo-list)
 - [Citation](#citation)
@@ -158,7 +159,66 @@ Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 </details>
 
 
-### :robot: - RoboDepth Benchmark
+## Benchmark
+
+### Metrics
+
+The following metrics are consistently used in our benchmark:
+- **Absolute Relative Difference (the lower the better):** $\text{Abs Rel} = \frac{1}{|D|}\sum_{pred\in D}\frac{|gt - pred|}{gt}$ .
+- **Accuracy (the higher the better):** $\delta_t = \frac{1}{|D|}|\{\ pred\in D | \max{(\frac{gt}{pred}, \frac{pred}{gt})< 1.25^t}\}| \times 100\\%$ .
+- **Depth Estimation Error (the lower the better):**
+  - $\text{DEE}_1 = \text{Abs Rel} - \delta_1 + 1$ ;
+  - $\text{DEE}_2 = \frac{\text{Abs Rel} - \delta_1 + 1}{2}$ ;
+  - $\text{DEE}_3 = \frac{\text{Abs Rel}}{\delta_1}$ .
+
+The first *Depth Estimation Error* term ($\text{DEE}_1$) is adopted as the main indicator for evaluating model performance in our RoboDepth benchmark. The following two metrics are adopted to compare between models' robustness:
+- **mCE (the lower the better):** The *average corruption error* (in percentage) of a candidate model compared to the baseline model, which is calculated among all corruption types across five severity levels.
+- **mRR (the higher the better):** The *average resilience rate* (in percentage) of a candidate model compared to its "clean" performance, which is calculated among all corruption types across five severity levels.
+
+
+### KITTI-C 
+
+| Model | mCE (%) | mRR (%) | Clean | Bright | Dark | Fog | Frost | Snow | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG | 
+| :-- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| |
+| [MonoDepth2<sub>R18</sub>]() |
+| [MonoDepth2<sub>R18+no_pt</sub>]() |
+| [MonoDepth2<sub>R18+HR</sub>]() |
+| [MonoDepth2<sub>R50</sub>]() |
+| [MaskOcc]() |
+| [DNet]() |
+| [CADepth]() |
+| [HR-Depth]() |
+| [DIFFNet]() |
+| [ManyDepth]() |
+| [FSRE-Depth]() |
+| |
+| [MonoDepth2<sub>R18</sub>]() |
+| [MonoDepth2<sub>R18+no_pt</sub>]() |
+| [MonoDepth2<sub>R18+HR</sub>]() |
+| [DepthHints<sub>R18</sub>]() |
+| [DepthHints<sub>R18+no_pt</sub>]() |
+| [DepthHints<sub>R18+HR</sub>]() |
+| |
+| [MonoDepth2<sub>R18</sub>]() |
+| [MonoDepth2<sub>R18+no_pt</sub>]() |
+| [MonoDepth2<sub>R18+HR</sub>]() |
+
+
+### NYU-C
+
+| Model | mCE (%) | mRR (%) | Clean | Bright | Dark | Fog | Frost | Snow | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG | 
+| :-- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| [BTS<sub>R50</sub>]() |
+| [AdaBins<sub>R50</sub>]() | 
+| [AdaBins<sub>EfficientB5</sub>]() |
+| [DPT<sub>ViT-B</sub>]() |
+| [SimIPU<sub>R50+no_pt</sub>]() |
+| [SimIPU<sub>R50+imagenet</sub>]() |
+| [SimIPU<sub>R50+kitti</sub>]() |
+| [SimIPU<sub>R50+waymo</sub>]() |
+| [DepthFormer<sub>SwinT_w7_1k</sub>]() | 
+| [DepthFormer<sub>SwinT_w7_22k</sub>]() | 
 
 <p align="center">
   <img src="docs/figs/benchmark.png" align="center" width="100%">
@@ -176,6 +236,7 @@ You can manage to create your own "RoboDepth" corrpution sets! Follow the instru
 - [x] Add scripts for creating common corruptions.
 - [x] Add download link of KITTI-C and NYUDepth2-C.
 - [x] Add competition data.
+- [x] Add benchmarking results.
 - [ ] Add evaluation scripts on corruption sets.
 
 
