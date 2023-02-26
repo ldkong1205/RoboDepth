@@ -193,19 +193,19 @@ The first *Depth Estimation Error* term ($\text{DEE}_1$) is adopted as the main 
 | [ManyDepth]() |
 | [FSRE-Depth]() |
 | |
-| [MonoDepth2<sub>R18</sub>]() |
-| [MonoDepth2<sub>R18+no_pt</sub>]() |
-| [MonoDepth2<sub>R18+HR</sub>]() |
+| [MonoDepth2<sub>R18</sub> (stereo)]() |
+| [MonoDepth2<sub>R18+no_pt</sub> (stereo)]() |
+| [MonoDepth2<sub>R18+HR</sub> (stereo)]() |
 | [DepthHints<sub>R18</sub>]() |
 | [DepthHints<sub>R18+no_pt</sub>]() |
 | [DepthHints<sub>R18+HR</sub>]() |
 | |
-| [MonoDepth2<sub>R18</sub>]() |
-| [MonoDepth2<sub>R18+no_pt</sub>]() |
-| [MonoDepth2<sub>R18+HR</sub>]() |
+| [MonoDepth2<sub>R18</sub> (mono+stereo)]() |
+| [MonoDepth2<sub>R18+no_pt</sub> (mono+stereo)]() |
+| [MonoDepth2<sub>R18+HR</sub> (mono+stereo)]() |
 
 
-### NYU-C
+### NYUDepth2-C
 
 | Model | mCE (%) | mRR (%) | Clean | Bright | Dark | Fog | Frost | Snow | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG | 
 | :-- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
@@ -224,7 +224,7 @@ The first *Depth Estimation Error* term ($\text{DEE}_1$) is adopted as the main 
   <img src="docs/figs/benchmark.png" align="center" width="100%">
 </p>
 
-Kindly refer to [MODEL_ZOO.md](docs/MODEL_ZOO.md) for the detailed benchmarking results and to access the pretrained weights.
+For more detailed benchmarking results and to access the pretrained weights used in robustness evaluation, kindly refer to [MODEL_ZOO.md](docs/MODEL_ZOO.md).
 
 
 ## Create Corruption Sets
