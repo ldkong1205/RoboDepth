@@ -181,6 +181,10 @@ Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation
 
 ### KITTI-C 
 
+<p align="center">
+  <img src="docs/figs/metrics_kittic.png" align="center" width="100%">
+</p>
+
 | Model | Modality | mCE (%) | mRR (%) | Clean | Bright | Dark | Fog | Frost | Snow | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG | 
 | :-- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | [MonoDepth2<sub>R18</sub>]()<sup>:star:</sup> | Mono | 100.00 | 84.46 |  0.119 | 0.130     | 0.280     | 0.155     | 0.277     | 0.511     | 0.187     | 0.244     | 0.242     | 0.216     | 0.201     | 0.129     | 0.193     | 0.384     | 0.389     | 0.340     | 0.388     | 0.145     | 0.196     |
@@ -206,10 +210,6 @@ Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation
 | [MonoDepth2<sub>R18+no_pt</sub>]() | M+S | 136.25 | 76.72 | 0.146 | 0.193     | 0.460     | 0.328     | 0.421     | 0.428     | 0.440     | 0.228     | 0.221     | 0.216     | 0.230     | 0.153     | 0.229     | 0.570     | 0.596     | 0.549     | 0.606     | 0.161     | 0.177     |
 | [MonoDepth2<sub>R18+HR</sub>]() | M+S | 106.06 | 82.44 | 0.114 | 0.129     | 0.376     | 0.155     | 0.271     | 0.582     | 0.214     | 0.393     | 0.257     | 0.230     | 0.232     | 0.123     | 0.215     | 0.326     | 0.352     | 0.317     | 0.344     | 0.138     | 0.198     |
 | [CADepth]() | M+S | 118.29 | 76.68 | 0.110 | 0.123     | 0.357     | 0.137     | 0.311     | 0.556     | 0.169     | 0.338     | 0.412     | 0.260     | 0.193     | 0.126     | 0.186     | 0.546     | 0.559     | 0.524     | 0.582     | 0.145     | 0.192     |
-
-<p align="center">
-  <img src="docs/figs/metrics_kittic.png" align="center" width="100%">
-</p>
 
 
 ### NYUDepth2-C
