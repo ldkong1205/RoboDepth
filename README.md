@@ -209,10 +209,10 @@ Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation
 
 ### NYUDepth2-C
 
-| Model | mCE (%) | mRR (%) | Clean | Bright | Dark | Fog | Frost | Snow | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG | 
-| :-- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| [BTS<sub>R50</sub>]() |
-| [AdaBins<sub>R50</sub>]()<sup>:star:</sup> | 
+| Model | mCE (%) | mRR (%) | Clean | Bright | Dark | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG | 
+| :-- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| [BTS<sub>R50</sub>]()<sup>:star:</sup> | 100.00 | 80.63 | 0.122 | 0.149 | 0.269 | 0.265 | 0.337 | 0.262 | 0.231 | 0.372 | 0.182 | 0.180 | 0.442 | 0.512 | 0.392 | 0.474 | 0.139 | 0.175 |
+| [AdaBins<sub>R50</sub>]() | 110.11 | 81.62 | 0.158 | 0.179 | 0.293 | 0.289 | 0.339 | 0.280 | 0.245 | 0.390 | 0.204 | 0.216 | 0.458 | 0.519 | 0.401 | 0.481 | 0.186 | 0.211 |
 | [AdaBins<sub>EfficientB5</sub>]() |
 | [DPT<sub>ViT-B</sub>]() |
 | [SimIPU<sub>R50+no_pt</sub>]() |
