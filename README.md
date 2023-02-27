@@ -175,15 +175,17 @@ The first *Depth Estimation Error* term ($\text{DEE}_1$) is adopted as the main 
 - **mCE (the lower the better):** The *average corruption error* (in percentage) of a candidate model compared to the baseline model, which is calculated among all corruption types across five severity levels.
 - **mRR (the higher the better):** The *average resilience rate* (in percentage) of a candidate model compared to its "clean" performance, which is calculated among all corruption types across five severity levels.
 
+Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
+
 
 ### KITTI-C 
 
 | Model | mCE (%) | mRR (%) | Clean | Bright | Dark | Fog | Frost | Snow | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG | 
 | :-- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | |
-| [MonoDepth2<sub>R18</sub>]() |
-| [MonoDepth2<sub>R18+no_pt</sub>]() |
-| [MonoDepth2<sub>R18+HR</sub>]() |
+| [MonoDepth2<sub>R18</sub>]()<sup>:star:</sup> | 100.00 |  |  0.238 | 0.259     | 0.561     | 0.311     | 0.553     | 1.023     | 0.373     | 0.487     | 0.484     | 0.433     | 0.402     | 0.258     | 0.386     | 0.768     | 0.779     | 0.681     | 0.776     | 0.289     | 0.391     | 
+| [MonoDepth2<sub>R18+no_pt</sub>]() | | | 0.287 | 0.366     | 0.686     | 0.622     | 0.624     | 0.798     | 0.831     | 0.508     | 0.464     | 0.398     | 0.414     | 0.296     | 0.423     | 0.882     | 0.905     | 0.804     | 0.907     | 0.306     | 0.342     |
+| [MonoDepth2<sub>R18+HR</sub>]() | | | 0.229 | 0.259     | 0.751     | 0.311     | 0.543     | 1.165     | 0.428     | 0.786     | 0.514     | 0.461     | 0.463     | 0.246     | 0.431     | 0.652     | 0.703     | 0.633     | 0.688     | 0.276     | 0.395     |
 | [MonoDepth2<sub>R50</sub>]() |
 | [MaskOcc]() |
 | [DNet]() |
@@ -193,12 +195,12 @@ The first *Depth Estimation Error* term ($\text{DEE}_1$) is adopted as the main 
 | [ManyDepth]() |
 | [FSRE-Depth]() |
 | |
-| [MonoDepth2<sub>R18</sub> (stereo)]() |
-| [MonoDepth2<sub>R18+no_pt</sub> (stereo)]() |
-| [MonoDepth2<sub>R18+HR</sub> (stereo)]() |
-| [DepthHints<sub>R18</sub>]() |
-| [DepthHints<sub>R18+no_pt</sub>]() |
-| [DepthHints<sub>R18+HR</sub>]() |
+| [MonoDepth2<sub>R18</sub> (stereo)]() | | | 0.246 | 0.266     | 0.696     | 0.322     | 0.609     | 1.031     | 0.468     | 0.780     | 0.663     | 0.528     | 0.418     | 0.270     | 0.399     | 0.985     | 1.018     | 0.927     | 0.985     | 0.288     | 0.387     |
+| [MonoDepth2<sub>R18+no_pt</sub> (stereo)]() | | | 0.299 | 0.362     | 0.843     | 0.583     | 0.704     | 0.871     | 0.685     | 0.532     | 0.464     | 0.434     | 0.459     | 0.312     | 0.472     | 1.078     | 1.128     | 1.042     | 1.112     | 0.328     | 0.356     |
+| [MonoDepth2<sub>R18+HR</sub> (stereo)]() | | | 0.234 | 0.265     | 0.569     | 0.334     | 0.712     | 1.059     | 0.476     | 0.865     | 0.623     | 0.558     | 0.492     | 0.260     | 0.412     | 0.686     | 0.686     | 0.644     | 0.687     | 0.299     | 0.418     |
+| [DepthHints<sub>R18</sub> (stereo)]() |
+| [DepthHints<sub>R18+no_pt</sub> (stereo)]() |
+| [DepthHints<sub>R18+HR</sub> (stereo)]() |
 | |
 | [MonoDepth2<sub>R18</sub> (mono+stereo)]() |
 | [MonoDepth2<sub>R18+no_pt</sub> (mono+stereo)]() |
@@ -210,7 +212,7 @@ The first *Depth Estimation Error* term ($\text{DEE}_1$) is adopted as the main 
 | Model | mCE (%) | mRR (%) | Clean | Bright | Dark | Fog | Frost | Snow | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG | 
 | :-- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | [BTS<sub>R50</sub>]() |
-| [AdaBins<sub>R50</sub>]() | 
+| [AdaBins<sub>R50</sub>]()<sup>:star:</sup> | 
 | [AdaBins<sub>EfficientB5</sub>]() |
 | [DPT<sub>ViT-B</sub>]() |
 | [SimIPU<sub>R50+no_pt</sub>]() |
@@ -219,6 +221,7 @@ The first *Depth Estimation Error* term ($\text{DEE}_1$) is adopted as the main 
 | [SimIPU<sub>R50+waymo</sub>]() |
 | [DepthFormer<sub>SwinT_w7_1k</sub>]() | 
 | [DepthFormer<sub>SwinT_w7_22k</sub>]() | 
+
 
 <p align="center">
   <img src="docs/figs/benchmark.png" align="center" width="100%">
