@@ -63,6 +63,7 @@
 - [Getting Started](#getting-started)
 - [Model Zoo](#model-zoo)
 - [Benchmark](#benchmark)
+- [Idiosyncrasy Analysis](#idiosyncrasy-analysis)
 - [Create Corruption Sets](#create-corruption-sets)
 - [TODO List](#todo-list)
 - [Citation](#citation)
@@ -211,9 +212,9 @@ Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation
 
 | Model | mCE (%) | mRR (%) | Clean | Bright | Dark | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG | 
 | :-- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| [BTS<sub>R50</sub>]()<sup>:star:</sup> | 100.00 | 80.63 | 0.122 | 0.149 | 0.269 | 0.265 | 0.337 | 0.262 | 0.231 | 0.372 | 0.182 | 0.180 | 0.442 | 0.512 | 0.392 | 0.474 | 0.139 | 0.175 |
-| [AdaBins<sub>R50</sub>]() | 110.11 | 81.62 | 0.158 | 0.179 | 0.293 | 0.289 | 0.339 | 0.280 | 0.245 | 0.390 | 0.204 | 0.216 | 0.458 | 0.519 | 0.401 | 0.481 | 0.186 | 0.211 |
-| [AdaBins<sub>EfficientB5</sub>]() |
+| [BTS<sub>R50</sub>]() | 122.78 | 80.63 | 0.122 | 0.149 | 0.269 | 0.265 | 0.337 | 0.262 | 0.231 | 0.372 | 0.182 | 0.180 | 0.442 | 0.512 | 0.392 | 0.474 | 0.139 | 0.175 |
+| [AdaBins<sub>R50</sub>]() | 134.69 | 81.62 | 0.158 | 0.179 | 0.293 | 0.289 | 0.339 | 0.280 | 0.245 | 0.390 | 0.204 | 0.216 | 0.458 | 0.519 | 0.401 | 0.481 | 0.186 | 0.211 |
+| [AdaBins<sub>EfficientB5</sub>]()<sup>:star:</sup> | 100.00 | 85.83 | 0.112 | 0.132 | 0.194 | 0.212 | 0.235 | 0.206 | 0.184 | 0.384 | 0.153 | 0.151 | 0.390 | 0.374 | 0.294 | 0.380 | 0.124 | 0.154 |
 | [DPT<sub>ViT-B</sub>]() |
 | [SimIPU<sub>R50+no_pt</sub>]() |
 | [SimIPU<sub>R50+imagenet</sub>]() |
@@ -223,6 +224,7 @@ Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation
 | [DepthFormer<sub>SwinT_w7_22k</sub>]() | 
 
 
+## Idiosyncrasy Analysis
 <p align="center">
   <img src="docs/figs/benchmark.png" align="center" width="100%">
 </p>
