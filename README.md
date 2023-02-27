@@ -215,13 +215,13 @@ Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation
 | [BTS<sub>R50</sub>]() | 122.78 | 80.63 | 0.122 | 0.149 | 0.269 | 0.265 | 0.337 | 0.262 | 0.231 | 0.372 | 0.182 | 0.180 | 0.442 | 0.512 | 0.392 | 0.474 | 0.139 | 0.175 |
 | [AdaBins<sub>R50</sub>]() | 134.69 | 81.62 | 0.158 | 0.179 | 0.293 | 0.289 | 0.339 | 0.280 | 0.245 | 0.390 | 0.204 | 0.216 | 0.458 | 0.519 | 0.401 | 0.481 | 0.186 | 0.211 |
 | [AdaBins<sub>EfficientB5</sub>]()<sup>:star:</sup> | 100.00 | 85.83 | 0.112 | 0.132 | 0.194 | 0.212 | 0.235 | 0.206 | 0.184 | 0.384 | 0.153 | 0.151 | 0.390 | 0.374 | 0.294 | 0.380 | 0.124 | 0.154 |
-| [DPT<sub>ViT-B</sub>]() |
-| [SimIPU<sub>R50+no_pt</sub>]() |
-| [SimIPU<sub>R50+imagenet</sub>]() |
-| [SimIPU<sub>R50+kitti</sub>]() |
-| [SimIPU<sub>R50+waymo</sub>]() |
-| [DepthFormer<sub>SwinT_w7_1k</sub>]() | 
-| [DepthFormer<sub>SwinT_w7_22k</sub>]() | 
+| [DPT<sub>ViT-B</sub>]() | 83.22 | 95.25 | 0.136 | 0.135 | 0.182 | 0.180 | 0.154 | 0.166 | 0.155 | 0.232 | 0.139 | 0.165 | 0.200 | 0.213 | 0.191 | 0.199 | 0.171 | 0.174 |
+| [SimIPU<sub>R50+no_pt</sub>]() | 200.17 | 92.52 | 0.372 | 0.388 | 0.427 | 0.448 | 0.416 | 0.401 | 0.400 | 0.433 | 0.381 | 0.391 | 0.465 | 0.471 | 0.450 | 0.461 | 0.375 | 0.378 |
+| [SimIPU<sub>R50+imagenet</sub>]() | 163.06 | 85.01 | 0.244 | 0.269 | 0.370 | 0.376 | 0.377 | 0.337 | 0.324 | 0.422 | 0.306 | 0.289 | 0.445 | 0.463 | 0.414 | 0.449 | 0.247 | 0.272 |
+| [SimIPU<sub>R50+kitti</sub>]() | 173.78 | 91.64 | 0.312 | 0.326 | 0.373 | 0.406 | 0.360 | 0.333 | 0.335 | 0.386 | 0.316 | 0.333 | 0.432 | 0.442 | 0.422 | 0.443 | 0.314 | 0.322 |
+| [SimIPU<sub>R50+waymo</sub>]() | 159.46 | 85.73 | 0.243 | 0.269 | 0.348 | 0.398 | 0.380 | 0.327 | 0.313 | 0.405 | 0.256 | 0.287 | 0.439 | 0.461 | 0.416 | 0.455 | 0.246 | 0.265 |
+| [DepthFormer<sub>SwinT_w7_1k</sub>]() | 106.34 | 87.25 | 0.125 | 0.147 | 0.279 | 0.235 | 0.220 | 0.260 | 0.191 | 0.300 | 0.175 | 0.192 | 0.294 | 0.321 | 0.289 | 0.305 | 0.161 | 0.179 |
+| [DepthFormer<sub>SwinT_w7_22k</sub>]() | 63.47 | 94.19 | 0.086 | 0.099 | 0.150 | 0.123 | 0.127 | 0.172 | 0.119 | 0.237 | 0.112 | 0.119 | 0.159 | 0.156 | 0.148 | 0.157 | 0.101 | 0.108 |
 
 
 ## Idiosyncrasy Analysis
@@ -229,7 +229,7 @@ Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation
   <img src="docs/figs/benchmark.png" align="center" width="100%">
 </p>
 
-For more detailed benchmarking results and to access the pretrained weights used in robustness evaluation, kindly refer to [MODEL_ZOO.md](docs/MODEL_ZOO.md).
+For more detailed benchmarking results and to access the pretrained weights used in robustness evaluation, kindly refer to [RESULT.md](docs/RESULT.md).
 
 
 ## Create Corruption Sets
