@@ -164,9 +164,9 @@ Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 ### Metrics
 
 The following metrics are consistently used in our benchmark:
-- **Absolute Relative Difference (the lower the better):** $\text{Abs Rel} = \frac{1}{|D|}\sum_{pred\in D}\frac{|gt - pred|}{gt}$ .
-- **Accuracy (the higher the better):** $\delta_t = \frac{1}{|D|}|\{\ pred\in D | \max{(\frac{gt}{pred}, \frac{pred}{gt})< 1.25^t}\}| \times 100\\%$ .
-- **Depth Estimation Error (the lower the better):**
+- Absolute Relative Difference (the lower the better): $\text{Abs Rel} = \frac{1}{|D|}\sum_{pred\in D}\frac{|gt - pred|}{gt}$ .
+- Accuracy (the higher the better): $\delta_t = \frac{1}{|D|}|\{\ pred\in D | \max{(\frac{gt}{pred}, \frac{pred}{gt})< 1.25^t}\}| \times 100\\%$ .
+- Depth Estimation Error (the lower the better):
   - $\text{DEE}_1 = \text{Abs Rel} - \delta_1 + 1$ ;
   - $\text{DEE}_2 = \frac{\text{Abs Rel} - \delta_1 + 1}{2}$ ;
   - $\text{DEE}_3 = \frac{\text{Abs Rel}}{\delta_1}$ .
