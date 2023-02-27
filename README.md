@@ -207,6 +207,10 @@ Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation
 | [MonoDepth2<sub>R18+HR</sub>]() | M+S | 106.06 | 82.44 | 0.114 | 0.129     | 0.376     | 0.155     | 0.271     | 0.582     | 0.214     | 0.393     | 0.257     | 0.230     | 0.232     | 0.123     | 0.215     | 0.326     | 0.352     | 0.317     | 0.344     | 0.138     | 0.198     |
 | [CADepth]() | M+S | 118.29 | 76.68 | 0.110 | 0.123     | 0.357     | 0.137     | 0.311     | 0.556     | 0.169     | 0.338     | 0.412     | 0.260     | 0.193     | 0.126     | 0.186     | 0.546     | 0.559     | 0.524     | 0.582     | 0.145     | 0.192     |
 
+<p align="center">
+  <img src="docs/figs/metrics_kittic.png" align="center" width="100%">
+</p>
+
 
 ### NYUDepth2-C
 
