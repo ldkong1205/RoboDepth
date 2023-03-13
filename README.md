@@ -171,7 +171,7 @@ Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
   - $\text{DEE}_3 = \frac{\text{Abs Rel}}{\delta_1}$ .
 
 - The second *Depth Estimation Error* term ($\text{DEE}_2$) is adopted as the main indicator for evaluating model performance in our RoboDepth benchmark. The following two metrics are adopted to compare between models' robustness:
-  - **mCE (the lower the better):** The *average corruption error* (in percentage) of a candidate model compared to the baseline model, which is calculated among all corruption types across five severity levels.
+  - **mCE (the lower the better):** The *average corruption error* (in percentage) of a candidate model compared to the baseline, which is calculated among all corruption types across five severity levels.
   - **mRR (the higher the better):** The *average resilience rate* (in percentage) of a candidate model compared to its "clean" performance, which is calculated among all corruption types across five severity levels.
 
 **:gear: Notation:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
