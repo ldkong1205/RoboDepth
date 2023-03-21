@@ -32,11 +32,15 @@
   </a>
   
   <a href="https://huggingface.co/spaces/ldkong/RoboDepth" target='_blank'>
-    <img src="https://img.shields.io/badge/Demo-%F0%9F%8E%AC-pink">
+    <img src="https://img.shields.io/badge/Demo-%F0%9F%8E%AC-lightgray">
   </a>
   
   <a href="https://zhuanlan.zhihu.com/p/592479725" target='_blank'>
-    <img src="https://img.shields.io/badge/%E4%B8%AD%E8%AF%91%E7%89%88-%F0%9F%90%BC-red">
+    <img src="https://img.shields.io/badge/%E4%B8%AD%E8%AF%91%E7%89%88-%F0%9F%90%BC-pink">
+  </a>
+  
+  <a href="" target='_blank'>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=ldkong1205.RoboDepth&left_color=gray&right_color=red">
   </a>
 </p>
 
