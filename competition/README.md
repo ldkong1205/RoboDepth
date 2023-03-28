@@ -155,7 +155,11 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 >       with torch.no_grad():
 >           result = model(return_loss=False, rescale=True, **data)
 >           pred_disps.append(result)
->   ```   
+>   ```
+>   Please notice that you will need to sort the file paths before inference. As been pointed out by @Zhyever in [this](https://github.com/ldkong1205/RoboDepth/issues/10) issue, you can achieve this via the following line of code:
+>   ```
+>   img_infos = sorted(img_infos, key=lambda x: x['filename'])
+>   ```
 > - Step 2: After evaluating every samples in the evaluation set, save the prediction file with:
 >   ```shell
 >   output_path = os.path.join(opt.save_pred_path, "disp.npz")
