@@ -95,6 +95,7 @@ Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 ## Model Zoo
 
 ### :oncoming_automobile: - Outdoor Depth Estimation
+
 <details open>
 <summary>&nbsp<b>Self-Supervised Depth Estimation</b></summary>
 
@@ -141,6 +142,15 @@ Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 
 
 ### :house: - Indoor Depth Estimation
+
+<details open>
+<summary>&nbsp<b>Self-Supervised Depth Estimation</b></summary>
+
+> - [ ] **[P<sup>2</sup>Net](https://arxiv.org/abs/2007.07696), ECCV 2020.** <sup>[**`[Code]`**](https://github.com/svip-lab/Indoor-SfMLearner)</sup>
+> - [ ] **[EPCDepth](https://arxiv.org/abs/2109.12484), ICCV 2021.** <sup>[**`[Code]`**](https://github.com/prstrive/EPCDepth)</sup>
+
+</details>
+
 
 <details open>
 <summary>&nbsp<b>Fully-Supervised Depth Estimation</b></summary>
