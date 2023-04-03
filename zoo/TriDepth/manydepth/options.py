@@ -12,7 +12,7 @@ class MonodepthOptions:
         self.parser.add_argument("--data_path",
                                  type=str,
                                  help="path to the training data",
-                                 default=os.path.join(file_dir, "kitti_data"))
+                                 default='/nvme/konglingdong/models/RoboDepth/kitti_data')
         self.parser.add_argument("--log_dir",
                                  type=str,
                                  help="log directory",
@@ -180,7 +180,8 @@ class MonodepthOptions:
         # LOADING options
         self.parser.add_argument("--load_weights_folder",
                                  type=str,
-                                 help="name of model to load")
+                                 help="name of model to load",
+                                 default='/nvme/konglingdong/models/RoboDepth/models/TriDepth/tri-depth-640x192')
         self.parser.add_argument("--mono_weights_folder",
                                  type=str)
         self.parser.add_argument("--models_to_load",
@@ -206,9 +207,9 @@ class MonodepthOptions:
         self.parser.add_argument("--eval_stereo",
                                  help="if set evaluates in stereo mode",
                                  action="store_true")
-        self.parser.add_argument("--eval_mono",
+        self.parser.add_argument("--eval_mono", type=bool,
                                  help="if set evaluates in mono mode",
-                                 action="store_true")
+                                 default=True)
         self.parser.add_argument("--disable_median_scaling",
                                  help="if set disables median scaling in evaluation",
                                  action="store_true")
@@ -253,6 +254,31 @@ class MonodepthOptions:
         self.parser.add_argument('--eval_teacher',
                                  action='store_true',
                                  help='If set, the teacher network will be evaluated')
+
+
+        # RoboDepth options
+        self.parser.add_argument("--eval_corr_type",
+                                 help="name of the corruptions to be evaluated on",
+                                 choices=[
+                                   'all', 'clean', 
+                                   'brightness', 'dark', 'fog', 'frost', 'snow', 'contrast',
+                                   'defocus_blur', 'glass_blur', 'motion_blur', 'zoom_blur', 'elastic_transform', 'color_quant',
+                                   'gaussian_noise', 'impulse_noise', 'shot_noise', 'iso_noise', 'pixelate', 'jpeg_compression'
+                                 ],
+                                 default=None)
+
+        self.parser.add_argument("--clean",
+                                 help="clean results of the model to be evaluated;"
+                                   "List of 7 numbers: ['abs_rel', 'sq_rel', 'rmse', 'rmse_log', 'a1', 'a2', 'a3']",
+                                 default=None)
+
+        self.parser.add_argument('--seed', type=int, 
+                                 help='random seed.',
+                                 default=1205)
+      
+        self.parser.add_argument('--deterministic',
+                                 action='store_true',
+                                 help='whether to set deterministic options for CUDNN backend.')
 
     def parse(self):
         self.options = self.parser.parse_args()

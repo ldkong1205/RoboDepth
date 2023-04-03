@@ -37,7 +37,7 @@ class MonoDataset(data.Dataset):
                  frame_idxs,
                  num_scales,
                  is_train=False,
-                 img_ext='.jpg',
+                 img_ext='.png',
                  ):
         super(MonoDataset, self).__init__()
 
@@ -162,7 +162,7 @@ class MonoDataset(data.Dataset):
                                                     f'--data_path is set correctly, or try adding'
                                                     f' the --png flag. {e}')
 
-        self.get_item_custom(inputs, folder, frame_index, side, do_flip)
+        # self.get_item_custom(inputs, folder, frame_index, side, do_flip)
 
         # adjusting intrinsics to match each scale in the pyramid
         for scale in range(self.num_scales):

@@ -1,0 +1,562 @@
+
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.132  &   1.101  &   5.257  &   0.201  &   0.855  &   0.956  &   0.981  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.132  &   1.112  &   5.285  &   0.202  &   0.853  &   0.956  &   0.981  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.133  &   1.130  &   5.333  &   0.203  &   0.851  &   0.956  &   0.980  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.130  &   0.907  &   4.903  &   0.195  &   0.864  &   0.961  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.130  &   0.907  &   4.903  &   0.195  &   0.864  &   0.961  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.093  &   0.671  &   4.202  &   0.169  &   0.912  &   0.969  &   0.985  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.093  &   0.677  &   4.218  &   0.169  &   0.912  &   0.969  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.095  &   0.695  &   4.266  &   0.171  &   0.909  &   0.969  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.097  &   0.714  &   4.328  &   0.173  &   0.904  &   0.968  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.100  &   0.735  &   4.402  &   0.176  &   0.898  &   0.967  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.104  &   0.756  &   4.480  &   0.180  &   0.891  &   0.965  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.119  &   0.843  &   4.791  &   0.197  &   0.861  &   0.956  &   0.980  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.132  &   0.933  &   5.099  &   0.212  &   0.833  &   0.947  &   0.978  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.157  &   1.116  &   5.619  &   0.237  &   0.780  &   0.930  &   0.972  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.096  &   0.713  &   4.292  &   0.172  &   0.908  &   0.968  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.202  &   1.497  &   6.527  &   0.285  &   0.678  &   0.896  &   0.957  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.097  &   0.729  &   4.326  &   0.173  &   0.906  &   0.968  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.270  &   2.147  &   7.765  &   0.353  &   0.521  &   0.828  &   0.934  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.100  &   0.712  &   4.369  &   0.176  &   0.901  &   0.967  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.099  &   0.754  &   4.392  &   0.174  &   0.903  &   0.967  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.102  &   0.733  &   4.432  &   0.178  &   0.896  &   0.965  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.101  &   0.773  &   4.447  &   0.176  &   0.900  &   0.966  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.107  &   0.766  &   4.538  &   0.183  &   0.887  &   0.963  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.103  &   0.786  &   4.499  &   0.178  &   0.895  &   0.965  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.112  &   0.795  &   4.635  &   0.187  &   0.877  &   0.961  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.106  &   0.799  &   4.562  &   0.181  &   0.887  &   0.964  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.125  &   0.877  &   4.895  &   0.201  &   0.852  &   0.954  &   0.980  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.127  &   1.009  &   5.112  &   0.206  &   0.848  &   0.951  &   0.979  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.119  &   0.840  &   4.748  &   0.195  &   0.862  &   0.957  &   0.982  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.144  &   1.164  &   5.515  &   0.224  &   0.811  &   0.940  &   0.975  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.157  &   1.143  &   5.450  &   0.231  &   0.782  &   0.933  &   0.975  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.173  &   1.423  &   6.086  &   0.253  &   0.749  &   0.919  &   0.967  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.188  &   1.405  &   5.981  &   0.260  &   0.713  &   0.910  &   0.967  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.195  &   1.481  &   6.143  &   0.268  &   0.694  &   0.905  &   0.964  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.221  &   1.899  &   6.956  &   0.300  &   0.644  &   0.878  &   0.950  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.213  &   1.635  &   6.434  &   0.284  &   0.655  &   0.889  &   0.960  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.284  &   2.545  &   8.104  &   0.363  &   0.519  &   0.811  &   0.925  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.128  &   0.882  &   4.882  &   0.203  &   0.846  &   0.953  &   0.980  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.102  &   0.757  &   4.441  &   0.178  &   0.898  &   0.965  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.181  &   1.296  &   5.979  &   0.262  &   0.720  &   0.911  &   0.965  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.104  &   0.770  &   4.491  &   0.180  &   0.894  &   0.965  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.190  &   1.408  &   6.008  &   0.269  &   0.703  &   0.900  &   0.962  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.109  &   0.801  &   4.583  &   0.184  &   0.886  &   0.963  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.239  &   1.915  &   6.959  &   0.324  &   0.591  &   0.848  &   0.940  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.113  &   0.838  &   4.679  &   0.188  &   0.876  &   0.961  &   0.982  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.242  &   1.983  &   7.137  &   0.325  &   0.591  &   0.846  &   0.940  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.123  &   0.883  &   4.857  &   0.198  &   0.857  &   0.956  &   0.981  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.095  &   0.676  &   4.240  &   0.171  &   0.909  &   0.968  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.124  &   0.901  &   4.903  &   0.201  &   0.855  &   0.954  &   0.980  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.097  &   0.688  &   4.290  &   0.174  &   0.906  &   0.967  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.162  &   1.217  &   5.661  &   0.238  &   0.773  &   0.930  &   0.973  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.102  &   0.713  &   4.399  &   0.178  &   0.898  &   0.965  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.193  &   1.476  &   6.212  &   0.266  &   0.701  &   0.906  &   0.965  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.112  &   0.772  &   4.666  &   0.191  &   0.874  &   0.960  &   0.982  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.200  &   1.554  &   6.392  &   0.275  &   0.682  &   0.901  &   0.962  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.134  &   0.924  &   5.248  &   0.215  &   0.825  &   0.945  &   0.977  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.218  &   1.710  &   6.698  &   0.291  &   0.640  &   0.886  &   0.958  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.107  &   0.798  &   4.645  &   0.184  &   0.888  &   0.963  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.144  &   1.036  &   5.262  &   0.223  &   0.811  &   0.939  &   0.975  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.112  &   0.824  &   4.836  &   0.191  &   0.875  &   0.958  &   0.981  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.191  &   1.457  &   6.228  &   0.272  &   0.701  &   0.901  &   0.961  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.124  &   0.922  &   5.403  &   0.210  &   0.844  &   0.946  &   0.977  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.204  &   1.616  &   6.316  &   0.287  &   0.676  &   0.884  &   0.954  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.139  &   1.091  &   6.170  &   0.235  &   0.808  &   0.928  &   0.970  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.255  &   2.239  &   7.217  &   0.337  &   0.573  &   0.830  &   0.933  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.156  &   1.327  &   7.000  &   0.264  &   0.766  &   0.908  &   0.958  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.244  &   2.029  &   7.181  &   0.327  &   0.588  &   0.845  &   0.937  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.105  &   0.790  &   4.641  &   0.182  &   0.889  &   0.964  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.098  &   0.737  &   4.361  &   0.174  &   0.905  &   0.967  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.112  &   0.823  &   4.896  &   0.191  &   0.872  &   0.959  &   0.982  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.100  &   0.752  &   4.409  &   0.176  &   0.902  &   0.966  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.137  &   1.078  &   6.164  &   0.227  &   0.809  &   0.932  &   0.973  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.103  &   0.782  &   4.514  &   0.180  &   0.895  &   0.964  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.149  &   1.253  &   6.860  &   0.250  &   0.778  &   0.915  &   0.964  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.115  &   0.859  &   4.796  &   0.193  &   0.869  &   0.958  &   0.981  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.169  &   1.529  &   7.651  &   0.282  &   0.735  &   0.891  &   0.950  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.140  &   0.995  &   5.302  &   0.219  &   0.811  &   0.943  &   0.977  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.100  &   0.710  &   4.375  &   0.177  &   0.899  &   0.967  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.108  &   0.825  &   4.731  &   0.186  &   0.886  &   0.962  &   0.982  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.109  &   0.760  &   4.673  &   0.187  &   0.880  &   0.961  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.114  &   0.883  &   4.964  &   0.194  &   0.872  &   0.958  &   0.981  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.123  &   0.903  &   5.368  &   0.208  &   0.845  &   0.946  &   0.978  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.126  &   0.991  &   5.370  &   0.209  &   0.845  &   0.949  &   0.978  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.141  &   1.124  &   6.257  &   0.237  &   0.799  &   0.927  &   0.969  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.139  &   1.103  &   5.837  &   0.226  &   0.815  &   0.937  &   0.974  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.157  &   1.313  &   6.865  &   0.259  &   0.763  &   0.909  &   0.961  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.154  &   1.246  &   6.398  &   0.247  &   0.777  &   0.922  &   0.968  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.139  &   1.049  &   5.649  &   0.228  &   0.816  &   0.932  &   0.971  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.108  &   0.814  &   4.775  &   0.185  &   0.883  &   0.962  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.149  &   1.147  &   5.972  &   0.242  &   0.793  &   0.921  &   0.966  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.116  &   0.868  &   5.151  &   0.196  &   0.863  &   0.955  &   0.981  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.144  &   1.136  &   6.043  &   0.239  &   0.800  &   0.922  &   0.966  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.148  &   1.170  &   6.421  &   0.236  &   0.787  &   0.924  &   0.970  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.152  &   1.201  &   6.244  &   0.248  &   0.784  &   0.915  &   0.964  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.162  &   1.328  &   6.945  &   0.257  &   0.758  &   0.908  &   0.962  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.150  &   1.186  &   6.274  &   0.245  &   0.787  &   0.917  &   0.965  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.182  &   1.564  &   7.592  &   0.285  &   0.714  &   0.887  &   0.951  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.094  &   0.660  &   4.219  &   0.169  &   0.910  &   0.969  &   0.985  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.103  &   0.739  &   4.459  &   0.180  &   0.895  &   0.965  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.095  &   0.660  &   4.239  &   0.170  &   0.908  &   0.968  &   0.985  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.111  &   0.796  &   4.787  &   0.190  &   0.878  &   0.960  &   0.982  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.097  &   0.659  &   4.323  &   0.173  &   0.903  &   0.967  &   0.985  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.124  &   0.923  &   5.394  &   0.207  &   0.847  &   0.948  &   0.978  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.099  &   0.680  &   4.437  &   0.176  &   0.898  &   0.966  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.141  &   1.126  &   6.233  &   0.233  &   0.804  &   0.930  &   0.971  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.104  &   0.718  &   4.649  &   0.182  &   0.886  &   0.962  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.158  &   1.304  &   6.808  &   0.255  &   0.766  &   0.914  &   0.963  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.094  &   0.685  &   4.235  &   0.170  &   0.910  &   0.969  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.142  &   1.054  &   5.560  &   0.225  &   0.813  &   0.936  &   0.974  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.096  &   0.706  &   4.292  &   0.172  &   0.907  &   0.968  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.154  &   1.145  &   5.838  &   0.238  &   0.787  &   0.927  &   0.971  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.104  &   0.765  &   4.476  &   0.181  &   0.892  &   0.963  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.153  &   1.166  &   6.015  &   0.240  &   0.787  &   0.924  &   0.968  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.133  &   0.934  &   5.011  &   0.209  &   0.833  &   0.949  &   0.979  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.161  &   1.228  &   6.182  &   0.248  &   0.770  &   0.918  &   0.966  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.195  &   1.466  &   6.277  &   0.273  &   0.695  &   0.907  &   0.963  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.159  &   1.232  &   6.336  &   0.248  &   0.768  &   0.915  &   0.967  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.117  &   0.838  &   4.924  &   0.197  &   0.863  &   0.953  &   0.980  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.098  &   0.709  &   4.358  &   0.173  &   0.904  &   0.967  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.142  &   1.029  &   5.633  &   0.226  &   0.810  &   0.936  &   0.974  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.099  &   0.717  &   4.432  &   0.175  &   0.900  &   0.966  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.195  &   1.481  &   6.769  &   0.284  &   0.686  &   0.893  &   0.957  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.104  &   0.733  &   4.592  &   0.180  &   0.890  &   0.964  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.254  &   2.064  &   8.016  &   0.348  &   0.550  &   0.835  &   0.931  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.108  &   0.761  &   4.764  &   0.185  &   0.881  &   0.961  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.308  &   2.728  &   9.385  &   0.412  &   0.440  &   0.764  &   0.898  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.115  &   0.829  &   5.076  &   0.195  &   0.864  &   0.955  &   0.981  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.117  &   0.820  &   4.804  &   0.197  &   0.864  &   0.955  &   0.980  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.098  &   0.733  &   4.338  &   0.173  &   0.905  &   0.967  &   0.984  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.142  &   1.007  &   5.573  &   0.228  &   0.810  &   0.935  &   0.973  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.100  &   0.768  &   4.421  &   0.176  &   0.902  &   0.966  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.171  &   1.267  &   6.431  &   0.262  &   0.741  &   0.911  &   0.963  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.109  &   0.837  &   4.627  &   0.186  &   0.884  &   0.962  &   0.982  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.234  &   1.979  &   8.310  &   0.339  &   0.587  &   0.846  &   0.932  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.140  &   1.050  &   5.226  &   0.215  &   0.823  &   0.944  &   0.978  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.282  &   2.596  &   9.552  &   0.400  &   0.485  &   0.788  &   0.899  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.204  &   1.658  &   6.485  &   0.279  &   0.683  &   0.897  &   0.961  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.106  &   0.722  &   4.588  &   0.183  &   0.885  &   0.962  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.138  &   1.126  &   5.383  &   0.217  &   0.828  &   0.943  &   0.977  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.122  &   0.843  &   5.222  &   0.203  &   0.849  &   0.950  &   0.980  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.174  &   1.443  &   6.024  &   0.254  &   0.748  &   0.916  &   0.968  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.152  &   1.127  &   6.289  &   0.240  &   0.781  &   0.924  &   0.971  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.234  &   2.113  &   7.069  &   0.311  &   0.622  &   0.861  &   0.946  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.242  &   2.079  &   8.566  &   0.347  &   0.571  &   0.836  &   0.927  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.294  &   2.861  &   8.117  &   0.366  &   0.513  &   0.803  &   0.918  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.294  &   2.712  &   9.675  &   0.411  &   0.467  &   0.773  &   0.892  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.330  &   3.014  &   8.900  &   0.411  &   0.436  &   0.745  &   0.895  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.132  &   0.937  &   5.555  &   0.216  &   0.826  &   0.941  &   0.977  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.127  &   0.942  &   4.993  &   0.204  &   0.849  &   0.950  &   0.979  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.145  &   1.041  &   5.883  &   0.230  &   0.800  &   0.932  &   0.974  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.164  &   1.235  &   5.694  &   0.245  &   0.765  &   0.922  &   0.969  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.201  &   1.627  &   6.440  &   0.283  &   0.686  &   0.887  &   0.956  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.174  &   1.292  &   6.525  &   0.262  &   0.734  &   0.910  &   0.964  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.272  &   2.414  &   7.857  &   0.353  &   0.537  &   0.816  &   0.925  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.220  &   1.724  &   7.465  &   0.312  &   0.622  &   0.869  &   0.946  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.305  &   2.660  &   8.876  &   0.399  &   0.461  &   0.765  &   0.902  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.275  &   2.327  &   8.671  &   0.373  &   0.503  &   0.808  &   0.918  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.114  &   0.883  &   4.838  &   0.191  &   0.875  &   0.959  &   0.982  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.108  &   0.835  &   4.601  &   0.182  &   0.891  &   0.965  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.135  &   1.020  &   5.260  &   0.211  &   0.832  &   0.948  &   0.979  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.111  &   0.817  &   4.632  &   0.186  &   0.883  &   0.963  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.117  &   0.841  &   4.728  &   0.191  &   0.870  &   0.960  &   0.982  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.184  &   1.454  &   6.123  &   0.258  &   0.720  &   0.911  &   0.969  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.129  &   0.881  &   5.177  &   0.206  &   0.835  &   0.949  &   0.980  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.271  &   2.371  &   7.829  &   0.347  &   0.539  &   0.820  &   0.931  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.149  &   1.138  &   6.318  &   0.242  &   0.781  &   0.923  &   0.967  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.308  &   2.658  &   8.826  &   0.397  &   0.457  &   0.764  &   0.903  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.108  &   0.761  &   4.641  &   0.185  &   0.883  &   0.962  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.155  &   1.197  &   5.622  &   0.232  &   0.789  &   0.934  &   0.975  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.115  &   0.809  &   4.785  &   0.191  &   0.869  &   0.959  &   0.982  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.177  &   1.408  &   6.001  &   0.253  &   0.739  &   0.915  &   0.969  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.121  &   0.842  &   4.891  &   0.197  &   0.858  &   0.956  &   0.981  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.215  &   1.846  &   6.685  &   0.290  &   0.661  &   0.881  &   0.955  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.139  &   0.966  &   5.270  &   0.216  &   0.816  &   0.945  &   0.979  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.259  &   2.393  &   7.494  &   0.333  &   0.574  &   0.837  &   0.936  \\
+ model_name: models/MonoViT/MonoViT_MS_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.161  &   1.133  &   5.734  &   0.239  &   0.766  &   0.930  &   0.973  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.302  &   2.807  &   8.308  &   0.378  &   0.491  &   0.788  &   0.912  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.108  &   0.804  &   4.530  &   0.182  &   0.892  &   0.964  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.112  &   0.809  &   4.653  &   0.187  &   0.883  &   0.962  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.116  &   0.813  &   4.827  &   0.192  &   0.868  &   0.959  &   0.983  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.131  &   0.926  &   5.424  &   0.211  &   0.833  &   0.946  &   0.979  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.148  &   1.110  &   6.115  &   0.235  &   0.788  &   0.931  &   0.972  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.111  &   0.782  &   4.727  &   0.188  &   0.876  &   0.960  &   0.982  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.117  &   0.833  &   4.911  &   0.195  &   0.863  &   0.957  &   0.982  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.123  &   0.867  &   5.029  &   0.201  &   0.852  &   0.953  &   0.981  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.140  &   0.988  &   5.447  &   0.218  &   0.814  &   0.942  &   0.978  \\
+ model_name: models/MonoViT/MonoViT_M_1024x320 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.158  &   1.135  &   5.838  &   0.238  &   0.769  &   0.930  &   0.974  \\

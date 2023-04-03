@@ -344,9 +344,9 @@ if __name__ == "__main__":
     # set summary
     summary = {
         'printlogs': dict(),
-        'avgs_DES1': dict(),
-        'avgs_DES2': dict(),
-        'avgs_DES3': dict(),
+        'avgs_DEE1': dict(),
+        'avgs_DEE2': dict(),
+        'avgs_DEE3': dict(),
     }
 
     # load baseline results
@@ -367,9 +367,9 @@ if __name__ == "__main__":
     evaluate(opt=opt, corruption=None, severity=None, logger=logger, info=info)
 
     # calculate scores
-    info['clean']['DES1'] = round(info['clean']['abs_rel'] - info['clean']['a1']  + 1, 3)        # abs_rel - a1 + 1
-    info['clean']['DES2'] = round((info['clean']['abs_rel'] - info['clean']['a1']  + 1) / 2, 3)  # 0.5 * (abs_rel - a1 + 1)
-    info['clean']['DES3'] = round(info['clean']['abs_rel'] / info['clean']['a1'] , 3)            # abs_rel / a1
+    info['clean']['DEE1'] = round(info['clean']['abs_rel'] - info['clean']['a1']  + 1, 3)        # abs_rel - a1 + 1
+    info['clean']['DEE2'] = round((info['clean']['abs_rel'] - info['clean']['a1']  + 1) / 2, 3)  # 0.5 * (abs_rel - a1 + 1)
+    info['clean']['DEE3'] = round(info['clean']['abs_rel'] / info['clean']['a1'] , 3)            # abs_rel / a1
 
     # print results
     logger.info("Successful! Paste the following into the experiment log page:")
@@ -381,10 +381,10 @@ if __name__ == "__main__":
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | {:.3f} | {:.3f} | {:.3f} | {:.3f} | {:.3f} | {:.3f} | {:.3f} |
 
-- **Summary:** $\\text{{DES}}_1=$ {:.3f}, $\\text{{DES}}_2=$ {:.3f}, $\\text{{DES}}_3=$ {:.3f}
+- **Summary:** $\\text{{DEE}}_1=$ {:.3f}, $\\text{{DEE}}_2=$ {:.3f}, $\\text{{DEE}}_3=$ {:.3f}
 """.format(
     info['clean']['abs_rel'], info['clean']['sq_rel'], info['clean']['rmse'], info['clean']['rmse_log'], info['clean']['a1'], info['clean']['a2'], info['clean']['a3'],
-    info['clean']['DES1'], info['clean']['DES2'], info['clean']['DES3']
+    info['clean']['DEE1'], info['clean']['DEE2'], info['clean']['DEE3']
 )
     logger.info(printlog_clean)
     logger.info("-"*100+'\n')
@@ -419,9 +419,9 @@ if __name__ == "__main__":
             'avg_a1'      : round(avg_a1, 3),
             'avg_a2'      : round(avg_a2, 3),
             'avg_a3'      : round(avg_a3, 3),
-            'DES1'        : round(avg_abs_rel - avg_a1 + 1, 3),        # abs_rel - a1 + 1
-            'DES2'        : round((avg_abs_rel - avg_a1 + 1) / 2, 3),  # 0.5 * (abs_rel - a1 + 1)
-            'DES3'        : round(avg_abs_rel / avg_a1, 3),            # abs_rel / a1
+            'DEE1'        : round(avg_abs_rel - avg_a1 + 1, 3),        # abs_rel - a1 + 1
+            'DEE2'        : round((avg_abs_rel - avg_a1 + 1) / 2, 3),  # 0.5 * (abs_rel - a1 + 1)
+            'DEE3'        : round(avg_abs_rel / avg_a1, 3),            # abs_rel / a1
         }
 
         # print results
@@ -439,7 +439,7 @@ if __name__ == "__main__":
 |   5   | {:.3f} | {:.3f} | {:.3f} | {:.3f} | {:.3f} | {:.3f} | {:.3f} |
 |  avg  | {:.3f} | {:.3f} | {:.3f} | {:.3f} | {:.3f} | {:.3f} | {:.3f} |
 
-- **Summary:** $\\text{{DES}}_1=$ {:.3f}, $\\text{{DES}}_2=$ {:.3f}, $\\text{{DES}}_3=$ {:.3f}
+- **Summary:** $\\text{{DEE}}_1=$ {:.3f}, $\\text{{DEE}}_2=$ {:.3f}, $\\text{{DEE}}_3=$ {:.3f}
 """.format(
     corruption.capitalize(),
     l1['abs_rel'], l1['sq_rel'], l1['rmse'], l1['rmse_log'], l1['a1'], l1['a2'], l1['a3'],
@@ -454,18 +454,18 @@ if __name__ == "__main__":
     info['avgs'][corruption]['avg_a1'],
     info['avgs'][corruption]['avg_a2'],
     info['avgs'][corruption]['avg_a3'],
-    info['avgs'][corruption]['DES1'],
-    info['avgs'][corruption]['DES2'],
-    info['avgs'][corruption]['DES3'],
+    info['avgs'][corruption]['DEE1'],
+    info['avgs'][corruption]['DEE2'],
+    info['avgs'][corruption]['DEE3'],
 )
 
         logger.info(printlog)
         logger.info("-"*100)
 
         summary['printlogs'][corruption] = printlog
-        summary['avgs_DES1'][corruption] = info['avgs'][corruption]['DES1']
-        summary['avgs_DES2'][corruption] = info['avgs'][corruption]['DES2']
-        summary['avgs_DES3'][corruption] = info['avgs'][corruption]['DES3']
+        summary['avgs_DEE1'][corruption] = info['avgs'][corruption]['DEE1']
+        summary['avgs_DEE2'][corruption] = info['avgs'][corruption]['DEE2']
+        summary['avgs_DEE3'][corruption] = info['avgs'][corruption]['DEE3']
 
 
 

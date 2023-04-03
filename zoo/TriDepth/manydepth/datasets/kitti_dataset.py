@@ -6,9 +6,9 @@ import skimage.transform
 import numpy as np
 import PIL.Image as pil
 
-from manydepth.kitti_utils import generate_depth_map
+from kitti_utils import generate_depth_map
 from .mono_dataset import MonoDataset
-from ..seg_utils import *
+from seg_utils import *
 from PIL import Image
 from torchvision import transforms
 

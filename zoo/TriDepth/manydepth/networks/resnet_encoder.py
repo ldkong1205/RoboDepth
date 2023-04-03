@@ -277,6 +277,8 @@ class ResnetEncoderMatching(nn.Module):
             if self.adaptive_bins:
                 self.compute_depth_bins(min_depth_bin, max_depth_bin)
 
+            # print(lookup_images.shape)
+
             batch_size, num_frames, chns, height, width = lookup_images.shape
             lookup_images = lookup_images.reshape(batch_size * num_frames, chns, height, width)
             lookup_feats = self.feature_extraction(lookup_images,

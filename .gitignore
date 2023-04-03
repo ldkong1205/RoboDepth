@@ -13,10 +13,16 @@ __pycache__
 *.sh
 
 kitti_data
+nyu_data
+kitti_c
+nyu_c
 log
 logs
 model
 models
+old_logs
 
 create_icra.py
 utils_icra.py
+
+!scripts/*.sh

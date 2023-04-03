@@ -1,0 +1,823 @@
+
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.099  &   0.708  &   4.373  &   0.175  &   0.900  &   0.967  &   0.984  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.099  &   0.708  &   4.373  &   0.175  &   0.900  &   0.967  &   0.984  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.099  &   0.711  &   4.376  &   0.175  &   0.900  &   0.967  &   0.984  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.100  &   0.734  &   4.430  &   0.176  &   0.897  &   0.966  &   0.984  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.102  &   0.758  &   4.508  &   0.179  &   0.893  &   0.965  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.105  &   0.779  &   4.600  &   0.182  &   0.887  &   0.963  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.108  &   0.797  &   4.696  &   0.185  &   0.881  &   0.961  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.127  &   0.953  &   5.084  &   0.204  &   0.851  &   0.952  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.142  &   1.065  &   5.409  &   0.220  &   0.817  &   0.942  &   0.977  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.173  &   1.330  &   6.021  &   0.252  &   0.748  &   0.918  &   0.968  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.224  &   1.778  &   6.998  &   0.306  &   0.631  &   0.871  &   0.949  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.292  &   2.469  &   8.431  &   0.380  &   0.486  &   0.794  &   0.917  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.105  &   0.762  &   4.518  &   0.181  &   0.891  &   0.964  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.107  &   0.782  &   4.559  &   0.182  &   0.887  &   0.963  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.110  &   0.821  &   4.653  &   0.186  &   0.881  &   0.961  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.111  &   0.812  &   4.664  &   0.187  &   0.877  &   0.961  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.120  &   0.873  &   4.821  &   0.195  &   0.862  &   0.957  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.125  &   0.909  &   4.939  &   0.201  &   0.853  &   0.953  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.157  &   1.185  &   5.638  &   0.235  &   0.780  &   0.929  &   0.973  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.183  &   1.422  &   6.160  &   0.263  &   0.720  &   0.909  &   0.964  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.187  &   1.443  &   6.228  &   0.267  &   0.710  &   0.905  &   0.963  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.207  &   1.621  &   6.604  &   0.286  &   0.664  &   0.889  &   0.957  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.144  &   1.042  &   5.169  &   0.221  &   0.809  &   0.939  &   0.975  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.201  &   1.520  &   6.209  &   0.282  &   0.680  &   0.893  &   0.958  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.208  &   1.636  &   6.235  &   0.289  &   0.668  &   0.883  &   0.953  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.255  &   2.181  &   7.100  &   0.337  &   0.569  &   0.835  &   0.933  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.248  &   2.040  &   7.169  &   0.332  &   0.577  &   0.841  &   0.936  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.101  &   0.747  &   4.466  &   0.178  &   0.896  &   0.965  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.103  &   0.769  &   4.518  &   0.180  &   0.893  &   0.964  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.107  &   0.802  &   4.610  &   0.183  &   0.887  &   0.962  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.116  &   0.874  &   4.824  &   0.193  &   0.868  &   0.957  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.135  &   1.034  &   5.224  &   0.212  &   0.831  &   0.946  &   0.978  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.099  &   0.697  &   4.435  &   0.184  &   0.889  &   0.963  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.116  &   0.977  &   5.083  &   0.196  &   0.870  &   0.957  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.099  &   0.701  &   4.449  &   0.184  &   0.889  &   0.962  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.125  &   1.074  &   5.522  &   0.209  &   0.849  &   0.948  &   0.977  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.100  &   0.722  &   4.505  &   0.186  &   0.885  &   0.962  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.142  &   1.197  &   6.278  &   0.238  &   0.806  &   0.929  &   0.969  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.102  &   0.749  &   4.583  &   0.188  &   0.880  &   0.961  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.167  &   1.456  &   7.232  &   0.275  &   0.746  &   0.900  &   0.955  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.105  &   0.776  &   4.687  &   0.192  &   0.874  &   0.958  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.196  &   1.804  &   8.175  &   0.317  &   0.679  &   0.868  &   0.937  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.109  &   0.804  &   4.817  &   0.196  &   0.865  &   0.956  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.115  &   0.921  &   5.121  &   0.194  &   0.867  &   0.957  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.128  &   0.961  &   5.311  &   0.227  &   0.824  &   0.934  &   0.971  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.124  &   0.987  &   5.556  &   0.208  &   0.842  &   0.948  &   0.978  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.143  &   1.106  &   5.768  &   0.252  &   0.788  &   0.915  &   0.962  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.168  &   1.463  &   7.240  &   0.269  &   0.749  &   0.903  &   0.958  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.171  &   1.407  &   6.542  &   0.299  &   0.720  &   0.880  &   0.941  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.188  &   1.699  &   7.968  &   0.299  &   0.703  &   0.880  &   0.944  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.229  &   2.106  &   8.091  &   0.399  &   0.568  &   0.788  &   0.890  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.223  &   2.124  &   8.897  &   0.349  &   0.620  &   0.843  &   0.922  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.329  &   3.550  &  10.494  &   0.571  &   0.343  &   0.595  &   0.762  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.108  &   0.810  &   4.732  &   0.186  &   0.883  &   0.961  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.105  &   0.772  &   4.657  &   0.194  &   0.874  &   0.956  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.118  &   0.896  &   5.152  &   0.200  &   0.861  &   0.954  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.107  &   0.790  &   4.719  &   0.196  &   0.869  &   0.954  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.133  &   1.054  &   5.880  &   0.222  &   0.822  &   0.938  &   0.974  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.110  &   0.829  &   4.833  &   0.202  &   0.860  &   0.950  &   0.979  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.156  &   1.304  &   6.811  &   0.256  &   0.769  &   0.912  &   0.962  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.113  &   0.853  &   4.897  &   0.205  &   0.853  &   0.950  &   0.978  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.176  &   1.546  &   7.480  &   0.284  &   0.724  &   0.892  &   0.951  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.122  &   0.938  &   5.108  &   0.219  &   0.833  &   0.938  &   0.973  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.135  &   1.025  &   5.456  &   0.220  &   0.827  &   0.939  &   0.974  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.123  &   0.926  &   5.119  &   0.219  &   0.831  &   0.938  &   0.974  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.147  &   1.119  &   5.774  &   0.234  &   0.802  &   0.928  &   0.970  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.155  &   1.239  &   5.995  &   0.268  &   0.752  &   0.898  &   0.955  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.151  &   1.173  &   6.028  &   0.242  &   0.789  &   0.922  &   0.967  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.186  &   1.567  &   6.774  &   0.318  &   0.674  &   0.855  &   0.931  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.158  &   1.226  &   6.162  &   0.249  &   0.775  &   0.917  &   0.965  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.193  &   1.640  &   6.952  &   0.330  &   0.655  &   0.843  &   0.925  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.160  &   1.261  &   6.296  &   0.252  &   0.769  &   0.914  &   0.964  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.218  &   1.939  &   7.561  &   0.369  &   0.589  &   0.804  &   0.904  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.102  &   0.744  &   4.524  &   0.178  &   0.892  &   0.965  &   0.984  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.126  &   0.912  &   5.126  &   0.225  &   0.823  &   0.937  &   0.972  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.104  &   0.756  &   4.627  &   0.181  &   0.887  &   0.963  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.167  &   1.332  &   6.283  &   0.297  &   0.719  &   0.879  &   0.942  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.109  &   0.788  &   4.809  &   0.187  &   0.876  &   0.960  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.163  &   1.263  &   5.983  &   0.289  &   0.734  &   0.885  &   0.946  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.114  &   0.828  &   5.004  &   0.193  &   0.866  &   0.957  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.196  &   1.633  &   6.751  &   0.350  &   0.659  &   0.833  &   0.914  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.123  &   0.906  &   5.300  &   0.204  &   0.848  &   0.951  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.206  &   1.738  &   7.060  &   0.361  &   0.632  &   0.824  &   0.909  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.100  &   0.720  &   4.404  &   0.176  &   0.898  &   0.966  &   0.984  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.101  &   0.730  &   4.538  &   0.188  &   0.883  &   0.960  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.103  &   0.747  &   4.476  &   0.178  &   0.894  &   0.965  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.103  &   0.758  &   4.617  &   0.191  &   0.878  &   0.958  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.111  &   0.831  &   4.714  &   0.188  &   0.878  &   0.961  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.107  &   0.810  &   4.770  &   0.198  &   0.868  &   0.953  &   0.979  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.136  &   0.996  &   5.270  &   0.214  &   0.825  &   0.944  &   0.978  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.120  &   0.938  &   5.171  &   0.217  &   0.837  &   0.940  &   0.975  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.198  &   1.566  &   6.503  &   0.278  &   0.688  &   0.899  &   0.961  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.153  &   1.259  &   6.093  &   0.266  &   0.765  &   0.900  &   0.957  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.143  &   1.086  &   5.458  &   0.223  &   0.817  &   0.940  &   0.975  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.119  &   1.018  &   5.258  &   0.206  &   0.852  &   0.950  &   0.978  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.177  &   1.389  &   6.234  &   0.259  &   0.739  &   0.912  &   0.965  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.128  &   1.071  &   5.609  &   0.220  &   0.829  &   0.940  &   0.975  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.229  &   1.892  &   7.367  &   0.317  &   0.619  &   0.863  &   0.944  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.147  &   1.260  &   6.478  &   0.255  &   0.778  &   0.913  &   0.962  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.280  &   2.440  &   8.522  &   0.377  &   0.502  &   0.802  &   0.916  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.174  &   1.638  &   7.619  &   0.305  &   0.715  &   0.875  &   0.939  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.340  &   3.197  &  10.050  &   0.455  &   0.394  &   0.713  &   0.872  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.208  &   2.161  &   8.877  &   0.367  &   0.634  &   0.825  &   0.909  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.139  &   1.033  &   5.339  &   0.220  &   0.822  &   0.940  &   0.976  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.118  &   1.037  &   5.250  &   0.202  &   0.853  &   0.952  &   0.979  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.173  &   1.334  &   6.198  &   0.260  &   0.747  &   0.912  &   0.963  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.128  &   1.101  &   5.623  &   0.216  &   0.828  &   0.942  &   0.976  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.205  &   1.652  &   7.047  &   0.297  &   0.671  &   0.881  &   0.949  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.163  &   1.511  &   7.125  &   0.275  &   0.732  &   0.893  &   0.955  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.267  &   2.344  &   8.780  &   0.376  &   0.519  &   0.810  &   0.915  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.187  &   1.823  &   8.054  &   0.318  &   0.670  &   0.857  &   0.934  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.321  &   3.087  &  10.238  &   0.452  &   0.417  &   0.735  &   0.872  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.221  &   2.384  &   9.326  &   0.385  &   0.590  &   0.800  &   0.897  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.119  &   0.859  &   4.934  &   0.195  &   0.864  &   0.957  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.108  &   0.810  &   4.867  &   0.196  &   0.866  &   0.955  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.143  &   1.046  &   5.630  &   0.222  &   0.810  &   0.939  &   0.977  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.120  &   0.939  &   5.429  &   0.213  &   0.836  &   0.943  &   0.977  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.181  &   1.386  &   6.684  &   0.268  &   0.718  &   0.904  &   0.963  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.140  &   1.169  &   6.288  &   0.241  &   0.789  &   0.921  &   0.968  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.266  &   2.318  &   8.807  &   0.371  &   0.524  &   0.809  &   0.916  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.166  &   1.506  &   7.346  &   0.280  &   0.729  &   0.888  &   0.951  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.330  &   3.145  &  10.239  &   0.454  &   0.409  &   0.722  &   0.870  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.181  &   1.760  &   8.052  &   0.309  &   0.694  &   0.865  &   0.937  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.160  &   1.197  &   6.012  &   0.241  &   0.773  &   0.925  &   0.972  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.131  &   1.012  &   5.437  &   0.222  &   0.820  &   0.933  &   0.973  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.178  &   1.367  &   6.423  &   0.262  &   0.731  &   0.909  &   0.965  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.141  &   1.104  &   5.699  &   0.235  &   0.799  &   0.922  &   0.969  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.209  &   1.665  &   7.080  &   0.297  &   0.661  &   0.881  &   0.951  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.146  &   1.185  &   5.984  &   0.247  &   0.785  &   0.913  &   0.963  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.248  &   2.066  &   7.911  &   0.341  &   0.570  &   0.841  &   0.932  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.152  &   1.240  &   6.120  &   0.254  &   0.773  &   0.907  &   0.961  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.298  &   2.652  &   9.139  &   0.403  &   0.462  &   0.774  &   0.902  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.154  &   1.296  &   6.343  &   0.262  &   0.763  &   0.901  &   0.957  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.102  &   0.744  &   4.590  &   0.187  &   0.881  &   0.961  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.110  &   0.832  &   4.672  &   0.186  &   0.882  &   0.962  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.104  &   0.762  &   4.705  &   0.191  &   0.873  &   0.958  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.116  &   0.870  &   4.894  &   0.194  &   0.869  &   0.957  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.109  &   0.802  &   4.915  &   0.199  &   0.861  &   0.954  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.129  &   0.981  &   5.301  &   0.207  &   0.844  &   0.949  &   0.978  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.114  &   0.851  &   5.129  &   0.206  &   0.846  &   0.949  &   0.978  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.157  &   1.273  &   6.273  &   0.244  &   0.782  &   0.926  &   0.968  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.121  &   0.933  &   5.466  &   0.218  &   0.825  &   0.941  &   0.975  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.190  &   1.617  &   7.298  &   0.289  &   0.704  &   0.891  &   0.951  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.100  &   0.708  &   4.470  &   0.185  &   0.887  &   0.962  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.114  &   0.826  &   4.861  &   0.193  &   0.869  &   0.958  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.102  &   0.736  &   4.553  &   0.189  &   0.881  &   0.961  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.120  &   0.879  &   5.036  &   0.200  &   0.856  &   0.953  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.111  &   0.820  &   4.839  &   0.202  &   0.861  &   0.953  &   0.979  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.126  &   0.916  &   5.167  &   0.206  &   0.843  &   0.950  &   0.979  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.137  &   1.043  &   5.552  &   0.242  &   0.797  &   0.921  &   0.966  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.145  &   1.067  &   5.580  &   0.226  &   0.804  &   0.938  &   0.975  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.190  &   1.649  &   7.003  &   0.331  &   0.673  &   0.853  &   0.926  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_M_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.165  &   1.267  &   6.077  &   0.248  &   0.759  &   0.923  &   0.969  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.140  &   1.084  &   5.801  &   0.245  &   0.791  &   0.923  &   0.967  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.174  &   1.480  &   6.917  &   0.303  &   0.703  &   0.873  &   0.941  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.229  &   2.293  &   8.796  &   0.405  &   0.566  &   0.778  &   0.881  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.278  &   3.157  &  10.472  &   0.491  &   0.453  &   0.695  &   0.825  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.326  &   4.019  &  11.794  &   0.574  &   0.364  &   0.610  &   0.766  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.131  &   0.999  &   5.584  &   0.236  &   0.810  &   0.929  &   0.968  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.164  &   1.399  &   6.774  &   0.291  &   0.725  &   0.884  &   0.947  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.200  &   1.930  &   8.141  &   0.355  &   0.634  &   0.822  &   0.911  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.098  &   0.683  &   4.333  &   0.174  &   0.904  &   0.967  &   0.984  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.267  &   3.062  &  10.457  &   0.470  &   0.476  &   0.715  &   0.839  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.310  &   3.852  &  11.679  &   0.550  &   0.400  &   0.641  &   0.786  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.098  &   0.688  &   4.351  &   0.175  &   0.903  &   0.966  &   0.984  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.124  &   0.892  &   5.283  &   0.215  &   0.833  &   0.946  &   0.978  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.100  &   0.710  &   4.416  &   0.177  &   0.899  &   0.966  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.147  &   1.166  &   6.264  &   0.252  &   0.772  &   0.917  &   0.966  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.102  &   0.736  &   4.490  &   0.179  &   0.894  &   0.965  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.192  &   1.794  &   7.980  &   0.329  &   0.648  &   0.847  &   0.930  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.104  &   0.759  &   4.576  &   0.182  &   0.889  &   0.963  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.276  &   3.142  &  10.562  &   0.479  &   0.446  &   0.701  &   0.834  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.107  &   0.778  &   4.663  &   0.185  &   0.882  &   0.962  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.324  &   4.019  &  11.856  &   0.572  &   0.367  &   0.612  &   0.767  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.125  &   0.903  &   4.977  &   0.204  &   0.849  &   0.950  &   0.979  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.163  &   1.366  &   6.807  &   0.280  &   0.728  &   0.894  &   0.954  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.140  &   1.014  &   5.302  &   0.221  &   0.816  &   0.940  &   0.976  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.182  &   1.603  &   7.398  &   0.312  &   0.679  &   0.865  &   0.939  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.170  &   1.266  &   5.878  &   0.253  &   0.752  &   0.918  &   0.967  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.215  &   2.090  &   8.470  &   0.375  &   0.592  &   0.804  &   0.902  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.225  &   1.774  &   6.851  &   0.310  &   0.628  &   0.870  &   0.947  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.256  &   2.757  &   9.770  &   0.450  &   0.499  &   0.732  &   0.852  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.307  &   2.602  &   8.063  &   0.381  &   0.469  &   0.781  &   0.918  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.296  &   3.476  &  11.016  &   0.520  &   0.413  &   0.664  &   0.806  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.107  &   0.761  &   4.571  &   0.184  &   0.886  &   0.962  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.112  &   0.886  &   4.740  &   0.193  &   0.869  &   0.958  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.109  &   0.782  &   4.633  &   0.186  &   0.881  &   0.961  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.116  &   0.910  &   4.898  &   0.198  &   0.859  &   0.954  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.114  &   0.825  &   4.753  &   0.191  &   0.873  &   0.958  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.123  &   0.983  &   5.109  &   0.205  &   0.846  &   0.949  &   0.979  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.116  &   0.848  &   4.813  &   0.194  &   0.867  &   0.958  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.137  &   1.115  &   5.696  &   0.227  &   0.810  &   0.933  &   0.972  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.128  &   0.942  &   5.006  &   0.204  &   0.845  &   0.951  &   0.979  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.167  &   1.460  &   6.921  &   0.282  &   0.737  &   0.889  &   0.949  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.123  &   0.894  &   4.914  &   0.199  &   0.855  &   0.953  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.111  &   0.846  &   4.931  &   0.201  &   0.859  &   0.953  &   0.979  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.154  &   1.161  &   5.610  &   0.233  &   0.783  &   0.930  &   0.973  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.116  &   0.899  &   5.080  &   0.207  &   0.848  &   0.948  &   0.978  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.180  &   1.379  &   6.121  &   0.261  &   0.720  &   0.910  &   0.965  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.120  &   0.937  &   5.204  &   0.213  &   0.837  &   0.944  &   0.976  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.187  &   1.437  &   6.229  &   0.268  &   0.710  &   0.902  &   0.962  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.132  &   1.058  &   5.580  &   0.232  &   0.807  &   0.929  &   0.971  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.209  &   1.647  &   6.635  &   0.289  &   0.659  &   0.887  &   0.956  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.145  &   1.183  &   5.973  &   0.249  &   0.779  &   0.916  &   0.966  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.124  &   0.882  &   4.900  &   0.204  &   0.850  &   0.950  &   0.978  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.168  &   1.212  &   5.739  &   0.251  &   0.755  &   0.918  &   0.966  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.163  &   1.222  &   5.627  &   0.247  &   0.760  &   0.919  &   0.966  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.199  &   1.608  &   6.312  &   0.288  &   0.684  &   0.885  &   0.950  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.208  &   1.674  &   6.501  &   0.293  &   0.667  &   0.880  &   0.951  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.101  &   0.717  &   4.445  &   0.179  &   0.897  &   0.965  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.104  &   0.746  &   4.528  &   0.182  &   0.892  &   0.963  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.110  &   0.801  &   4.684  &   0.188  &   0.881  &   0.960  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.125  &   0.930  &   5.054  &   0.203  &   0.850  &   0.951  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.162  &   1.222  &   5.820  &   0.242  &   0.770  &   0.928  &   0.971  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.120  &   1.009  &   5.204  &   0.198  &   0.863  &   0.954  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.128  &   1.043  &   5.481  &   0.210  &   0.842  &   0.947  &   0.978  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.144  &   1.147  &   6.087  &   0.235  &   0.801  &   0.929  &   0.970  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.165  &   1.368  &   6.881  &   0.267  &   0.753  &   0.906  &   0.957  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.190  &   1.680  &   7.775  &   0.305  &   0.694  &   0.878  &   0.941  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.118  &   1.006  &   5.149  &   0.194  &   0.869  &   0.957  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.126  &   1.053  &   5.447  &   0.204  &   0.847  &   0.949  &   0.979  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.155  &   1.293  &   6.498  &   0.243  &   0.779  &   0.920  &   0.968  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.169  &   1.444  &   7.098  &   0.267  &   0.744  &   0.901  &   0.958  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.197  &   1.760  &   7.994  &   0.308  &   0.685  &   0.871  &   0.940  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.106  &   0.776  &   4.728  &   0.186  &   0.883  &   0.960  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.116  &   0.873  &   5.200  &   0.200  &   0.858  &   0.951  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.133  &   1.048  &   5.942  &   0.224  &   0.819  &   0.934  &   0.973  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.155  &   1.306  &   6.871  &   0.255  &   0.769  &   0.910  &   0.962  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.169  &   1.501  &   7.464  &   0.278  &   0.736  &   0.894  &   0.952  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.129  &   0.965  &   5.307  &   0.213  &   0.836  &   0.942  &   0.976  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.139  &   1.043  &   5.549  &   0.224  &   0.815  &   0.933  &   0.973  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.144  &   1.102  &   5.744  &   0.232  &   0.805  &   0.927  &   0.970  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.149  &   1.147  &   5.864  &   0.239  &   0.792  &   0.922  &   0.968  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.153  &   1.190  &   6.019  &   0.243  &   0.785  &   0.919  &   0.967  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.101  &   0.724  &   4.480  &   0.177  &   0.897  &   0.965  &   0.984  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.103  &   0.731  &   4.547  &   0.180  &   0.892  &   0.964  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.106  &   0.749  &   4.675  &   0.184  &   0.884  &   0.962  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.109  &   0.776  &   4.812  &   0.188  &   0.877  &   0.959  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.115  &   0.829  &   5.052  &   0.196  &   0.862  &   0.955  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.098  &   0.690  &   4.351  &   0.175  &   0.902  &   0.966  &   0.984  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.100  &   0.716  &   4.421  &   0.178  &   0.898  &   0.965  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.108  &   0.788  &   4.657  &   0.188  &   0.880  &   0.960  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.137  &   0.995  &   5.253  &   0.218  &   0.818  &   0.942  &   0.976  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.203  &   1.611  &   6.530  &   0.286  &   0.677  &   0.891  &   0.958  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.131  &   0.963  &   5.301  &   0.215  &   0.835  &   0.943  &   0.977  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.161  &   1.240  &   6.118  &   0.253  &   0.766  &   0.916  &   0.965  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.211  &   1.733  &   7.386  &   0.313  &   0.647  &   0.866  &   0.942  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.249  &   2.176  &   8.529  &   0.359  &   0.557  &   0.822  &   0.920  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.292  &   2.686  &   9.523  &   0.408  &   0.469  &   0.774  &   0.895  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.124  &   0.887  &   5.115  &   0.208  &   0.846  &   0.948  &   0.978  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.151  &   1.136  &   5.945  &   0.244  &   0.786  &   0.923  &   0.967  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.184  &   1.458  &   6.921  &   0.284  &   0.705  &   0.892  &   0.954  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.237  &   2.117  &   8.658  &   0.352  &   0.583  &   0.831  &   0.923  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.282  &   2.680  &   9.686  &   0.408  &   0.490  &   0.779  &   0.893  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.113  &   0.793  &   4.840  &   0.192  &   0.871  &   0.958  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.130  &   0.954  &   5.537  &   0.216  &   0.831  &   0.943  &   0.977  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.166  &   1.314  &   6.761  &   0.263  &   0.749  &   0.908  &   0.962  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.236  &   2.080  &   8.597  &   0.348  &   0.581  &   0.834  &   0.924  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.285  &   2.679  &   9.637  &   0.408  &   0.482  &   0.777  &   0.892  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.144  &   1.082  &   5.931  &   0.234  &   0.803  &   0.930  &   0.972  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.161  &   1.239  &   6.364  &   0.254  &   0.765  &   0.915  &   0.965  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.193  &   1.543  &   7.111  &   0.292  &   0.687  &   0.884  &   0.951  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.228  &   1.935  &   8.012  &   0.335  &   0.603  &   0.844  &   0.932  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.262  &   2.341  &   8.931  &   0.375  &   0.528  &   0.808  &   0.911  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.112  &   0.850  &   4.660  &   0.186  &   0.882  &   0.961  &   0.983  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.116  &   0.874  &   4.796  &   0.190  &   0.873  &   0.958  &   0.982  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.123  &   0.939  &   4.996  &   0.197  &   0.859  &   0.954  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.137  &   1.051  &   5.488  &   0.215  &   0.823  &   0.943  &   0.977  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.168  &   1.318  &   6.471  &   0.258  &   0.749  &   0.912  &   0.962  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.112  &   0.824  &   4.820  &   0.191  &   0.875  &   0.958  &   0.981  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.118  &   0.873  &   4.960  &   0.197  &   0.863  &   0.955  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.123  &   0.915  &   5.087  &   0.202  &   0.851  &   0.952  &   0.980  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.137  &   1.025  &   5.402  &   0.217  &   0.821  &   0.943  &   0.977  \\
+ model_name: /nvme/konglingdong/models/RoboDepth/models/MonoViT/MonoViT_MS_640x192 
+  abs_rel |   sq_rel |     rmse | rmse_log |       a1 |       a2 |       a3 | 
+ &   0.151  &   1.140  &   5.721  &   0.232  &   0.792  &   0.933  &   0.974  \\

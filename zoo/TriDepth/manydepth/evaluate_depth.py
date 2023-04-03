@@ -66,6 +66,7 @@ def evaluate(opt):
     frames_to_load = [0]
     if opt.use_future_frame:
         frames_to_load.append(1)
+    
     for idx in range(-1, -1 - opt.num_matching_frames, -1):
         if idx not in frames_to_load:
             frames_to_load.append(idx)
