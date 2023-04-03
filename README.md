@@ -116,7 +116,7 @@ Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 > - [ ] **[DepthFormer](https://arxiv.org/abs/2204.07616), CVPR 2022.** <sup>[**`[Code]`**](https://github.com/TRI-ML/vidar)</sup>
 > - [ ] **[DynaDepth](https://arxiv.org/abs/2207.04680), ECCV 2022.** <sup>[**`[Code]`**](https://github.com/SenZHANG-GitHub/ekf-imu-depth)</sup>
 > - [ ] **[DynamicDepth](https://arxiv.org/abs/2203.15174), ECCV 2022.** <sup>[**`[Code]`**](https://github.com/AutoAILab/DynamicDepth)</sup>
-> - [ ] **[RA-Depth](https://arxiv.org/abs/2207.11984), ECCV 2022.** <sup>[**`[Code]`**](https://github.com/hmhemu/RA-Depth)</sup>
+> - [x] **[RA-Depth](https://arxiv.org/abs/2207.11984), ECCV 2022.** <sup>[**`[Code]`**](https://github.com/hmhemu/RA-Depth)</sup>
 > - [ ] **[Dyna-DM](https://arxiv.org/abs/2206.03799), arXiv 2022.** <sup>[**`[Code]`**](https://github.com/kieran514/dyna-dm)</sup>
 > - [x] **[TriDepth](https://arxiv.org/abs/2210.00411), WACV 2023.** <sup>[**`[Code]`**](https://github.com/xingyuuchen/tri-depth)</sup>
 > - [ ] **[FreqAwareDepth](https://arxiv.org/abs/2210.05479), WACV 2023.** <sup>[**`[Code]`**](https://github.com/xingyuuchen/freq-aware-depth)</sup>
@@ -214,6 +214,7 @@ Kindly refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 | [FSRE-Depth]() | Mono | 99.05 | 83.86 | 0.109 | 0.128 | 0.261 | 0.139 | 0.237 | 0.393 | 0.170 | 0.291 | 0.273 | 0.214 | 0.185 | 0.119 | 0.179 | 0.400 | 0.414 | 0.370 | 0.407 | 0.147 | 0.224 |
 | [MonoViT<sub>MPViT</sub>]() | Mono | 79.33 | 89.15 | 0.099 | 0.106 | 0.243 | 0.116 | 0.213 | 0.275 | 0.119 | 0.180 | 0.204 | 0.163 | 0.179 | 0.118 | 0.146 | 0.310 | 0.293 | 0.271 | 0.290 | 0.162 | 0.154 |
 | [MonoViT<sub>MPViT+HR</sub>]() | Mono |  |  |  
+| [RA-Depth]() | Mono | 112.73 | 78.79 | 0.096 | 0.113 | 0.314 | 0.127 | 0.239 | 0.413 | 0.165 | 0.499 | 0.368 | 0.378 | 0.214 | 0.122 | 0.178 | 0.423 | 0.403 | 0.402 | 0.455 | 0.175 | 0.192 |
 | [TriDepth<sub>single</sub>]() | Mono | 109.26 | 81.56 | 0.117 | 0.131 | 0.300 | 0.188 | 0.338 | 0.498 | 0.265 | 0.268 | 0.301 | 0.212 | 0.190 | 0.126 | 0.199 | 0.418 | 0.438 | 0.380 | 0.438 | 0.142 | 0.205 |
 | [Lite-Mono<sub>Tiny</sub>]() | Mono | 92.92 | 89.55 | 0.115 | 0.127 | 0.257 | 0.157 | 0.225 | 0.354 | 0.191 | 0.257 | 0.248 | 0.198 | 0.186 | 0.127 | 0.159 | 0.358 | 0.342 | 0.336 | 0.360 | 0.147 | 0.161 |
 | [Lite-Mono<sub>Small</sub>]() | Mono | 100.34 | 84.67 | 0.115 | 0.127 | 0.251 | 0.162 | 0.251 | 0.430 | 0.238 | 0.353 | 0.282 | 0.246 | 0.204 | 0.128 | 0.161 | 0.350 | 0.336 | 0.319 | 0.356 | 0.154 | 0.164 |
