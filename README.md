@@ -302,7 +302,7 @@ If you find this work helpful, please kindly consider citing our paper:
 
 ```bibtex
 @misc{kong2023robodepth_benchmark,
-  title = {RoboDepth: Robust Out-of-Distribution Depth Estimation under Corruptions},
+  title = {The RoboDepth Benchmark for Robust Out-of-Distribution Depth Estimation under Corruptions},
   author = {Kong, Lingdong and Xie, Shaoyuan and Hu, Hanjiang and Cottereau, Benoit and Ng, Lai Xing and Ooi, Wei Tsang},
   howpublished = {\url{https://github.com/ldkong1205/RoboDepth}}, 
   year = {2023},
@@ -314,6 +314,7 @@ If you find this work helpful, please kindly consider citing our paper:
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
 <br />
 This work is under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
 
 ## Acknowledgements
 This project is supported by [DesCartes](https://descartes.cnrsatcreate.cnrs.fr/), a [CNRS@CREATE](https://www.cnrsatcreate.cnrs.fr/) program on Intelligent Modeling for Decision-Making in Critical Urban Systems.
