@@ -9,8 +9,10 @@ Welcome to the [RoboDepth Competition](https://robodepth.github.io/)! :robot:
 - There are **two tracks** in this competition, including self-supervised depth estimation of outdoor scenes (track 1) and fully-supervised depth estimation of indoor scenes (track 2).
 
 <p align="center">
-  <img src="../docs/figs/icra2023.jpeg" align="center" width="100%">
+  <img src="../docs/figs/icra2023.png" align="center" width="100%">
 </p>
+
+This competition is sponsored by [Baidu Research](http://research.baidu.com/), USA.
 
 
 ## Outline
