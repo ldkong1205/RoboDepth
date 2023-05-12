@@ -54,6 +54,7 @@
 
 
 ## Updates
+- [2023.05] - We are glad to announce that the [1st RoboDepth Competition](https://robodepth.github.io/) will be sponsored by [Baidu Research](http://research.baidu.com/), USA. :beers:
 - [2023.01] - The `NYUDepth2-C` dataset is ready to be downloaded! See [here](docs/DATA_PREPARE.md) for more details.
 - [2023.01] - Evaluation server for Track 2 (fully-supervised depth estimation) is available on [this](https://codalab.lisn.upsaclay.fr/competitions/9821) page.
 - [2023.01] - Evaluation server for Track 1 (self-supervised depth estimation) is available on [this](https://codalab.lisn.upsaclay.fr/competitions/9418) page.
