@@ -81,7 +81,6 @@ Kindly refer to [INSTALL.md](docs/INSTALL.md) for the installation details.
 
 
 ## Data Preparation
-
 Our datasets are hosted by [OpenDataLab](https://opendatalab.com/).
 ><img src="https://raw.githubusercontent.com/opendatalab/dsdl-sdk/2ae5264a7ce1ae6116720478f8fa9e59556bed41/resources/opendatalab.svg" width="32%"/><br>
 > OpenDataLab is a pioneering open data platform for the large AI model era, making datasets accessible. By using OpenDataLab, researchers can obtain free formatted datasets in various fields.
@@ -312,9 +311,15 @@ If you find this work helpful, please kindly consider citing our paper:
 
 
 ## License
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
-<br />
+<!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> -->
+
 This work is under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+
+## Sponsor
+We thank [Baidu Research](http://research.baidu.com/), USA for the support provided for the [1st RoboDepth Competition](https://robodepth.github.io/).
+
+><img src="docs/figs/baidu.png" width="32%"/><br>
 
 
 ## Acknowledgements
