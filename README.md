@@ -317,7 +317,7 @@ This work is under the <a rel="license" href="http://creativecommons.org/license
 
 
 ## Sponsor
-We thank [Baidu Research](http://research.baidu.com/), USA for the support provided for the [1st RoboDepth Competition](https://robodepth.github.io/).
+We thank [Baidu Research](http://research.baidu.com/) for the support towards the [1st RoboDepth Competition](https://robodepth.github.io/).
 
 ><img src="docs/figs/baidu.png" width="32%"/><br>
 
