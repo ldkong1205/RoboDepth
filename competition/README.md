@@ -188,7 +188,7 @@ This competition is made freely available to academic and non-academic entities 
 
 To ensure a **fair comparison** among all participants, we require:
 1. All participants must follow the **exact same data configuration** when training and evaluating their algorithms. Please do not use any public or private datasets other than those specified for model training.
-2. The theme of this competition is to probe the out-of-distribution robustness of depth estimation models. Theorefore, any use of the 18 corruption types designed in this benchmark is **strictly prohibited**, including any atomic operation that is comprising any one of the mentioned corruptions.
+2. The theme of this competition is to probe the out-of-distribution robustness of depth estimation models. Therefore, any use of the 18 corruption types designed in this benchmark is **strictly prohibited**, including any atomic operation that is comprising any one of the mentioned corruptions.
     - For Track 1: Please stick with the default data augmentations used in the [MonoDepth2](https://github.com/nianticlabs/monodepth2) codebase.
     - For Track 2: Please stick with the default data augmentations used in the [Monocular-Depth-Estimation-Toolbox](https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox) codebase.
 4. To ensure the above two rules are followed, each participant is requested to **submit the code** with reproducible results before the final result is announced; the code is for examination purposes only and we will manually verify the training and evaluation of each participant's model.
