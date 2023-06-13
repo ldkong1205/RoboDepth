@@ -54,7 +54,9 @@
 
 
 ## Updates
-- [2023.05] - The video recordings of the RoboDepth Workshop are out. Know more about how our participants dedicate to improving the robustness of depth estimation models at [here](https://www.youtube.com/watch?v=mYhdTGiIGCY&list=PLxxrIfcH-qBGZ6x_e1AT2_YnAxiHIKtkB). :movie_camera:
+- [2023.05] - The video recordings of the RoboDepth Workshop are out. Know more details about how our participants dedicate to improving the robustness of depth estimation models. :movie_camera:
+  -  YouTube: [[Playlist](https://www.youtube.com/watch?v=mYhdTGiIGCY&list=PLxxrIfcH-qBGZ6x_e1AT2_YnAxiHIKtkB)], [[Part 1](https://www.youtube.com/watch?v=mYhdTGiIGCY)], [[Part 2](https://www.youtube.com/watch?v=C97J5SDXmZc)].
+  -  Bilibili: [[Part 1](https://www.bilibili.com/video/BV1Ro4y1E7qK)], [[Part 2](https://www.bilibili.com/video/BV1io4y1E7yy)].
 - [2023.05] - We are glad to announce that the [1st RoboDepth Competition](https://robodepth.github.io/) will be sponsored by [Baidu Research](http://research.baidu.com/), USA. :beers:
 - [2023.01] - The `NYUDepth2-C` dataset is ready to be downloaded! See [here](docs/DATA_PREPARE.md) for more details.
 - [2023.01] - Evaluation server for Track 2 (fully-supervised depth estimation) is available on [this](https://codalab.lisn.upsaclay.fr/competitions/9821) page.
