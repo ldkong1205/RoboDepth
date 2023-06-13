@@ -54,7 +54,10 @@
 
 
 ## Updates
-- [2023.06] - We have successfully concluded the [1st RoboDepth Competition](https://robodepth.github.io/)! Some key statistics of this competition: `226` teams registered at the CodaLab platform, `66` made a total number of `1137` valid submissions. More details are included in [these]() slides. We thank the exceptional support from our participants! :heart:
+- [2023.06] - We have successfully concluded the [1st RoboDepth Competition](https://robodepth.github.io/)! Some key statistics of this competition: `226` teams registered at the CodaLab platform, `66` of them made a total number of `1137` valid submissions. More details are included in [these]() slides. We thank the exceptional support from our participants! :heart:
+- [2023.06] - We are glad to announce the winning teams of this competition:
+  - Track 1: :1st_place_medal: OpenSpaceAI, :2nd_place_medal: USTC-IAT-United, :3rd_place_medal: YYQ, :medal_military: Scent-Depth, :medal_military: Ensemble.
+  - Track 2: :1st_place_medal: USTCxNetEaseFuxi, :2nd_place_medal: OpenSpaceAI, :3rd_place_medal: GANCV, :medal_military: AIIA-RDepth.
 - [2023.05] - The video recordings of the [RoboDepth Workshop](https://robodepth.github.io/) are out. Know more details about how our participants dedicate to improving the robustness of depth estimation models. :movie_camera:
   -  YouTube: [[Playlist](https://www.youtube.com/watch?v=mYhdTGiIGCY&list=PLxxrIfcH-qBGZ6x_e1AT2_YnAxiHIKtkB)], [[Part 1](https://www.youtube.com/watch?v=mYhdTGiIGCY)], [[Part 2](https://www.youtube.com/watch?v=C97J5SDXmZc)].
   -  Bilibili: [[Part 1](https://www.bilibili.com/video/BV1Ro4y1E7qK)], [[Part 2](https://www.bilibili.com/video/BV1io4y1E7yy)].
