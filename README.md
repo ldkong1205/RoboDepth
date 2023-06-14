@@ -54,7 +54,7 @@
 
 
 ## Updates
-- [2023.06] - We have successfully concluded the [1st RoboDepth Competition](https://robodepth.github.io/)! Some key statistics of this competition: `226` teams registered at the CodaLab platform, `66` of them made a total number of `1137` valid submissions. More details are included in [these slides](https://ldkong.com/talks/icra23_robodepth.pdf). We thank the exceptional support from our participants! :heart:
+- [2023.06] - We have successfully concluded the [1st RoboDepth Competition](https://robodepth.github.io/)! Key statistics of this competition: `226` teams registered at CodaLab, `66` of them made a total number of `1137` valid submissions. More details are included in [these slides](https://ldkong.com/talks/icra23_robodepth.pdf). We thank the exceptional support from our participants! :heart:
 - [2023.06] - We are glad to announce the winning teams of this competition:
   - **Track 1:** :1st_place_medal: `OpenSpaceAI`, :2nd_place_medal: `USTC-IAT-United`, :3rd_place_medal: `YYQ`.
   - **Track 2:** :1st_place_medal: `USTCxNetEaseFuxi`, :2nd_place_medal: `OpenSpaceAI`, :3rd_place_medal: `GANCV`.
