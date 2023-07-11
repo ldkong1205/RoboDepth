@@ -6,15 +6,15 @@
   <h3 align="center"><strong>RoboDepth: Robust Out-of-Distribution Depth Estimation under Corruptions</strong></h3>
 
   <p align="center">
-    <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ">Lingdong Kong</a><sup>1</sup>&nbsp;
-    <a href="https://github.com/Daniel-xsy">Shaoyuan Xie</a><sup>2</sup>&nbsp;
-    <a href="https://scholar.google.com/citations?user=UyooQDYAAAAJ">Hanjiang Hu</a><sup>3</sup>&nbsp;
-    <a href="https://scholar.google.com/citations?user=9I7uKooAAAAJ">Benoit Cottereau</a><sup>4</sup>&nbsp;
-    <a href="">Lai Xing Ng</a><sup>5</sup>&nbsp;
-    <a href="https://scholar.google.com/citations?user=nFP2ldkAAAAJ">Wei Tsang Ooi</a><sup>1</sup>&nbsp;
+    <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ">Lingdong Kong</a><sup>1</sup>&nbsp;&nbsp;
+    <a href="https://github.com/Daniel-xsy">Shaoyuan Xie</a><sup>2</sup>&nbsp;&nbsp;
+    <a href="https://scholar.google.com/citations?user=UyooQDYAAAAJ">Hanjiang Hu</a><sup>3</sup>&nbsp;&nbsp;
+    <a href="https://scholar.google.com/citations?user=9I7uKooAAAAJ">Benoit Cottereau</a><sup>4</sup>&nbsp;&nbsp;
+    <a href="">Lai Xing Ng</a><sup>5</sup>&nbsp;&nbsp;
+    <a href="https://scholar.google.com/citations?user=nFP2ldkAAAAJ">Wei Tsang Ooi</a><sup>1</sup>
     <br>
     <sup>1</sup>National University of Singapore&nbsp;&nbsp;
-    <sup>2</sup>Huazhong Univerisity of Science and Technology<br>
+    <sup>2</sup>Huazhong Univerisity of Science and Technology&nbsp;&nbsp;
     <sup>3</sup>Carnegie Mellon University&nbsp;&nbsp;
     <sup>4</sup>CNRS&nbsp;&nbsp;
     <sup>5</sup>A*STAR
@@ -54,17 +54,17 @@
 
 
 ## Updates
-- [2023.06] - We have successfully concluded the [1st RoboDepth Competition](https://robodepth.github.io/)! Key statistics of this competition: `226` teams registered at CodaLab, `66` of them made a total number of `1137` valid submissions. More details are included in [these slides](https://ldkong.com/talks/icra23_robodepth.pdf). We thank the exceptional support from our participants! :heart:
+- [2023.06] - We have successfully concluded the [RoboDepth Challenge](https://robodepth.github.io/)! Key statistics of this competition: `226` teams registered at CodaLab, `66` of which made a total number of `1137` valid submissions. More details are included in [these slides](https://ldkong.com/talks/icra23_robodepth.pdf). We thank the exceptional support from our participants! :heart:
 - [2023.06] - We are glad to announce the winning teams of this competition:
   - **Track 1:** :1st_place_medal: `OpenSpaceAI`, :2nd_place_medal: `USTC-IAT-United`, :3rd_place_medal: `YYQ`.
   - **Track 2:** :1st_place_medal: `USTCxNetEaseFuxi`, :2nd_place_medal: `OpenSpaceAI`, :3rd_place_medal: `GANCV`.
   - **Innovation Prize:** :medal_military: `Scent-Depth`, :medal_military: `Ensemble`, :medal_military: `AIIA-RDepth`.
 - [2023.06] - The [video recordings](https://www.youtube.com/watch?v=mYhdTGiIGCY&list=PLxxrIfcH-qBGZ6x_e1AT2_YnAxiHIKtkB) of the [RoboDepth Workshop](https://robodepth.github.io/) are out. Know more details about how our participants dedicate to improving the robustness of depth estimation models. :movie_camera:
-- [2023.05] - We are glad to announce that the [1st RoboDepth Competition](https://robodepth.github.io/) will be sponsored by [Baidu Research](http://research.baidu.com/), USA. :beers:
+- [2023.05] - We are glad to announce that the [RoboDepth Challenge](https://robodepth.github.io/) will be sponsored by [Baidu Research](http://research.baidu.com/), USA. :beers:
 - [2023.01] - The `NYUDepth2-C` dataset is ready to be downloaded! See [here](docs/DATA_PREPARE.md) for more details.
 - [2023.01] - Evaluation server for Track 2 (fully-supervised depth estimation) is available on [this](https://codalab.lisn.upsaclay.fr/competitions/9821) page.
 - [2023.01] - Evaluation server for Track 1 (self-supervised depth estimation) is available on [this](https://codalab.lisn.upsaclay.fr/competitions/9418) page.
-- [2022.11] - We are organizing the [1st RoboDepth Competition](https://robodepth.github.io/) at [ICRA 2023](https://www.icra2023.org/). Join the challenge today! :raising_hand:
+- [2022.11] - We are organizing the [RoboDepth Challenge](https://robodepth.github.io/) at [ICRA 2023](https://www.icra2023.org/). Join the challenge today! :raising_hand:
 - [2022.11] - The `KITTI-C` dataset is ready to be downloaded! See [here](docs/DATA_PREPARE.md) for more details.
 
 
