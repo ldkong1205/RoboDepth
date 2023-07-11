@@ -6,18 +6,19 @@
   <h3 align="center"><strong>RoboDepth: Robust Out-of-Distribution Depth Estimation under Corruptions</strong></h3>
 
   <p align="center">
-    <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ">Lingdong Kong</a><sup>1</sup>&nbsp;&nbsp;
-    <a href="https://github.com/Daniel-xsy">Shaoyuan Xie</a><sup>2</sup>&nbsp;&nbsp;
-    <a href="https://scholar.google.com/citations?user=UyooQDYAAAAJ">Hanjiang Hu</a><sup>3</sup>&nbsp;&nbsp;
-    <a href="https://scholar.google.com/citations?user=9I7uKooAAAAJ">Benoit Cottereau</a><sup>4</sup>&nbsp;&nbsp;
-    <a href="">Lai Xing Ng</a><sup>5</sup>&nbsp;&nbsp;
+    <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ">Lingdong Kong</a><sup>1,2</sup>&nbsp;&nbsp;
+    <a href="https://github.com/Daniel-xsy">Shaoyuan Xie</a><sup>3</sup>&nbsp;&nbsp;
+    <a href="https://scholar.google.com/citations?user=UyooQDYAAAAJ">Hanjiang Hu</a><sup>4</sup>&nbsp;&nbsp;
+    <a href="https://scholar.google.com/citations?user=9I7uKooAAAAJ">Benoit Cottereau</a><sup>5</sup>&nbsp;&nbsp;
+    <a href="">Lai Xing Ng</a><sup>6</sup>&nbsp;&nbsp;
     <a href="https://scholar.google.com/citations?user=nFP2ldkAAAAJ">Wei Tsang Ooi</a><sup>1</sup>
     <br>
-    <sup>1</sup>National University of Singapore&nbsp;&nbsp;
-    <sup>2</sup>Huazhong Univerisity of Science and Technology&nbsp;&nbsp;
-    <sup>3</sup>Carnegie Mellon University&nbsp;&nbsp;
-    <sup>4</sup>CNRS&nbsp;&nbsp;
-    <sup>5</sup>A*STAR
+    <sup>1</sup>National University of Singapore&nbsp;&nbsp;&nbsp;
+    <sup>2</sup>CNRS@CREATE&nbsp;&nbsp;&nbsp;
+    <sup>3</sup>Huazhong Univerisity of Science and Technology&nbsp;&nbsp;&nbsp;
+    <sup>4</sup>Carnegie Mellon University&nbsp;&nbsp;&nbsp;
+    <sup>5</sup>CNRS&nbsp;&nbsp;&nbsp;
+    <sup>6</sup>A*STAR
   </p>
 
 </p>
