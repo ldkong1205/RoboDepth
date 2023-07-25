@@ -297,12 +297,21 @@ You can manage to create your own "RoboDepth" corrpution sets! Follow the instru
 
 
 ## Citation
-If you find this work helpful, please kindly consider citing our paper:
+If you find this work helpful, please kindly consider citing our papers:
 
 ```bibtex
 @article{kong2023robodepth,
   title = {RoboDepth: Robust Out-of-Distribution Depth Estimation under Corruptions},
   author = {Kong, Lingdong and Xie, Shaoyuan and Hu, Hanjiang and Cottereau, Benoit and Ng, Lai Xing and Ooi, Wei Tsang},
+  journal = {arXiv preprint arXiv:23xx.xxxxx}, 
+  year = {2023},
+}
+```
+
+```bibtex
+@article{kong2023robodepth_challenge,
+  title = {The RoboDepth Challenge: Methods and Advancements Towards Robust Depth Estimation},
+  author = {Kong, Lingdong and Niu, Yaru and Xie, Shaoyuan and Hu, Hanjiang and Ng, Lai Xing and Cottereau, Benoit and Zhao, Ding and Zhang, Liangjun and Wang, Hesheng and Ooi, Wei Tsang and Zhu, Ruijie and Song, Ziyang and Liu, Li and Zhang, Tianzhu and Yu, Jun and Jing, Mohan and Li, Pengwei and Qi, Xiaohua and Jin, Cheng and Chen, Yingfeng and Hou, Jie and Zhang, Jie and Kan, Zhen and Lin, Qiang and Peng, Liang and Li, Minglei and Xu, Di and Yang, Changpeng an d Yao, Yuanqi and Wu, Gang and Kuai, Jian and Liu, Xianming and Jiang, Junjun and Huang, Jiamian and Li, Baojun and Chen, Jiale and Zhang, Shuang and Ao, Sun and Li, Zhenyu and Chen, Runze and Luo, Haiyong and Zhao, Fang and Yu, Jingze},
   journal = {arXiv preprint arXiv:23xx.xxxxx}, 
   year = {2023},
 }
@@ -319,13 +328,13 @@ If you find this work helpful, please kindly consider citing our paper:
 
 
 ## License
-<!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> -->
-
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+<br />
 This work is under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 
 ## Sponsor
-We thank [Baidu Research](http://research.baidu.com/) for the support towards the [1st RoboDepth Competition](https://robodepth.github.io/).
+We thank [Baidu Research](http://research.baidu.com/) for the support towards the [RoboDepth Challenge](https://robodepth.github.io/).
 
 ><img src="docs/figs/baidu.png" width="32%"/><br>
 
