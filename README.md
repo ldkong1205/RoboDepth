@@ -55,7 +55,7 @@
 
 
 ## Updates
-- \[2023.07\] - The [technical report]() of the [RoboDepth Challenge](https://robodepth.github.io/) is available on arXiv.
+- \[2023.07\] - The [technical report](https://arxiv.org/abs/2307.15061) of the [RoboDepth Challenge](https://robodepth.github.io/) is available on arXiv.
 - \[2023.06\] - We have successfully concluded the [RoboDepth Challenge](https://robodepth.github.io/)! Key statistics of this competition: `226` teams registered at CodaLab, `66` of which made a total number of `1137` valid submissions. More details are included in [these slides](https://ldkong.com/talks/icra23_robodepth.pdf). We thank the exceptional support from our participants! :heart:
 - \[2023.06\] - We are glad to announce the winning teams of this competition:
   - **Track 1:** :1st_place_medal: `OpenSpaceAI`, :2nd_place_medal: `USTC-IAT-United`, :3rd_place_medal: `YYQ`.
@@ -311,8 +311,8 @@ If you find this work helpful, please kindly consider citing our papers:
 ```bibtex
 @article{kong2023robodepth_challenge,
   title = {The RoboDepth Challenge: Methods and Advancements Towards Robust Depth Estimation},
-  author = {Kong, Lingdong and Niu, Yaru and Xie, Shaoyuan and Hu, Hanjiang and Ng, Lai Xing and Cottereau, Benoit and Zhao, Ding and Zhang, Liangjun and Wang, Hesheng and Ooi, Wei Tsang and Zhu, Ruijie and Song, Ziyang and Liu, Li and Zhang, Tianzhu and Yu, Jun and Jing, Mohan and Li, Pengwei and Qi, Xiaohua and Jin, Cheng and Chen, Yingfeng and Hou, Jie and Zhang, Jie and Kan, Zhen and Lin, Qiang and Peng, Liang and Li, Minglei and Xu, Di and Yang, Changpeng an d Yao, Yuanqi and Wu, Gang and Kuai, Jian and Liu, Xianming and Jiang, Junjun and Huang, Jiamian and Li, Baojun and Chen, Jiale and Zhang, Shuang and Ao, Sun and Li, Zhenyu and Chen, Runze and Luo, Haiyong and Zhao, Fang and Yu, Jingze},
-  journal = {arXiv preprint arXiv:23xx.xxxxx}, 
+  author = {Kong, Lingdong and Niu, Yaru and Xie, Shaoyuan and Hu, Hanjiang and Ng, Lai Xing and Cottereau, Benoit and Zhao, Ding and Zhang, Liangjun and Wang, Hesheng and Ooi, Wei Tsang and Zhu, Ruijie and Song, Ziyang and Liu, Li and Zhang, Tianzhu and Yu, Jun and Jing, Mohan and Li, Pengwei and Qi, Xiaohua and Jin, Cheng and Chen, Yingfeng and Hou, Jie and Zhang, Jie and Kan, Zhen and Lin, Qiang and Peng, Liang and Li, Minglei and Xu, Di and Yang, Changpeng and Yao, Yuanqi and Wu, Gang and Kuai, Jian and Liu, Xianming and Jiang, Junjun and Huang, Jiamian and Li, Baojun and Chen, Jiale and Zhang, Shuang and Ao, Sun and Li, Zhenyu and Chen, Runze and Luo, Haiyong and Zhao, Fang and Yu, Jingze},
+  journal = {arXiv preprint arXiv:2307.15061}, 
   year = {2023},
 }
 ```
