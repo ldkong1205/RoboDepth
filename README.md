@@ -18,7 +18,7 @@
     <sup>3</sup>Huazhong Univerisity of Science and Technology&nbsp;&nbsp;&nbsp;
     <sup>4</sup>Carnegie Mellon University&nbsp;&nbsp;&nbsp;
     <sup>5</sup>CNRS&nbsp;&nbsp;&nbsp;
-    <sup>6</sup>A*STAR
+    <sup>6</sup>Institute for Infocomm Research, A*STAR
   </p>
 
 </p>
