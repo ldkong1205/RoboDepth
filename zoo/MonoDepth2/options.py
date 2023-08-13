@@ -228,6 +228,7 @@ class MonodepthOptions:
                                  action='store_true',
                                  help='whether to set deterministic options for CUDNN backend.')
 
+        self.parser.add_argument("--local_rank", default=0,type=int)
 
     def parse(self):
         self.options = self.parser.parse_args()
