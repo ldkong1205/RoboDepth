@@ -103,6 +103,75 @@ def rot_from_axisangle(vec):
     return rot
 
 
+def post_process_inv_depth(inv_depth, inv_depth_flipped, method='mean'):
+    """
+    Post-process an inverse and flipped inverse depth map
+    Parameters
+    ----------
+    inv_depth : torch.Tensor [B,1,H,W]
+        Inverse depth map
+    inv_depth_flipped : torch.Tensor [B,1,H,W]
+        Inverse depth map produced from a flipped image
+    method : str
+        Method that will be used to fuse the inverse depth maps
+    Returns
+    -------
+    inv_depth_pp : torch.Tensor [B,1,H,W]
+        Post-processed inverse depth map
+    """
+    B, C, H, W = inv_depth.shape
+    inv_depth_hat = flip_lr(inv_depth_flipped)
+    inv_depth_fused = fuse_inv_depth(inv_depth, inv_depth_hat, method=method)
+    xs = torch.linspace(0., 1., W, device=inv_depth.device,
+                        dtype=inv_depth.dtype).repeat(B, C, H, 1)
+    mask = 1.0 - torch.clamp(20. * (xs - 0.05), 0., 1.)
+    mask_hat = flip_lr(mask)
+    return mask_hat * inv_depth + mask * inv_depth_hat + \
+           (1.0 - mask - mask_hat) * inv_depth_fused
+
+
+def fuse_inv_depth(inv_depth, inv_depth_hat, method='mean'):
+    """
+    Fuse inverse depth and flipped inverse depth maps
+    Parameters
+    ----------
+    inv_depth : torch.Tensor [B,1,H,W]
+        Inverse depth map
+    inv_depth_hat : torch.Tensor [B,1,H,W]
+        Flipped inverse depth map produced from a flipped image
+    method : str
+        Method that will be used to fuse the inverse depth maps
+    Returns
+    -------
+    fused_inv_depth : torch.Tensor [B,1,H,W]
+        Fused inverse depth map
+    """
+    if method == 'mean':
+        return 0.5 * (inv_depth + inv_depth_hat)
+    elif method == 'max':
+        return torch.max(inv_depth, inv_depth_hat)
+    elif method == 'min':
+        return torch.min(inv_depth, inv_depth_hat)
+    else:
+        raise ValueError('Unknown post-process method {}'.format(method))
+
+
+def flip_lr(image):
+    """
+    Flip image horizontally
+    Parameters
+    ----------
+    image : torch.Tensor [B,3,H,W]
+        Image to be flipped
+    Returns
+    -------
+    image_flipped : torch.Tensor [B,3,H,W]
+        Flipped image
+    """
+    assert image.dim() == 4, 'You need to provide a [B,C,H,W] image to flip'
+    return torch.flip(image, [3])
+
+
 class ConvBlock(nn.Module):
     """Layer to perform a convolution followed by ELU
     """
