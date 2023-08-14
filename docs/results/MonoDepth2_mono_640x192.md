@@ -1,4 +1,4 @@
-<img src="../../docs/figs/logo2.png" align="right" width="34%">
+<img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/logo2.png" align="right" width="34%">
 
 # RoboDepth Benchmark
 The following metrics are consistently used in our benchmark:
@@ -8,7 +8,6 @@ The following metrics are consistently used in our benchmark:
   - $\text{DES}_1 = \text{Abs Rel} - \delta_1 + 1$ 
   - $\text{DES}_2 = \frac{\text{Abs Rel} - \delta_1 + 1}{2}$
   - $\text{DES}_3 = \frac{\text{Abs Rel}}{\delta_1}$
-
 
 
 ### MonoDepth2, Mono, 640x192
@@ -35,8 +34,6 @@ The following metrics are consistently used in our benchmark:
 - **Summary:** $\text{DES}_1=$ 0.238, $\text{DES}_2=$ 0.119, $\text{DES}_3=$ 0.131
 
 
-
-
 ### Brightness
 | Level | $\text{Abs Rel}$ | $\text{Sq Rel}$ | $\text{RMSE}$ | $\text{RMSE log}$ | $\delta < 1.25$ | $\delta < 1.25^2$ | $\delta < 1.25^3$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -48,8 +45,6 @@ The following metrics are consistently used in our benchmark:
 |  avg  | 0.120 | 0.936 | 4.982 | 0.199 | 0.861 | 0.955 | 0.980 |
 
 - **Summary:** $\text{DES}_1=$ 0.259, $\text{DES}_2=$ 0.130, $\text{DES}_3=$ 0.140
-
-
 
 
 ### Dark
@@ -65,8 +60,6 @@ The following metrics are consistently used in our benchmark:
 - **Summary:** $\text{DES}_1=$ 0.561, $\text{DES}_2=$ 0.280, $\text{DES}_3=$ 0.330
 
 
-
-
 ### Fog
 | Level | $\text{Abs Rel}$ | $\text{Sq Rel}$ | $\text{RMSE}$ | $\text{RMSE log}$ | $\delta < 1.25$ | $\delta < 1.25^2$ | $\delta < 1.25^3$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -78,8 +71,6 @@ The following metrics are consistently used in our benchmark:
 |  avg  | 0.137 | 1.096 | 5.446 | 0.220 | 0.826 | 0.942 | 0.975 |
 
 - **Summary:** $\text{DES}_1=$ 0.311, $\text{DES}_2=$ 0.155, $\text{DES}_3=$ 0.166
-
-
 
 
 ### Frost
@@ -95,8 +86,6 @@ The following metrics are consistently used in our benchmark:
 - **Summary:** $\text{DES}_1=$ 0.553, $\text{DES}_2=$ 0.277, $\text{DES}_3=$ 0.327
 
 
-
-
 ### Snow
 | Level | $\text{Abs Rel}$ | $\text{Sq Rel}$ | $\text{RMSE}$ | $\text{RMSE log}$ | $\delta < 1.25$ | $\delta < 1.25^2$ | $\delta < 1.25^3$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -108,8 +97,6 @@ The following metrics are consistently used in our benchmark:
 |  avg  | 0.414 | 5.575 | 10.466 | 0.484 | 0.391 | 0.662 | 0.831 |
 
 - **Summary:** $\text{DES}_1=$ 1.023, $\text{DES}_2=$ 0.511, $\text{DES}_3=$ 1.058
-
-
 
 
 ### Contrast
@@ -125,8 +112,6 @@ The following metrics are consistently used in our benchmark:
 - **Summary:** $\text{DES}_1=$ 0.373, $\text{DES}_2=$ 0.187, $\text{DES}_3=$ 0.199
 
 
-
-
 ### Defocus Blur
 | Level | $\text{Abs Rel}$ | $\text{Sq Rel}$ | $\text{RMSE}$ | $\text{RMSE log}$ | $\delta < 1.25$ | $\delta < 1.25^2$ | $\delta < 1.25^3$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -138,8 +123,6 @@ The following metrics are consistently used in our benchmark:
 |  avg  | 0.191 | 1.693 | 7.476 | 0.305 | 0.704 | 0.881 | 0.942 |
 
 - **Summary:** $\text{DES}_1=$ 0.487, $\text{DES}_2=$ 0.244, $\text{DES}_3=$ 0.271
-
-
 
 
 ### Glass Blur
@@ -155,8 +138,6 @@ The following metrics are consistently used in our benchmark:
 - **Summary:** $\text{DES}_1=$ 0.484, $\text{DES}_2=$ 0.242, $\text{DES}_3=$ 0.270
 
 
-
-
 ### Motion Blur
 | Level | $\text{Abs Rel}$ | $\text{Sq Rel}$ | $\text{RMSE}$ | $\text{RMSE log}$ | $\delta < 1.25$ | $\delta < 1.25^2$ | $\delta < 1.25^3$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -168,8 +149,6 @@ The following metrics are consistently used in our benchmark:
 |  avg  | 0.175 | 1.535 | 6.693 | 0.274 | 0.743 | 0.899 | 0.954 |
 
 - **Summary:** $\text{DES}_1=$ 0.433, $\text{DES}_2=$ 0.216, $\text{DES}_3=$ 0.236
-
-
 
 
 ### Zoom Blur
@@ -185,8 +164,6 @@ The following metrics are consistently used in our benchmark:
 - **Summary:** $\text{DES}_1=$ 0.402, $\text{DES}_2=$ 0.201, $\text{DES}_3=$ 0.221
 
 
-
-
 ### Elastic Transform
 | Level | $\text{Abs Rel}$ | $\text{Sq Rel}$ | $\text{RMSE}$ | $\text{RMSE log}$ | $\delta < 1.25$ | $\delta < 1.25^2$ | $\delta < 1.25^3$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -198,8 +175,6 @@ The following metrics are consistently used in our benchmark:
 |  avg  | 0.121 | 1.004 | 5.132 | 0.202 | 0.864 | 0.953 | 0.979 |
 
 - **Summary:** $\text{DES}_1=$ 0.258, $\text{DES}_2=$ 0.129, $\text{DES}_3=$ 0.141
-
-
 
 
 ### Color Quant
@@ -215,8 +190,6 @@ The following metrics are consistently used in our benchmark:
 - **Summary:** $\text{DES}_1=$ 0.386, $\text{DES}_2=$ 0.193, $\text{DES}_3=$ 0.209
 
 
-
-
 ### Gaussian Noise
 | Level | $\text{Abs Rel}$ | $\text{Sq Rel}$ | $\text{RMSE}$ | $\text{RMSE log}$ | $\delta < 1.25$ | $\delta < 1.25^2$ | $\delta < 1.25^3$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -228,8 +201,6 @@ The following metrics are consistently used in our benchmark:
 |  avg  | 0.285 | 2.518 | 8.463 | 0.383 | 0.516 | 0.780 | 0.906 |
 
 - **Summary:** $\text{DES}_1=$ 0.768, $\text{DES}_2=$ 0.384, $\text{DES}_3=$ 0.551
-
-
 
 
 ### Impulse Noise
@@ -245,8 +216,6 @@ The following metrics are consistently used in our benchmark:
 - **Summary:** $\text{DES}_1=$ 0.779, $\text{DES}_2=$ 0.389, $\text{DES}_3=$ 0.563
 
 
-
-
 ### Shot Noise
 | Level | $\text{Abs Rel}$ | $\text{Sq Rel}$ | $\text{RMSE}$ | $\text{RMSE log}$ | $\delta < 1.25$ | $\delta < 1.25^2$ | $\delta < 1.25^3$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -258,8 +227,6 @@ The following metrics are consistently used in our benchmark:
 |  avg  | 0.253 | 2.210 | 8.126 | 0.353 | 0.573 | 0.810 | 0.918 |
 
 - **Summary:** $\text{DES}_1=$ 0.681, $\text{DES}_2=$ 0.340, $\text{DES}_3=$ 0.442
-
-
 
 
 ### ISO Noise
@@ -275,8 +242,6 @@ The following metrics are consistently used in our benchmark:
 - **Summary:** $\text{DES}_1=$ 0.776, $\text{DES}_2=$ 0.388, $\text{DES}_3=$ 0.557
 
 
-
-
 ### Pixelate
 | Level | $\text{Abs Rel}$ | $\text{Sq Rel}$ | $\text{RMSE}$ | $\text{RMSE log}$ | $\delta < 1.25$ | $\delta < 1.25^2$ | $\delta < 1.25^3$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -290,8 +255,6 @@ The following metrics are consistently used in our benchmark:
 - **Summary:** $\text{DES}_1=$ 0.289, $\text{DES}_2=$ 0.145, $\text{DES}_3=$ 0.158
 
 
-
-
 ### JPEG Compression
 | Level | $\text{Abs Rel}$ | $\text{Sq Rel}$ | $\text{RMSE}$ | $\text{RMSE log}$ | $\delta < 1.25$ | $\delta < 1.25^2$ | $\delta < 1.25^3$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -303,6 +266,4 @@ The following metrics are consistently used in our benchmark:
 |  avg  | 0.167 | 1.499 | 5.860 | 0.249 | 0.776 | 0.921 | 0.965 |
 
 - **Summary:** $\text{DES}_1=$ 0.391, $\text{DES}_2=$ 0.196, $\text{DES}_3=$ 0.215
-
-
 
