@@ -55,8 +55,8 @@
 
 
 ## Updates
-- \[2023.08\] - We support robust depth estimation on **real-world** scenarios, including `nuScenes`, `nuScenes-C`, `nuScenes-Night`, `Cityscapes`, and `Foggy-Cityscapes`. See [here]() for more details.
-- \[2023.08\] - We establish the `nuScenes-C` benchmark for robust multi-view depth estimation. See [here]() for more details.
+- \[2023.08\] - We support robust depth estimation on **real-world** scenarios, including `nuScenes`, `nuScenes-Night`, `Cityscapes`, and `Foggy-Cityscapes`. See [here]() for more details.
+- \[2023.08\] - We establish the `nuScenes-C` benchmark for robust **multi-view** depth estimation. See [here]() for more details.
 - \[2023.07\] - The [technical report](https://arxiv.org/abs/2307.15061) of the [RoboDepth Challenge](https://robodepth.github.io/) is available on arXiv.
 - \[2023.06\] - We have successfully concluded the [RoboDepth Challenge](https://robodepth.github.io/)! Key statistics of this competition: `226` teams registered at CodaLab, `66` of which made a total number of `1137` valid submissions. More details are included in [these slides](https://ldkong.com/talks/icra23_robodepth.pdf). We thank the exceptional support from our participants! :heart:
 - \[2023.06\] - We are glad to announce the winning teams of this competition:
@@ -95,8 +95,8 @@ Our datasets are hosted by [OpenDataLab](https://opendatalab.com/).
 ><img src="https://raw.githubusercontent.com/opendatalab/dsdl-sdk/2ae5264a7ce1ae6116720478f8fa9e59556bed41/resources/opendatalab.svg" width="32%"/><br>
 > OpenDataLab is a pioneering open data platform for the large AI model era, making datasets accessible. By using OpenDataLab, researchers can obtain free formatted datasets in various fields.
 
-### RoboDepth Benchmark
-Kindly refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the <sup>1</sup>[KITTI](http://www.cvlibs.net/datasets/kitti/raw_data.php), <sup>2</sup>[KITTI-C](), <sup>3</sup>[Cityscapes](), <sup>4</sup>[NYUDepth2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html), and <sup>5</sup>[NYUDepth2-C]() datasets.
+### The RoboDepth Benchmark
+Kindly refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the <sup>1</sup>[KITTI](http://www.cvlibs.net/datasets/kitti/raw_data.php), <sup>2</sup>[KITTI-C](), <sup>3</sup>[NYUDepth2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html), <sup>4</sup>[NYUDepth2-C](), <sup>5</sup>[Cityscapes](https://www.cityscapes-dataset.com/), <sup>6</sup>[Foggy-Cityscapes](https://paperswithcode.com/dataset/foggy-cityscapes), <sup>7</sup>[nuScenes](https://www.nuscenes.org/nuscenes), and <sup>8</sup>[nuScenes-C](), datasets.
 
 ### Competition @ ICRA 2023
 Kindly refer to [this](https://github.com/ldkong1205/RoboDepth/blob/main/competition/README.md) page for the details to prepare the training and evaluation data associated with the [1st RoboDepth Competition](https://robodepth.github.io/) at the 40th IEEE Conference on Robotics and Automation ([ICRA 2023](https://www.icra2023.org/)).
