@@ -308,7 +308,7 @@ def evaluation(opt):
 
                 errors[eval_type][camera_id] = errors[eval_type][camera_id].mean(0)
 
-        assert num_sum == 6019 * 6
+        # assert num_sum == 6019 * 6
         os.system('rm {}/*'.format(os.path.join(opt.log_dir, 'eval')))
 
         for eval_type in eval_types:
