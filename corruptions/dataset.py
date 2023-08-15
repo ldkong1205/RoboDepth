@@ -15,7 +15,7 @@ class RoboDepthDataset(Dataset):
         self.H = H
         self.W = W
 
-        self.total_images = self.total_images[197:]
+        # self.total_images = self.total_images[197:]
         print(len(self.total_images))
     
     def __len__(self):
