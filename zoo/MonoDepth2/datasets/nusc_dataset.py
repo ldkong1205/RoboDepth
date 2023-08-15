@@ -39,8 +39,11 @@ class NuscDataset(SorroundDepthMonoDataset):
         self.match_path = 'data/nuscenes/match'
 
 
-
-        with open('datasets/nusc/{}.txt'.format(self.split), 'r') as f:
+        if self.opt.domain == None:
+            self.domain = self.split
+        else:
+            self.domain = self.opt.domain
+        with open('datasets/nusc/{}.txt'.format(self.domain), 'r') as f:
             self.filenames = f.readlines()
 
         self.camera_ids = ['front', 'front_left', 'back_left', 'back', 'back_right', 'front_right']

@@ -228,6 +228,19 @@ class MonodepthOptions:
                                  action='store_true',
                                  help='whether to set deterministic options for CUDNN backend.')
 
+        self.parser.add_argument("--domain",
+                                 help="nuscenes domain",
+                                 type=str)
+        self.parser.add_argument("--corruption",
+                                 help="corruption type to be evaluate",
+                                 type=str)
+        self.parser.add_argument("--severity",
+                                 help="corruption type to be evaluate",
+                                 type=str)
+        self.parser.add_argument("--beta",
+                                 help="corruption type to be evaluate",
+                                 type=float)
+
         self.parser.add_argument("--local_rank", default=0,type=int)
 
     def parse(self):
