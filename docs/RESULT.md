@@ -7,14 +7,10 @@
   - [KITTI-C](#red_car-kitti-c)
   - [NYUDepth2-C](#taxi-nyudepth2-c)
   - [nuScenes-C](#blue_car-nuscenes-c)
-- [Real-World Assessment]()
-  - [nuScenes]()
-  - [nuScenes-Night]()
-  - [Foggy-Cityscapes]()
 - [Analysis & Discussion]()
   - [Idiosyncrasy Analysis](#idiosyncrasy-analysis)
   - [Severity Level](#severity-level)
-  - [Model Complexity](#model-complexity)
+  - [Model Complexity]()
 
 
 ## Robustness Benchmark
@@ -81,24 +77,33 @@
 ### :blue_car: nuScenes-C
 | Model | Docs | Checkpoint | Sclae | Resolution | Clean | Bright | Dark | Fog | Snow | Motion | Quant |
 | :-- | :--: |  :--: |  :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| MonoDepth2    | [Link]() | [Download]() | Ambiguous | 640 x 192 | 
+| MonoDepth2<sup>:star:</sup> | [Link]() | [Download]() | Ambiguous | 640 x 192 | 
 | SurroundDepth | [Link]() | [Download]() | Ambiguous | 640 x 384 |
 | SurroundDepth | [Link]() | [Download]() | Aware     | 640 x 384 |
-
-
-## Real-World Assessment
 
 
 ## Analysis & Discussion
 
 ### Idiosyncrasy Analysis
+| <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/idiosyncrasy/category.jpg" width="560"> |
+| :-: |
+
+| | | | |
+| :-: | :-: | :-: | :-: | 
+| <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/idiosyncrasy/MonoDepth2.jpg" width="210"> | <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/idiosyncrasy/CADepth.jpg" width="210"> | <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/idiosyncrasy/DIFFNet.jpg" width="210"> | <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/idiosyncrasy/DNet.jpg" width="210"> |
+| |
+| <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/idiosyncrasy/DepthHints.jpg" width="210"> | <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/idiosyncrasy/FSRE-Depth.jpg" width="210"> | <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/idiosyncrasy/HR-Depth.jpg" width="210"> | <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/idiosyncrasy/ManyDepth.jpg" width="210"> |
+| |
+| <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/idiosyncrasy/MaskOcc.jpg" width="210"> | <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/idiosyncrasy/MonoViT.jpg" width="210"> | <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/idiosyncrasy/Lite-Mono.jpg" width="210"> | <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/idiosyncrasy/RA-Depth.jpg" width="210"> |
+| |
+
 
 ### Severity Level
 | <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/models.jpg" width="800"> |
 | :-: |
 
 | | | |
-| :-: |  :-: |  :-: | 
+| :-: | :-: | :-: | 
 | <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/brightness.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/dark.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/fog.jpg" width="300"> |
 | |
 | <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/frost.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/snow.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/contrast.jpg" width="300"> |
