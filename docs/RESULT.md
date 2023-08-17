@@ -94,5 +94,18 @@
 ### Idiosyncrasy Analysis
 
 ### Severity Level
-
+| | | |
+| :-: |  :-: |  :-: | 
+| <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/brightness.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/dark.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/fog.jpg" width="300"> |
+| |
+| <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/frost.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/snow.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/contrast.jpg" width="300"> |
+| |
+| <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/defocus_blur.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/glass_blur.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/motion_blur.jpg" width="300"> |
+| |
+| <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/zoom_blur.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/elastic_transform.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/color_quant.jpg" width="300"> |
+| |
+| <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/gaussian_noise.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/impulse_noise.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/shot_noise.jpg" width="300"> |
+| |
+| <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/iso_noise.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/pixelate.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/jpeg_compression.jpg" width="300"> |
+| |
 
