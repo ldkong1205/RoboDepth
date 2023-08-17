@@ -94,6 +94,9 @@
 ### Idiosyncrasy Analysis
 
 ### Severity Level
+| <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/models.jpg" width="800"> |
+| :-: |
+
 | | | |
 | :-: |  :-: |  :-: | 
 | <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/brightness.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/dark.jpg" width="300"> |  <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/severity_level/fog.jpg" width="300"> |
