@@ -71,7 +71,7 @@ Successfully running `create.sh` will create and save images corrupted with the 
 ### Configuration Details
 
 | Corruption | Parameter | Level 1 | Level 2 | Level 3 | Level 4 | Level 5 | 
-|:-|:-:|:-:|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | `brightness` | adjustment in HSV space | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 |
 | `dark` | 
 | `fog` | (thickness, smoothness) | (1.5, 2.0) | (2.0, 2.0) | (2.5, 1.7) | (2.5, 1.5) | (3.0, 1.4) |
@@ -80,8 +80,8 @@ Successfully running `create.sh` will create and save images corrupted with the 
 | `contrast` | adjustment of pixel mean | 0.40 | 0.30 | 0.20 | 0.10 | 0.05 |
 | `defocus_blur` | (kernel radius, alias blur) | (3.0, 0.1) | (4.0, 0.5) | (6.0, 0.5) | (8.0, 0.5) | (10.0, 0.5) |
 | `glass_blur` | (sigma, max delta, iterations) | (0.7, 1.0, 2.0) | (0.9, 2.0, 1.0) | (1.0, 2.0, 3.0) | (1.1, 3.0, 2.0) | (1.5, 4.0, 2.0) |
-| `motion_blur` | 
-| `zoom_blur` |
+| `motion_blur` | (radius, sigma) | (10, 3) | (15, 5) | (15, 8) | (15, 12) | (20, 15) |
+| `zoom_blur` | (low, high, step size) | (1.00, 1.11, 0.01) | (1.00, 1.16, 0.01) | (1.00, 1.21, 0.02) | (1.00, 1.26, 0.02) | (1.00, 1.31, 0.03) |
 | `elastic_transform` |
 | `color_quant` | 
 
@@ -259,10 +259,60 @@ def glass_blur(x, severity=1):
  ```                  
 
 ### Motion Blur
+The `motion_blur` function simulates a motion blur effect in an image by applying a blurring kernel that represents the motion of a camera or object during exposure. This creates the illusion of movement or motion streaks.
 
+```python
+def motion_blur(x, severity=1):
+    shape = np.array(x).shape
+    c = [(10, 3), (15, 5), (15, 8), (15, 12), (20, 15)][severity - 1]
+    x = np.array(x)
 
+    angle = np.random.uniform(-45, 45)
+    x = _motion_blur(x, radius=c[0], sigma=c[1], angle=angle)
+
+    if len(x.shape) < 3 or x.shape[2] < 3:
+        gray = np.clip(np.array(x).transpose((0, 1)), 0, 255)
+        if len(shape) >= 3 or shape[2] >=3:
+            return np.stack([gray, gray, gray], axis=2)
+        else:
+            return gray
+    else:
+        return np.clip(x, 0, 255)
+```
 
 ### Zoom Blur
+The `zoom_blur` function simulates a zoom blur effect in an image by applying a series of zoomed and cropped layers with varying zoom factors. These layers are then combined to create the illusion of zooming or rushing effect toward the center of the image.
+
+```python
+def zoom_blur(x, severity=1):
+    c = [np.arange(1, 1.11, 0.01), np.arange(1, 1.16, 0.01), np.arange(1, 1.21, 0.02), np.arange(1, 1.26, 0.02), np.arange(1, 1.31, 0.03)][severity - 1]
+
+    x = (np.array(x) / 255.).astype(np.float32)
+    out = np.zeros_like(x)
+
+    set_exception = False
+    for zoom_factor in c:
+        if len(x.shape) < 3 or x.shape[2] < 3:
+            x_channels = np.array([x, x, x]).transpose((1, 2, 0))
+            zoom_layer = clipped_zoom(x_channels, zoom_factor)
+            zoom_layer = zoom_layer[:x.shape[0], :x.shape[1], 0]
+        else:
+            zoom_layer = clipped_zoom(x, zoom_factor)
+            zoom_layer = zoom_layer[:x.shape[0], :x.shape[1], :]
+        try:
+            out += zoom_layer
+        except ValueError:
+            set_exception = True
+            out[:zoom_layer.shape[0], :zoom_layer.shape[1]] += zoom_layer
+
+    if set_exception:
+        print('ValueError for zoom blur, Exception handling')
+    x = (x + out) / (len(c) + 1)
+    
+    return np.clip(x, 0, 1) * 255
+```
+
+### Elastic Transform
 
 
 
