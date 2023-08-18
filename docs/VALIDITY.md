@@ -44,13 +44,28 @@ We simulate corruptions using "clean" images and compare the distribution patter
 **Approach:** We validate this using [nuScenes](https://www.nuscenes.org/nuscenes), [nuScenes-Night](https://www.nuscenes.org/nuscenes), and [Foggy-Cityscapes](https://people.ee.ethz.ch/~csakarid/SFSU_synthetic/). We adopt [MonoDepth2](https://github.com/nianticlabs/monodepth2) as the baseline, which is trained on [KITTI](https://www.cvlibs.net/datasets/kitti/raw_data.php) and fine-tuned with corruptions with a small learning rate. We also test training with corruptions from scratch and find the performance is similar to fine-tuning.
 
 ### nuScenes
-
+| Train | Backbone | Resolution | CorruptAug | Abs Rel | Sq Rel | RMSE | RMSE log | a1 | a2 | a3 |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| KITTI | ResNet-18 | | No  | 0.304 | 3.472 | 9.068 | 0.409 | 0.563 | 0.794 | 0.890 |
+| KITTI | ResNet-18 | | Yes |
+| KITTI | ResNet-50 | | No  | 
+| KITTI | ResNet-50 | | Yes |
 
 ### nuScenes-Night
-
+| Train | Backbone | Resolution | CorruptAug | Abs Rel | Sq Rel | RMSE | RMSE log | a1 | a2 | a3 |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| KITTI | ResNet-18 | | No  | 0.397 | 3.408 | 8.700 | 0.513 | 0.387 | 0.659 | 0.822 |
+| KITTI | ResNet-18 | | Yes |
+| KITTI | ResNet-50 | | No  | 
+| KITTI | ResNet-50 | | Yes |
 
 ### Foggy-Cityscapes
-
+| Train | Backbone | Resolution | CorruptAug | Abs Rel | Sq Rel | RMSE | RMSE log | a1 | a2 | a3 |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| KITTI | ResNet-18 | | No  |
+| KITTI | ResNet-18 | | Yes |
+| KITTI | ResNet-50 | | No  | 
+| KITTI | ResNet-50 | | Yes |
 
 
 
