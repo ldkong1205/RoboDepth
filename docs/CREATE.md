@@ -9,6 +9,12 @@
 - [Simulation Algorithm](#simulation-algorithm)
   - [Configuration Details](#configuration-details)
   - [Brightness](#brightness)
+  - [Dark](#dark)
+  - [Fog](#fog)
+  - [Frost](#frost)
+  - [Snow](#snow)
+  - [Contrast](#contrast)
+  - 
 - [Acknowledgement](#acknowledgement)
 
 
@@ -82,9 +88,14 @@ Successfully running `create.sh` will create and save images corrupted with the 
 | `glass_blur` | (sigma, max delta, iterations) | (0.7, 1.0, 2.0) | (0.9, 2.0, 1.0) | (1.0, 2.0, 3.0) | (1.1, 3.0, 2.0) | (1.5, 4.0, 2.0) |
 | `motion_blur` | (radius, sigma) | (10, 3) | (15, 5) | (15, 8) | (15, 12) | (20, 15) |
 | `zoom_blur` | (low, high, step size) | (1.00, 1.11, 0.01) | (1.00, 1.16, 0.01) | (1.00, 1.21, 0.02) | (1.00, 1.26, 0.02) | (1.00, 1.31, 0.03) |
-| `elastic_transform` |
+| `elastic_transform` | deformation | 0.050 | 0.065 | 0.085 | 0.100 | 0.120 |
 | `color_quant` | 
-
+| `gaussian_noise` | noise scale | 0.08 | 0.12 | 0.18 | 0.26 | 0.38 |
+| `impulse_noise` | noise amount | 0.03 | 0.06 | 0.09 | 0.17 | 0.27 |
+| `shot_noise` | photon number | 60 | 25 | 12 | 5 | 3 |
+| `iso_noise` |  |
+| `pixelate` | resize factor | 0.60 | 0.50 | 0.40 | 0.30 | 0.25 |
+| `jpeg_compression` | compression quality | 25 | 18 | 15 | 10 | 7 |
 
 ### Brightness
 The `brightness` function alters the HSV (Hue, Saturation, Value) color space of an image, adjusting the brightness component. Specifically, it simulates brightness changes by adding or subtracting an adjustment coefficient, resulting in an overall brightening or darkening effect on the image.
@@ -313,9 +324,102 @@ def zoom_blur(x, severity=1):
 ```
 
 ### Elastic Transform
+The `elastic_transform` function simulates elastic distortions in an image, mimicking the deformation of objects under stress or tension. It uses a combination of random displacement fields and interpolation to create the distortion effect.
+
+```python
+def elastic_transform(image, severity=1):
+    image = np.array(image, dtype=np.float32) / 255.
+    shape = image.shape
+    shape_size = shape[:2]
+    sigma = np.array(shape_size) * 0.01
+    alpha = [250 * 0.05, 250 * 0.065, 250 * 0.085, 250 * 0.1, 250 * 0.12][severity - 1]
+    max_dx = shape[0] * 0.005
+    max_dy = shape[0] * 0.005
+
+    dx = (gaussian(np.random.uniform(-max_dx, max_dx, size=shape[:2]), sigma, mode='reflect', truncate=3) * alpha).astype(np.float32)
+    dy = (gaussian(np.random.uniform(-max_dy, max_dy, size=shape[:2]), sigma, mode='reflect', truncate=3) * alpha).astype(np.float32)
+
+    if len(image.shape) < 3 or image.shape[2] < 3:
+        x, y = np.meshgrid(np.arange(shape[1]), np.arange(shape[0]))
+        indices = np.reshape(y + dy, (-1, 1)), np.reshape(x + dx, (-1, 1))
+    else:
+        dx, dy = dx[..., np.newaxis], dy[..., np.newaxis]
+        x, y, z = np.meshgrid(np.arange(shape[1]), np.arange(shape[0]), np.arange(shape[2]))
+        indices = np.reshape(y + dy, (-1, 1)), np.reshape(x + dx, (-1, 1)), np.reshape(z, (-1, 1))
+
+    return np.clip(map_coordinates(image, indices, order=1, mode='reflect').reshape(shape), 0, 1) * 255
+```
+
+### Color Quant
 
 
 
+### Gaussian Noise
+The `gaussian_noise` function adds Gaussian noise to an image, introducing random fluctuations in pixel values. This simulates the effect of noise in a photographic or digital image.
+
+```python
+def gaussian_noise(x, severity=1):
+    c = [0.08, 0.12, 0.18, 0.26, 0.38][severity - 1]
+    x = np.array(x) / 255.
+
+    return np.clip(x + np.random.normal(size=x.shape, scale=c), 0, 1) * 255
+```
+
+### Impulse Noise
+The `impulse_noise` function adds impulse noise (also known as salt-and-pepper noise) to an image, introducing randomly occurring white and black pixels that resemble salt and pepper grains.
+
+```python
+def impulse_noise(x, severity=1):
+    c = [0.03, 0.06, 0.09, 0.17, 0.27][severity - 1]
+    x = sk.util.random_noise(np.array(x) / 255., mode='s&p', amount=c)
+
+    return np.clip(x, 0, 1) * 255
+```
+
+### Shot Noise
+The `shot_noise` function simulates shot noise, which is a type of noise that occurs due to the discrete nature of light particles (photons) hitting a sensor during image capture. This noise appears as random variations in pixel intensity.
+
+```python
+def shot_noise(x, severity=1):
+    c = [60, 25, 12, 5, 3][severity - 1]
+    x = np.array(x) / 255.
+
+    return np.clip(np.random.poisson(x * c) / float(c), 0, 1) * 255
+```
+
+
+### Pixelate
+The `pixelate` function applies a pixelation effect to an image, reducing the image resolution by creating larger blocks of pixels. This results in a mosaic-like appearance where image details are simplified.
+
+```python
+def pixelate(x, severity=1):
+    c = [0.6, 0.5, 0.4, 0.3, 0.25][severity - 1]
+    x_shape = np.array(x).shape
+    x = x.resize((int(x_shape[1] * c), int(x_shape[0] * c)), Image.BOX)
+    x = x.resize((x_shape[1], x_shape[0]), Image.NEAREST)
+
+    return x
+```
+
+### JPEG Compression
+The `jpeg_compression` function applies JPEG compression to an image, which involves encoding the image in a lossy format. This process reduces the file size by discarding some image information while attempting to preserve visual quality.
+
+```python
+def jpeg_compression(x, severity=1):
+    c = [25, 18, 15, 10, 7][severity - 1]
+
+    output = BytesIO()
+    gray_scale = False
+    if x.mode != 'RGB':
+        gray_scale = True
+        x = x.convert('RGB')
+    x.save(output, 'JPEG', quality=c)
+    x = Image.open(output)
+    if gray_scale:
+        x = x.convert('L')
+
+    return x
+```
 
 
 ## Acknowledgement
