@@ -79,7 +79,7 @@ Successfully running `create.sh` will create and save images corrupted with the 
 | Corruption | Parameter | Level 1 | Level 2 | Level 3 | Level 4 | Level 5 | 
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | `brightness` | adjustment in HSV space | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 |
-| `dark` | 
+| `dark` | scale factor | 0.6 | 0.5 | 0.4 | 0.3 | 0.2 |
 | `fog` | (thickness, smoothness) | (1.5, 2.0) | (2.0, 2.0) | (2.5, 1.7) | (2.5, 1.5) | (3.0, 1.4) |
 | `frost` | (frost intensity, texture influence) | (1.00, 0.40) | (0.80, 0.60) | (0.70, 0.70) | (0.65, 0.70) | (0.60, 0.75) |
 | `snow` | (mean, std, scale, threshold, blur radius, blur std, blending ratio) | (0.1, 0.3, 3.0, 0.5, 10.0, 4.0, 0.8) | (0.2, 0.3, 2, 0.5, 12, 4, 0.7) | (0.55, 0.3, 4, 0.9, 12, 8, 0.7) | (0.55, 0.3, 4.5, 0.85, 12, 8, 0.65) | (0.55, 0.3, 2.5, 0.85, 12, 12, 0.55) |
@@ -89,11 +89,11 @@ Successfully running `create.sh` will create and save images corrupted with the 
 | `motion_blur` | (radius, sigma) | (10, 3) | (15, 5) | (15, 8) | (15, 12) | (20, 15) |
 | `zoom_blur` | (low, high, step size) | (1.00, 1.11, 0.01) | (1.00, 1.16, 0.01) | (1.00, 1.21, 0.02) | (1.00, 1.26, 0.02) | (1.00, 1.31, 0.03) |
 | `elastic_transform` | deformation | 0.050 | 0.065 | 0.085 | 0.100 | 0.120 |
-| `color_quant` | 
+| `color_quant` | bit number | 5 | 4 | 3 | 2 | 1 |
 | `gaussian_noise` | noise scale | 0.08 | 0.12 | 0.18 | 0.26 | 0.38 |
 | `impulse_noise` | noise amount | 0.03 | 0.06 | 0.09 | 0.17 | 0.27 |
 | `shot_noise` | photon number | 60 | 25 | 12 | 5 | 3 |
-| `iso_noise` |  |
+| `iso_noise` | noise scale | 0.08 | 0.12 | 0.18 | 0.26 | 0.38 |
 | `pixelate` | resize factor | 0.60 | 0.50 | 0.40 | 0.30 | 0.25 |
 | `jpeg_compression` | compression quality | 25 | 18 | 15 | 10 | 7 |
 
@@ -116,10 +116,18 @@ def brightness(x, severity=1):
     return np.clip(x, 0, 1) * 255
 ```
 
-
 ### Dark
+The `dark` function simulates the appearance of images taken in low-light conditions. It reduces the overall brightness of the image and introduces noise to mimic the challenges of capturing images in low-light environments.
 
+```python
+def dark(x, severity):
+    c = [0.60, 0.50, 0.40, 0.30, 0.20][severity-1]
+    x = np.array(x) / 255.
+    x_scaled = imadjust(x, x.min(), x.max(), 0, c, gamma=2.) * 255
+    x_scaled = poisson_gaussian_noise(x_scaled, severity=severity-1)
 
+    return x_scaled
+```
 
 ### Fog
 The `fog` function applies a simulated fog effect to an image by adding a foggy texture generated through plasma fractals. The fog effect is controlled by parameters that determine the thickness and smoothness of the fog, creating a visual distortion resembling the appearance of fog.
@@ -142,7 +150,6 @@ def fog(x, severity=1):
 
     return np.clip(x * max_val / (max_val + c[0]), 0, 1) * 255
 ```
-
 
 ### Frost
 The `frost` function applies a simulated frost effect to an image by overlaying frost textures obtained from pre-defined frost images. The frost effect introduces icy patterns to the image, creating the appearance of frost accumulation.
@@ -225,6 +232,7 @@ def contrast(x, severity=1):
 
     x = np.array(x) / 255.
     means = np.mean(x, axis=(0, 1), keepdims=True)
+
     return np.clip((x - means) * c + means, 0, 1) * 255
 ```
 
@@ -351,8 +359,15 @@ def elastic_transform(image, severity=1):
 ```
 
 ### Color Quant
+The `color_quant` function applies color quantization to an image, reducing the number of distinct colors present in the image. This process can lead to a more posterized or stylized appearance, where colors are grouped into a smaller palette.
 
+```python
+def color_quant(x, severity):
+    bits = 5 - severity + 1
+    x = PIL.ImageOps.posterize(x, bits)
 
+    return x
+```
 
 ### Gaussian Noise
 The `gaussian_noise` function adds Gaussian noise to an image, introducing random fluctuations in pixel values. This simulates the effect of noise in a photographic or digital image.
@@ -387,6 +402,20 @@ def shot_noise(x, severity=1):
     return np.clip(np.random.poisson(x * c) / float(c), 0, 1) * 255
 ```
 
+### ISO Noise
+The `iso_noise` function simulates the noise that can be introduced in images due to higher ISO settings in photography. It combines Poisson noise and Gaussian noise to replicate the characteristics of ISO noise.
+
+```python
+def iso_noise(x, severity):
+    c_poisson = 25
+    x = np.array(x) / 255.
+    x = np.clip(np.random.poisson(x * c_poisson) / c_poisson, 0, 1) * 255.
+    c_gauss = 0.7 * [0.08, 0.12, 0.18, 0.26, 0.38][severity-1]
+    x = np.array(x) / 255.
+    x = np.clip(x + np.random.normal(size=x.shape, scale= c_gauss), 0, 1) * 255.
+
+    return Image.fromarray(np.uint8(x))
+```
 
 ### Pixelate
 The `pixelate` function applies a pixelation effect to an image, reducing the image resolution by creating larger blocks of pixels. This results in a mosaic-like appearance where image details are simplified.
