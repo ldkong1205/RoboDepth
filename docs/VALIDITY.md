@@ -61,10 +61,10 @@ We simulate corruptions using "clean" images and compare the distribution patter
 ### Foggy-Cityscapes
 | Train | Backbone | Resolution | CorruptAug | Abs Rel | Sq Rel | RMSE | RMSE log | a1 | a2 | a3 |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| KITTI | ResNet-18 | | No  |
-| KITTI | ResNet-18 | | Yes |
-| KITTI | ResNet-50 | | No  | 
-| KITTI | ResNet-50 | | Yes |
+| KITTI | ResNet-18 | 416x128 | No  | 0.421 | 7.057 | 15.207 | 0.527 | 0.360 | 0.636 | 0.806 |
+| KITTI | ResNet-18 | 416x128 | Yes | 0.385 | 6.310 | 14.654 | 0.489 | 0.399 | 0.682 | 0.836 |
+| KITTI | ResNet-18 | 512x256 | No  | 0.364 | 6.371 | 14.690 | 0.483 | 0.440 | 0.703 | 0.838 |
+| KITTI | ResNet-18 | 512x256 | Yes | 0.349 | 5.645 | 14.723 | 0.488 | 0.434 | 0.698 | 0.834 |
 
 
 
