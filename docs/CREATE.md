@@ -14,7 +14,18 @@
   - [Frost](#frost)
   - [Snow](#snow)
   - [Contrast](#contrast)
-  - 
+  - [Defocus Blur](#defocus-blur)
+  - [Glass Blur](#glass-blur)
+  - [Motion Blur](#motion-blur)
+  - [Zoom Blur](#zoom-blur)
+  - [Elastic Transform](#elastic-transform)
+  - [Color Quant](#color-quant)
+  - [Gaussian Noise](#gaussian-noise)
+  - [Impulse Noise](#impulse-noise)
+  - [Shot Noise](#shot-noise)
+  - [ISO Noise](#iso-noise)
+  - [Pixelate](#pixelate)
+  - [JPEG Compression](#jpeg-compression)
 - [Acknowledgement](#acknowledgement)
 
 
@@ -452,5 +463,8 @@ def jpeg_compression(x, severity=1):
 
 
 ## Acknowledgement
-
+We acknowledge the use of the following public resources, during the course of this work:
+- `ImageCorruptions`: https://github.com/bethgelab/imagecorruptions
+- `3DCC`: https://github.com/EPFL-VILAB/3DCommonCorruptions
+- `ImageNet-C`: https://github.com/hendrycks/robustness
 
