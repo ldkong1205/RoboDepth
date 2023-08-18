@@ -77,9 +77,9 @@
 ### :blue_car: nuScenes-C
 | Model | Docs | Checkpoint | Sclae | Resolution | Clean | Bright | Dark | Fog | Snow | Motion | Quant |
 | :-- | :--: |  :--: |  :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| MonoDepth2<sup>:star:</sup> | [Link]() | [Download]() | Ambiguous | 640 x 192 | 
-| SurroundDepth | [Link]() | [Download]() | Ambiguous | 640 x 384 |
-| SurroundDepth | [Link]() | [Download]() | Aware     | 640 x 384 |
+| MonoDepth2<sup>:star:</sup> | [Link](https://github.com/nianticlabs/monodepth2) | [Download](https://storage.googleapis.com/niantic-lon-static/research/monodepth2/mono_640x192.zip) | Ambiguous | 640 x 192 | 0.304 | 0.327 | 0.355 | 0.353 | 0.436 | 0.335 | 0.306 |
+| SurroundDepth | [Link](https://github.com/weiyithu/SurroundDepth) | [Download](https://cloud.tsinghua.edu.cn/f/72717fa447f749e38480/?dl=1) | Ambiguous | 640 x 384 | 0.245 | 0.291 | 0.294 | 0.265 | 0.325 | 0.265 | 0.287 |
+| SurroundDepth | [Link](https://github.com/weiyithu/SurroundDepth) | [Download](https://cloud.tsinghua.edu.cn/f/caad458a790c48e380d4/?dl=1) | Aware     | 640 x 384 | 0.271 | 0.313 | 0.366 | 0.323 | 0.449 | 0.364 | 0.320 |
 
 
 ## Analysis & Discussion
