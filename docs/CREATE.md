@@ -78,7 +78,12 @@ Successfully running `create.sh` will create and save images corrupted with the 
 | `frost` | (frost intensity, texture influence) | (1.00, 0.40) | (0.80, 0.60) | (0.70, 0.70) | (0.65, 0.70) | (0.60, 0.75) |
 | `snow` | (mean, std, scale, threshold, blur radius, blur std, blending ratio) | (0.1, 0.3, 3.0, 0.5, 10.0, 4.0, 0.8) | (0.2, 0.3, 2, 0.5, 12, 4, 0.7) | (0.55, 0.3, 4, 0.9, 12, 8, 0.7) | (0.55, 0.3, 4.5, 0.85, 12, 8, 0.65) | (0.55, 0.3, 2.5, 0.85, 12, 12, 0.55) |
 | `contrast` | adjustment of pixel mean | 0.40 | 0.30 | 0.20 | 0.10 | 0.05 |
-
+| `defocus_blur` | (kernel radius, alias blur) | (3.0, 0.1) | (4.0, 0.5) | (6.0, 0.5) | (8.0, 0.5) | (10.0, 0.5) |
+| `glass_blur` | (sigma, max delta, iterations) | (0.7, 1.0, 2.0) | (0.9, 2.0, 1.0) | (1.0, 2.0, 3.0) | (1.1, 3.0, 2.0) | (1.5, 4.0, 2.0) |
+| `motion_blur` | 
+| `zoom_blur` |
+| `elastic_transform` |
+| `color_quant` | 
 
 
 ### Brightness
@@ -211,6 +216,54 @@ def contrast(x, severity=1):
     means = np.mean(x, axis=(0, 1), keepdims=True)
     return np.clip((x - means) * c + means, 0, 1) * 255
 ```
+
+### Defocus Blur
+The `defocus_blur` function applies a defocus blur effect to an image, simulating the appearance of an out-of-focus photograph. This is achieved by convolving the image with a circular disk-shaped kernel.
+
+```python
+def defocus_blur(x, severity=1):
+    c = [(3, 0.1), (4, 0.5), (6, 0.5), (8, 0.5), (10, 0.5)][severity - 1]
+
+    x = np.array(x) / 255.
+    kernel = disk(radius=c[0], alias_blur=c[1])
+
+    channels = []
+    if len(x.shape) < 3 or x.shape[2] < 3:
+        channels = np.array(cv2.filter2D(x, -1, kernel))
+    else:
+        for d in range(3):
+            channels.append(cv2.filter2D(x[:, :, d], -1, kernel))
+        channels = np.array(channels).transpose((1, 2, 0))
+
+    return np.clip(channels, 0, 1) * 255
+```
+
+### Glass Blur
+The `glass_blur` function applies a glass blur effect to an image, simulating the distortion caused by viewing an image through a frosted glass surface. This effect is achieved by locally shuffling pixels and applying Gaussian blurring.
+
+```python
+def glass_blur(x, severity=1):
+    c = [(0.7, 1, 2), (0.9, 2, 1), (1, 2, 3), (1.1, 3, 2), (1.5, 4, 2)][severity - 1]
+
+    x = np.uint8(gaussian(np.array(x) / 255., sigma=c[0], multichannel=True) * 255)
+    x_shape = np.array(x).shape
+
+    for i in range(c[2]):
+        for h in range(x_shape[0] - c[1], c[1], -1):
+            for w in range(x_shape[1] - c[1], c[1], -1):
+                dx, dy = np.random.randint(-c[1], c[1], size=(2,))
+                h_prime, w_prime = h + dy, w + dx
+                x[h, w], x[h_prime, w_prime] = x[h_prime, w_prime], x[h, w]
+
+    return np.clip(gaussian(x / 255., sigma=c[0], multichannel=True), 0, 1) * 255
+ ```                  
+
+### Motion Blur
+
+
+
+### Zoom Blur
+
 
 
 
