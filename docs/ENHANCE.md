@@ -4,7 +4,11 @@
 
 ### Outline
 - [Train & Test on Clean Data](#train--test-on-clean-data)
+  - [Train on Clean, Test on Clean]()
+  - [Train on Corruptions, Test on Clean]()
 - [Train & Test on Corrupted Data](#train--test-on-corrupted-data)
+  - [Train on Clean, Test on Corruptions]()
+  - [Train on Corruptions, Test on Corruptions]()
 
 
 ## Train & Test on Clean Data
@@ -104,7 +108,9 @@
 
 | Train | Bright | Dark | Fog | Frost | Snow | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| Clean |
+| Clean |.120|.216|.137|.217|.414|.156|.191|.191|.175|.170|.121|.162|.285|.285|.253|.282|.133|.167|
+
+
 
 ### Train on Corruptions, Test on Corruptions
 > **Model:** MonoDepth2, **Backbone:** ResNet-18, **Corrupt Probability:** 1.0, **Metric:** Abs Rel
