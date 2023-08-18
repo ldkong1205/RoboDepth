@@ -10,11 +10,65 @@
 ## Train & Test on Clean Data
 
 ### Train on Clean, Test on Clean
+> **Model:** MonoDepth2, **Backbone:** ResNet-18
+
 | Train | Abs Rel | Sq Rel | RMSE | RMSE log | a1 | a2 | a3 |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| Clean | 
+| Clean | 0.115	| 0.905	| 4.864 |	0.193	| 0.877 |	0.959	| 0.981 |
 
 ### Train on Corruptions, Test on Clean
+> **Model:** MonoDepth2, **Backbone:** ResNet-18, **Corrupt Probability:** 1.0
+
+| Train | Abs Rel | Sq Rel | RMSE | RMSE log | a1 | a2 | a3 |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Bright   | 0.120 | 0.951 | 4.953 | 0.197 | 0.866 | 0.956 | 0.980 | 
+| Dark     | 0.130 | 1.082 | 5.251 | 0.206 | 0.848 | 0.952 | 0.979 |
+| Fog      | 0.119 | 0.883 | 4.972 | 0.197 | 0.865 | 0.957 | 0.981 |
+| Snow     | 0.123 | 0.920 | 4.987 | 0.200 | 0.859 | 0.955 | 0.980 |
+| Contrast | 0.119 | 0.899 | 4.994 | 0.199 | 0.865 | 0.955 | 0.980 |
+| Defocus  | 0.148 | 1.138 | 6.238 | 0.245 | 0.796 | 0.925 | 0.966 |
+| Motion   | 0.124 | 0.909 | 5.067 | 0.202 | 0.855 | 0.952 | 0.979 |
+| Zoom     | 0.160 | 1.191 | 6.023 | 0.244 | 0.768 | 0.923 | 0.969 |
+| Elastic  | 0.122 | 0.950 | 5.015 | 0.200 | 0.865 | 0.955 | 0.979 |
+| Gaussian | 0.126 | 1.023 | 5.091 | 0.203 | 0.856 | 0.953 | 0.979 |
+| Impulse  | 0.126 | 1.025 | 5.118 | 0.203 | 0.857 | 0.953 | 0.979 |
+| Shot     | 0.124 | 0.988 | 5.028 | 0.200 | 0.860 | 0.955 | 0.980 |
+| Pixelate | 0.122 | 0.938 | 4.978 | 0.199 | 0.862 | 0.955 | 0.980 |
+| JPEG     | 0.125 | 0.973 | 5.034 | 0.202 | 0.859 | 0.954 | 0.979 |
+||
+| Combo (W&L) | 0.120 | 0.924 | 4.914 | 0.196 | 0.866 | 0.957 | 0.980 |
+| Combo (S&M) | 0.128 | 1.009 | 5.132 | 0.205 | 0.850 | 0.952 | 0.979 |
+| Combo (D&P) | 0.124 | 0.979 | 5.064 | 0.201 | 0.858 | 0.954 | 0.980 |
+||
+| Combo (All) | 0.124 | 0.963 | 5.040 | 0.199 | 0.860 | 0.955 | 0.980 |
+
+> **Model:** MonoDepth2, **Backbone:** ResNet-18, **Corrupt Probability:** 0.5
+
+| Train | Abs Rel | Sq Rel | RMSE | RMSE log | a1 | a2 | a3 |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Bright   |
+| Dark     |
+| Fog      |
+| Snow     |
+| Contrast |
+| Defocus  |
+| Motion   |
+| Zoom     |
+| Elastic  |
+| Gaussian |
+| Impulse  |
+| Shot     |
+| Pixelate |
+| JPEG     |
+||
+| Combo (W&L) | 0.120 | 0.945 | 4.925 | 0.195 | 0.868 | 0.957 | 0.980 |
+| Combo (S&M) | 0.122 | 0.961 | 5.026 | 0.199 | 0.864 | 0.956 | 0.980 |
+| Combo (D&P) | 0.120 | 0.912 | 4.951 | 0.198 | 0.865 | 0.956 | 0.980 |
+||
+| Combo (All) | 0.118 | 0.912 | 4.935 | 0.195 | 0.867 | 0.957 | 0.981 |
+
+> **Model:** MonoDepth2, **Backbone:** ResNet-18, **Corrupt Probability:** 0.25
+
 | Train | Abs Rel | Sq Rel | RMSE | RMSE log | a1 | a2 | a3 |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | Bright   | 
@@ -26,23 +80,79 @@
 | Motion   |
 | Zoom     |
 | Elastic  |
-| Quant    |
 | Gaussian |
 | Impulse  |
 | Shot     |
 | Pixelate |
 | JPEG     |
+||
+| Combo (W&L) | 0.118 | 0.925 | 4.882 | 0.194 | 0.870 | 0.958 | 0.981 |
+| Combo (S&M) | 0.120 | 0.936 | 4.925 | 0.196 | 0.866 | 0.956 | 0.980 |
+| Combo (D&P) | 0.118 | 0.904 | 4.920 | 0.197 | 0.868 | 0.956 | 0.980 |
+| Combo (All) | 0.117 | 0.907 | 4.861 | 0.195 | 0.872 | 0.958 | 0.980 |
 
 
 ## Train & Test on Corrupted Data
 
 ### Train on Clean, Test on Corruptions
+> **Model:** MonoDepth2, **Backbone:** ResNet-18, **Metric:** Abs Rel
 
 | Train | Bright | Dark | Fog | Frost | Snow | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | Clean |
 
 ### Train on Corruptions, Test on Corruptions
+> **Model:** MonoDepth2, **Backbone:** ResNet-18, **Corrupt Probability:** 1.0, **Metric:** Abs Rel
+
+| Train | Bright | Dark | Fog | Frost | Snow | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Bright   |.118|.223|.139|.218|.377|.164|.222|.218|.190|.172|.127|.167|.269|.285|.261|.271|.136|.160
+| Dark     |
+| Fog      |
+| Snow     |
+| Contrast |
+| Defocus  |
+| Motion   |
+| Zoom     |
+| Elastic  |
+| Gaussian |
+| Impulse  |
+| Shot     |
+| Pixelate |
+| JPEG     |
+||
+| Combo (W&L) |
+| Combo (S&M) |
+| Combo (D&P) |
+||
+| Combo (All) |
+
+> **Model:** MonoDepth2, **Backbone:** ResNet-18, **Corrupt Probability:** 0.5, **Metric:** Abs Rel
+
+| Train | Bright | Dark | Fog | Frost | Snow | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Bright   |.119|.202|.138|.202|.397|.160|.245|.225|.205|.167|.124|.156|.245|.255|.235|.246|.134|.159|
+| Dark     |
+| Fog      |
+| Snow     |
+| Contrast |
+| Defocus  |
+| Motion   |
+| Zoom     |
+| Elastic  |
+| Gaussian |
+| Impulse  |
+| Shot     |
+| Pixelate |
+| JPEG     |
+||
+| Combo (W&L) |
+| Combo (S&M) |
+| Combo (D&P) |
+||
+| Combo (All) |
+
+> **Model:** MonoDepth2, **Backbone:** ResNet-18, **Corrupt Probability:** 0.25, **Metric:** Abs Rel
 
 | Train | Bright | Dark | Fog | Frost | Snow | Contrast | Defocus | Glass | Motion | Zoom | Elastic| Quant| Gaussian | Impulse | Shot | ISO | Pixelate | JPEG |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -55,11 +165,15 @@
 | Motion   |
 | Zoom     |
 | Elastic  |
-| Quant    |
 | Gaussian |
 | Impulse  |
 | Shot     |
 | Pixelate |
 | JPEG     |
-
+||
+| Combo (W&L) |
+| Combo (S&M) |
+| Combo (D&P) |
+||
+| Combo (All) |
 
