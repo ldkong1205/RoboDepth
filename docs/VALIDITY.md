@@ -1,16 +1,19 @@
 <img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/logo2.png" align="right" width="34%">
 
 # Validity Assessment
+### Outline
+- [Study 1: Pixel Distribution](#study-1-pixel-distribution)
+- [Study 2: Robust Fine-Tuning](#study-2-robust-fine-tuning)
 
-### Study 1: Pixel Distribution
+
+## Study 1: Pixel Distribution
 **Goal:** Assuming that a corruption simulation is realistic enough to reflect real-world situations, the distribution of a corrupted "clean" set should be similar to that of the real-world corruption set.
 
 **Approach:** We validate this using [ACDC](https://acdc.vision.ee.ethz.ch/news) <sup>\[R1\]</sup>, [nuScenes](https://www.nuscenes.org/nuscenes) <sup>\[R2\]</sup>, [Cityscapes](https://www.cityscapes-dataset.com/) <sup>\[R3\]</sup>, and [Foggy-Cityscapes](https://people.ee.ethz.ch/~csakarid/SFSU_synthetic/) <sup>\[R4\]</sup>, since these datasets contain:
 1. real-world corruption data;
 2. clean data collected by the same sensor types from the same physical locations.
 
-We simulate corruptions using “clean” images and compare the distribution patterns with their corresponding real-world corrupted data. We do this to ensure that there is no extra distribution shift from aspects like sensor difference (e.g. FOVs and resolutions) and location discrepancy (e.g. environmental and semantic changes).
-
+We simulate corruptions using "clean" images and compare the distribution patterns with their corresponding real-world corrupted data. We do this to ensure that there is no extra distribution shift from aspects like sensor difference (e.g. FOVs and resolutions) and location discrepancy (e.g. environmental and semantic changes).
 
 | | | | |
 | :-: | :-: | :-: | :-: | 
@@ -33,7 +36,22 @@ We simulate corruptions using “clean” images and compare the distribution pa
 - \[R3\] M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler, R. Benenson, U. Franke, S. Roth, and B. Schiele. "The CityScapes dataset for semantic urban scene understanding." CVPR, 2016.
 - \[R4\] C. Sakaridis, D. Dai, and L. V. Gool. “Semantic foggy scene understanding with synthetic data.” IJCV, 2018.
 
-<hr>
 
-### Study 2: Robust Fine-Tuning
+## Study 2: Robust Fine-Tuning
+
+**Goal:** Assuming that a corruption simulation is realistic enough to reflect real-world situations, a corruption-augmented model should achieve better generalizability than the "clean" model when tested on real-world corruption datasets.
+
+**Approach:** We validate this using [nuScenes](https://www.nuscenes.org/nuscenes), [nuScenes-Night](https://www.nuscenes.org/nuscenes), and [Foggy-Cityscapes](https://people.ee.ethz.ch/~csakarid/SFSU_synthetic/). We adopt [MonoDepth2](https://github.com/nianticlabs/monodepth2) as the baseline, which is trained on [KITTI](https://www.cvlibs.net/datasets/kitti/raw_data.php) and fine-tuned with corruptions with a small learning rate. We also test training with corruptions from scratch and find the performance is similar to fine-tuning.
+
+### nuScenes
+
+
+### nuScenes-Night
+
+
+### Foggy-Cityscapes
+
+
+
+
 
