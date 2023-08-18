@@ -1,4 +1,4 @@
-<img src="../docs/figs/logo2.png" align="right" width="34%">
+<img src="https://github.com/ldkong1205/RoboDepth/blob/main/docs/figs/logo2.png" align="right" width="34%">
 
 # Create Corruptions
 
