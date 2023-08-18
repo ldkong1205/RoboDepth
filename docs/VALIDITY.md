@@ -45,18 +45,18 @@ We simulate corruptions using "clean" images and compare the distribution patter
 ### nuScenes
 | Train | Backbone | Resolution | CorruptAug | Abs Rel | Sq Rel | RMSE | RMSE log | a1 | a2 | a3 |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| KITTI | ResNet-18 | | No  | 0.304 | 3.472 | 9.068 | 0.409 | 0.563 | 0.794 | 0.890 |
-| KITTI | ResNet-18 | | Yes |
-| KITTI | ResNet-50 | | No  | 
-| KITTI | ResNet-50 | | Yes |
+| KITTI | ResNet-18 | 640x192 | No  | 0.304 | 3.472 | 9.068 | 0.409 | 0.563 | 0.794 | 0.890 |
+| KITTI | ResNet-18 | 640x192 | Yes | 0.297 | 2.091 | 8.790 | 0.405 | 0.558 | 0.794 | 0.893 |
+| KITTI | ResNet-50 | 640x192 | No  | 0.302 | 3.219 | 9.054 | 0.416 | 0.555 | 0.786 | 0.886 |
+| KITTI | ResNet-50 | 640x192 | Yes | 0.294 | 3.437 | 8.938 | 0.396 | 0.585 | 0.807 | 0.898 |
 
 ### nuScenes-Night
 | Train | Backbone | Resolution | CorruptAug | Abs Rel | Sq Rel | RMSE | RMSE log | a1 | a2 | a3 |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| KITTI | ResNet-18 | | No  | 0.397 | 3.408 | 8.700 | 0.513 | 0.387 | 0.659 | 0.822 |
-| KITTI | ResNet-18 | | Yes |
-| KITTI | ResNet-50 | | No  | 
-| KITTI | ResNet-50 | | Yes |
+| KITTI | ResNet-18 | 640x192 | No  | 0.397 | 3.408 | 8.700 | 0.513 | 0.387 | 0.659 | 0.822 |
+| KITTI | ResNet-18 | 640x192 | Yes | 0.362 | 3.149 | 8.391 | 0.477 | 0.434 | 0.714 | 0.852 |
+| KITTI | ResNet-50 | 640x192 | No  | 0.418 | 3.599 | 8.928 | 0.539 | 0.363 | 0.626 | 0.802 |
+| KITTI | ResNet-50 | 640x192 | Yes | 0.357 | 3.128 | 8.168 | 0.462 | 0.444 | 0.723 | 0.861 |
 
 ### Foggy-Cityscapes
 | Train | Backbone | Resolution | CorruptAug | Abs Rel | Sq Rel | RMSE | RMSE log | a1 | a2 | a3 |
