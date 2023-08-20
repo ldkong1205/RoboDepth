@@ -141,7 +141,7 @@ def dark(x, severity):
 ```
 
 ### Fog
-The `fog` function applies a simulated fog effect to an image by adding a foggy texture generated through plasma fractals. The fog effect is controlled by parameters that determine the thickness and smoothness of the fog, creating a visual distortion resembling the appearance of fog.
+The `fog` function applies a simulated fog effect to an image by adding a foggy texture generated through plasma fractals. The fog effect is controlled by parameters that determine the thickness and smoothness, creating a visual distortion resembling the appearance of fog.
 
 ```python
 def fog(x, severity=1):
