@@ -55,8 +55,8 @@
 
 
 ## Updates
-- \[2023.08\] - We support robust depth estimation on **real-world** scenarios, including `nuScenes`, `nuScenes-Night`, `Cityscapes`, and `Foggy-Cityscapes`. See [here]() for more details.
-- \[2023.08\] - We establish the `nuScenes-C` benchmark for robust **multi-view** depth estimation. See [here]() for more details.
+- \[2023.08\] - We support robust depth estimation on **real-world** scenarios, including `nuScenes`, `nuScenes-Night`, `Cityscapes`, and `Foggy-Cityscapes`. See [here](https://github.com/ldkong1205/RoboDepth/blob/main/docs/VALIDITY.md) for more details.
+- \[2023.08\] - We establish the `nuScenes-C` benchmark for robust **multi-view** depth estimation. See [here](https://github.com/ldkong1205/RoboDepth/blob/main/docs/RESULT.md#blue_car-nuscenes-c) for more details.
 - \[2023.07\] - The [technical report](https://arxiv.org/abs/2307.15061) of the [RoboDepth Challenge](https://robodepth.github.io/) is available on arXiv.
 - \[2023.06\] - We have successfully concluded the [RoboDepth Challenge](https://robodepth.github.io/)! Key statistics of this competition: `226` teams registered at CodaLab, `66` of which made a total number of `1137` valid submissions. More details are included in [these slides](https://ldkong.com/talks/icra23_robodepth.pdf). We thank the exceptional support from our participants! :heart:
 - \[2023.06\] - We are glad to announce the winning teams of this competition:
