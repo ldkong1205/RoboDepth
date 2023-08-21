@@ -46,7 +46,7 @@ We simulate corruptions using "clean" images and compare the distribution patter
 | Train | Backbone | Resolution | CorruptAug | Abs Rel | Sq Rel | RMSE | RMSE log | a1 | a2 | a3 |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | KITTI | ResNet-18 | 640x192 | No  | 0.304 | 3.472 | 9.068 | 0.409 | 0.563 | 0.794 | 0.890 |
-| KITTI | ResNet-18 | 640x192 | Yes | 0.297 | 2.091 | 8.790 | 0.405 | 0.558 | 0.794 | 0.893 |
+| KITTI | ResNet-18 | 640x192 | Yes | 0.297 | 2.991 | 8.790 | 0.405 | 0.558 | 0.794 | 0.893 |
 | KITTI | ResNet-50 | 640x192 | No  | 0.302 | 3.219 | 9.054 | 0.416 | 0.555 | 0.786 | 0.886 |
 | KITTI | ResNet-50 | 640x192 | Yes | 0.294 | 3.437 | 8.938 | 0.396 | 0.585 | 0.807 | 0.898 |
 
