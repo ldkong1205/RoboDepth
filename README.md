@@ -55,6 +55,7 @@
 
 
 ## Updates
+- \[2023.09\] - RoboDepth was accepted to [NeurIPS 2023]() Track on Datasets and Benchmarks! :tada:
 - \[2023.08\] - We support robust depth estimation on **real-world** scenarios, including `nuScenes`, `nuScenes-Night`, `Cityscapes`, and `Foggy-Cityscapes`. See [here](https://github.com/ldkong1205/RoboDepth/blob/main/docs/VALIDITY.md) for more details.
 - \[2023.08\] - We establish the `nuScenes-C` benchmark for robust **multi-view** depth estimation. See [here](https://github.com/ldkong1205/RoboDepth/blob/main/docs/RESULT.md#blue_car-nuscenes-c) for more details.
 - \[2023.07\] - The [technical report](https://arxiv.org/abs/2307.15061) of the [RoboDepth Challenge](https://robodepth.github.io/) is available on arXiv.
@@ -63,7 +64,7 @@
   - **Track 1:** :1st_place_medal: `OpenSpaceAI`, :2nd_place_medal: `USTC-IAT-United`, :3rd_place_medal: `YYQ`.
   - **Track 2:** :1st_place_medal: `USTCxNetEaseFuxi`, :2nd_place_medal: `OpenSpaceAI`, :3rd_place_medal: `GANCV`.
   - **Innovation Prize:** :medal_military: `Scent-Depth`, :medal_military: `Ensemble`, :medal_military: `AIIA-RDepth`.
-- \[2023.06\] - The [video recordings](https://www.youtube.com/watch?v=mYhdTGiIGCY&list=PLxxrIfcH-qBGZ6x_e1AT2_YnAxiHIKtkB) of the [RoboDepth Workshop](https://robodepth.github.io/) are out. Know more details about how our participants dedicate to improving the robustness of depth estimation models. :movie_camera:
+- \[2023.06\] - The [video recordings](https://www.youtube.com/watch?v=mYhdTGiIGCY&list=PLxxrIfcH-qBGZ6x_e1AT2_YnAxiHIKtkB) of the [RoboDepth Workshop](https://robodepth.github.io/) are out. Know more details about how our participants were dedicated to improving the robustness of depth estimation models. :movie_camera:
 - \[2023.05\] - Glad to announce that the [RoboDepth Challenge](https://robodepth.github.io/) will be sponsored by [Baidu Research](http://research.baidu.com/). :beers:
 - \[2023.01\] - The `NYUDepth2-C` dataset is ready to be downloaded! See [here](docs/DATA_PREPARE.md) for more details.
 - \[2023.01\] - Evaluation server for Track 2 (fully-supervised depth estimation) is available on [this](https://codalab.lisn.upsaclay.fr/competitions/9821) page.
