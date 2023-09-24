@@ -311,10 +311,10 @@ You can manage to create your own "RoboDepth" corrpution sets! Follow the instru
 If you find this work helpful, please kindly consider citing our papers:
 
 ```bibtex
-@article{kong2023robodepth,
+@inproceedings{kong2023robodepth,
   title = {RoboDepth: Robust Out-of-Distribution Depth Estimation under Corruptions},
-  author = {Kong, Lingdong and Xie, Shaoyuan and Hu, Hanjiang and Cottereau, Benoit and Ng, Lai Xing and Ooi, Wei Tsang},
-  journal = {arXiv preprint arXiv:23xx.xxxxx}, 
+  author = {Kong, Lingdong and Xie, Shaoyuan and Hu, Hanjiang and Ng, Lai Xing and Cottereau, Benoit R. and Ooi, Wei Tsang},
+  booktitle = {Advances in Neural Information Processing Systems},
   year = {2023},
 }
 ```
