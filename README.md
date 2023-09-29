@@ -23,10 +23,6 @@
 </p>
 
 <p align="center">
- <a href="https://neurips.cc/" target='_blank'><b>NeurIPS 2023</b></a>
-</p>
-
-<p align="center">
   <a href="" target='_blank'>
     <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-blue">
   </a>
@@ -46,6 +42,10 @@
   <a href="" target='_blank'>
     <img src="https://visitor-badge.laobi.icu/badge?page_id=ldkong1205.RoboDepth&left_color=gray&right_color=red">
   </a>
+</p>
+
+<p align="center">
+ <a href="https://neurips.cc/" target='_blank'><b>NeurIPS 2023</b></a>
 </p>
 
 
