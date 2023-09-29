@@ -44,10 +44,6 @@
   </a>
 </p>
 
-<p align="center">
- <a href="https://neurips.cc/" target='_blank'><b>NeurIPS 2023</b></a>
-</p>
-
 
 ## About
 **RoboDepth** is a comprehensive evaluation benchmark designed for probing the **robustness** of monocular depth estimation algorithms. It includes **18 common corruption** types, ranging from weather and lighting conditions, sensor failure and movement, and noises during data processing.
