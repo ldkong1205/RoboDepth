@@ -20,7 +20,10 @@
     <sup>5</sup>Institute for Infocomm Research, A*STAR&nbsp;&nbsp;&nbsp;
     <sup>6</sup>CNRS
   </p>
+</p>
 
+<p align="center">
+ <a href="https://neurips.cc/" target='_blank'><b>NeurIPS 2023</b></a>
 </p>
 
 <p align="center">
