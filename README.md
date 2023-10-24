@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="" target='_blank'>
+  <a href="https://arxiv.org/abs/2310.15171" target='_blank'>
     <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-blue">
   </a>
   
@@ -54,7 +54,7 @@
 
 
 ## Updates
-- \[2023.09\] - RoboDepth was accepted to [NeurIPS 2023](https://neurips.cc/) Track on Datasets and Benchmarks! :tada:
+- \[2023.09\] - [RoboDepth](https://arxiv.org/abs/2310.15171) was accepted to [NeurIPS 2023](https://neurips.cc/) Track on Datasets and Benchmarks! :tada:
 - \[2023.08\] - We support robust depth estimation on **real-world** scenarios, including `nuScenes`, `nuScenes-Night`, `Cityscapes`, and `Foggy-Cityscapes`. See [here](https://github.com/ldkong1205/RoboDepth/blob/main/docs/VALIDITY.md) for more details.
 - \[2023.08\] - We establish the `nuScenes-C` benchmark for robust **multi-view** depth estimation. See [here](https://github.com/ldkong1205/RoboDepth/blob/main/docs/RESULT.md#blue_car-nuscenes-c) for more details.
 - \[2023.07\] - The [technical report](https://arxiv.org/abs/2307.15061) of the [RoboDepth Challenge](https://robodepth.github.io/) is available on arXiv.
