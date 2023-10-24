@@ -294,7 +294,7 @@ For more detailed benchmarking results and to access the pretrained weights used
 
 
 ## Create Corruption Sets
-You can manage to create your own "RoboDepth" corrpution sets! Follow the instructions listed in [CREATE.md](docs/CREATE.md).
+You can manage to create your own "RoboDepth" corruption sets! Follow the instructions listed in [CREATE.md](docs/CREATE.md).
 
 
 ## TODO List
