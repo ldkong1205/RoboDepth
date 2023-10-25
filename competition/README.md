@@ -122,7 +122,7 @@ This competition is sponsored by [Baidu Research](http://research.baidu.com/), U
 >           pred_disp = pred_disp.cpu()[:, 0].numpy()
 >           pred_disps.append(pred_disp)
 >   ```   
-> - Step 2: After evaluating every samples in the evaluation set, save the prediction file with:
+> - Step 2: After evaluating every sample in the evaluation set, save the prediction file with:
 >   ```shell
 >   output_path = os.path.join(opt.save_pred_path, "disp.npy")
 >   np.save(output_path, pred_disps)
@@ -162,7 +162,7 @@ This competition is sponsored by [Baidu Research](http://research.baidu.com/), U
 >   ```
 >   img_infos = sorted(img_infos, key=lambda x: x['filename'])
 >   ```
-> - Step 2: After evaluating every samples in the evaluation set, save the prediction file with:
+> - Step 2: After evaluating every sample in the evaluation set, save the prediction file with:
 >   ```shell
 >   output_path = os.path.join(opt.save_pred_path, "disp.npz")
 >   np.savez_compressed(output_path, data=pred_disps)
@@ -183,12 +183,12 @@ This competition is sponsored by [Baidu Research](http://research.baidu.com/), U
 ## :balance_scale: Terms & Conditions
 This competition is made freely available to academic and non-academic entities for non-commercial purposes such as academic research, teaching, scientific publications, or personal experimentation. Permission is granted to use the data given that you agree:
 1. That the data in this competition comes “AS IS”, without express or implied warranty. Although every effort has been made to ensure accuracy, we do not accept any responsibility for errors or omissions.
-2. That you may not use the data in this competition or any derivative work for commercial purposes as, for example, licensing or selling the data, or using the data with a purpose to procure a commercial gain.
+2. That you may not use the data in this competition or any derivative work for commercial purposes such as, for example, licensing or selling the data, or using the data with a purpose to procure a commercial gain.
 3. That you include a reference to RoboDepth (including the benchmark data and the specially generated data for academic challenges) in any work that makes use of the benchmark. For research papers, please cite our preferred publications as listed on our webpage.
 
 To ensure a **fair comparison** among all participants, we require:
 1. All participants must follow the **exact same data configuration** when training and evaluating their algorithms. Please do not use any public or private datasets other than those specified for model training.
-2. The theme of this competition is to probe the out-of-distribution robustness of depth estimation models. Therefore, any use of the 18 corruption types designed in this benchmark is **strictly prohibited**, including any atomic operation that is comprising any one of the mentioned corruptions.
+2. The theme of this competition is to probe the out-of-distribution robustness of depth estimation models. Therefore, any use of the 18 corruption types designed in this benchmark is **strictly prohibited**, including any atomic operation that comprises any one of the mentioned corruptions.
     - For Track 1: Please stick with the default data augmentations used in the [MonoDepth2](https://github.com/nianticlabs/monodepth2) codebase.
     - For Track 2: Please stick with the default data augmentations used in the [Monocular-Depth-Estimation-Toolbox](https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox) codebase.
 4. To ensure the above two rules are followed, each participant is requested to **submit the code** with reproducible results before the final result is announced; the code is for examination purposes only and we will manually verify the training and evaluation of each participant's model.
