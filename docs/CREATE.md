@@ -442,7 +442,7 @@ def pixelate(x, severity=1):
 ```
 
 ### JPEG Compression
-The `jpeg_compression` function applies JPEG compression to an image, which involves encoding the image in a lossy format. This process reduces the file size by discarding some image information while attempting to preserve visual quality.
+The `jpeg_compression` function applies JPEG compression to an image, which involves encoding the image in a lossy format. This process reduces the file size by discarding some image details while attempting to maintain visual quality.
 
 ```python
 def jpeg_compression(x, severity=1):
