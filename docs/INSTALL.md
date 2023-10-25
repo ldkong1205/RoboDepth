@@ -2,7 +2,7 @@
 
 # Installation
 
-### Setup Enviroment
+### Setup Environment
 
 This codebase is tested with `torch==1.11.0` and `torchvision==0.12.0`, with `CUDA 11.3` and `gcc 7.3.0`. In order to successfully reproduce the results reported in our paper, we recommend you to follow the exact same versions. However, similar versions that came out lately should be good as well.
 ```shell
