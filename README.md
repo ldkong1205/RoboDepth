@@ -54,6 +54,7 @@
 
 
 ## Updates
+- \[2024.01\] - The [toolkit](https://github.com/robodrive-24/toolkit) tailored for [The RoboDrive Challenge](https://robodrive-24.github.io/) has been released. :hammer_and_wrench:
 - \[2023.12\] - We are hosting [The RoboDrive Challenge](https://robodrive-24.github.io/) at [ICRA 2024](https://2024.ieee-icra.org/). :blue_car:
 - \[2023.09\] - [RoboDepth](https://arxiv.org/abs/2310.15171) was accepted to [NeurIPS 2023](https://neurips.cc/) Track on Datasets and Benchmarks! :tada:
 - \[2023.08\] - We support robust depth estimation on **real-world** scenarios, including `nuScenes`, `nuScenes-Night`, `Cityscapes`, and `Foggy-Cityscapes`. See [here](https://github.com/ldkong1205/RoboDepth/blob/main/docs/VALIDITY.md) for more details.
